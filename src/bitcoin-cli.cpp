@@ -236,7 +236,12 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
+<<<<<<< HEAD
     try {
+=======
+    try
+    {
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         if(!AppInitRPC(argc, argv))
             return EXIT_FAILURE;
     }

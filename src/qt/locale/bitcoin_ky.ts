@@ -1,4 +1,10 @@
 <TS language="ky" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -109,8 +115,13 @@
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Ката</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -119,10 +130,22 @@
 <context>
     <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>MB</source>
         <translation>МБ</translation>
+=======
+        <source>Error</source>
+        <translation>Ката</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Network</source>
         <translation>&amp;Тармак</translation>
     </message>
@@ -149,10 +172,63 @@
     <message>
         <source>none</source>
         <translation>жок</translation>
+=======
+        <source>MB</source>
+        <translation>МБ</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Тармак</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Терезе</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Жарайт</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Жокко чыгаруу</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>жарыяланбаган</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
+        <source>out of sync</source>
+        <translation>синхрондоштурулган эмес</translation>
+=======
+        <source>none</source>
+        <translation>жок</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+=======
+    <name>OverviewPage</name>
+    <message>
+        <source>Wallet</source>
+        <translation>Капчык</translation>
+    </message>
     <message>
         <source>out of sync</source>
         <translation>синхрондоштурулган эмес</translation>
@@ -162,16 +238,39 @@
     <name>PaymentServer</name>
     </context>
 <context>
-    <name>PeerTableModel</name>
-    </context>
-<context>
     <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>QRImageWidget</name>
     </context>
 <context>
     <name>RPCConsole</name>
+<<<<<<< HEAD
+    <message>
+        <source>&amp;Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Жалпы</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Аты</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ачуу</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Консоль</translation>
+=======
     <message>
         <source>&amp;Information</source>
         <translation>Маалымат</translation>
@@ -195,6 +294,7 @@
     <message>
         <source>Clear console</source>
         <translation>Консолду тазалоо</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -203,53 +303,116 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Clear console</source>
+        <translation>Консолду тазалоо</translation>
+=======
         <source>Address</source>
         <translation>Дарек</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Дарек</translation>
+=======
         <source>Message</source>
         <translation>Билдирүү</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
         <source>Message</source>
         <translation>Билдирүү</translation>
+=======
+        <source>Message</source>
+        <translation>Билдирүү</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(аты жок)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+=======
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Clear &amp;All</source>
         <translation>&amp;Бардыгын тазалоо</translation>
     </message>
     <message>
         <source>S&amp;end</source>
         <translation>&amp;Жөнөтүү</translation>
+=======
+        <source>S&amp;end</source>
+        <translation>&amp;Жөнөтүү</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(аты жок)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+=======
         <source>Paste address from clipboard</source>
         <translation>Даректи алмашуу буферинен коюу</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
+=======
         <source>Message:</source>
         <translation>Билдирүү:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -258,12 +421,28 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Message:</source>
+        <translation>Билдирүү:</translation>
+=======
         <source>Paste address from clipboard</source>
         <translation>Даректи алмашуу буферинен коюу</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
+=======
         <source>Clear &amp;All</source>
         <translation>&amp;Бардыгын тазалоо</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -275,16 +454,39 @@
 <context>
     <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
+=======
+        <source>%1/offline</source>
+        <translation>%1/тармакта эмес</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>%1/offline</source>
         <translation>%1/тармакта эмес</translation>
     </message>
     <message>
         <source>Date</source>
         <translation>Дата</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>Message</source>
         <translation>Билдирүү</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -293,23 +495,73 @@
 <context>
     <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+=======
         <source>Date</source>
         <translation>Дата</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Дата</translation>
+=======
         <source>Address</source>
         <translation>Дарек</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Дарек</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Дата</translation>
+=======
+        <source>Address</source>
+        <translation>Дарек</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Дарек</translation>
+=======
+        <source>Information</source>
+        <translation>Маалымат</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -327,16 +579,29 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Information</source>
         <translation>Маалымат</translation>
     </message>
     <message>
         <source>Warning</source>
         <translation>Эскертүү</translation>
+=======
+        <source>Warning</source>
+        <translation>Эскертүү</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>версия</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
         <translation>Ката</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

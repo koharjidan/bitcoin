@@ -1,4 +1,44 @@
 <TS language="pt_BR" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Sobre o Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>versão do &lt;b&gt;Bitcoin Core&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>⏎
+Este é um software experimental.⏎
+⏎
+Distribuido sob a licença de software MIT/X11, veja o arquivo anexo COPYING ou http://www.opensource.org/licenses/mit-license.php.⏎
+⏎
+Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenSSL Toolkit (http://www.openssl.org/), software de criptografia escrito por Eric Young (eay@cryptsoft.com) e sofware UPnP escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Programadores do Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -900,6 +940,7 @@ Endereço: %4</translation>
         <translation>Núcleo Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Erro: Diretório de dados "%1" não pode ser criado.</translation>
     </message>
@@ -907,6 +948,15 @@ Endereço: %4</translation>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
+=======
+        <source>Error</source>
+        <translation>Erro</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB de espaço disponível</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -1212,10 +1262,13 @@ Endereço: %4</translation>
         <translation>Solicitação de pagamento expirou.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>Valor do pagamento solicitado de %1 é muito pequeno (Considerado poeira).</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment request error</source>
         <translation>Erro no pedido de pagamento</translation>
     </message>
@@ -1224,6 +1277,17 @@ Endereço: %4</translation>
         <translation>Não foi possível iniciar bitcoin: manipulador clique-para-pagar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Net manager warning</source>
+        <translation>Gerenciador de rede problemático</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Seu proxy ativo não suporta SOCKS5, que é obrigatório para cobranças via proxy.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL de cobrança é inválida: %1</translation>
     </message>
@@ -1236,6 +1300,7 @@ Endereço: %4</translation>
         <translation>Cobrança não verificada para scripts de pagamento personalizados não é suportado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Refund from %1</source>
         <translation>Reembolso de %1</translation>
     </message>
@@ -1248,6 +1313,12 @@ Endereço: %4</translation>
         <translation>Resposta incorreta do servidor %1</translation>
     </message>
     <message>
+=======
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>Cobrança não pôde ser processada!</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment acknowledged</source>
         <translation>Pagamento reconhecido</translation>
     </message>
@@ -1286,18 +1357,24 @@ Endereço: %4</translation>
         <translation>%1 m</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 s</source>
         <translation>%1 s</translation>
     </message>
     <message>
         <source>NETWORK</source>
         <translation>REDE</translation>
+=======
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Erro: Não foi possível interpretar arquivo de configuração: %1. Utilize apenas a sintaxe chave=valor.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>UNKNOWN</source>
         <translation>DESCONHECIDO</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>None</source>
         <translation>Nenhum</translation>
     </message>
@@ -1308,6 +1385,10 @@ Endereço: %4</translation>
     <message>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Digite um endereço Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -2049,14 +2130,24 @@ Endereço: %4</translation>
         <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Bitcoin específico.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify &amp;Message</source>
         <translation>Verificar &amp;Mensagem</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Reset all verify message fields</source>
         <translation>Limpar todos os campos de assinatura da mensagem</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Digite um endereço Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>Clique em "Assinar Mensagem" para gerar a assinatura</translation>
     </message>
@@ -2690,6 +2781,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Atenção: valor de -paytxfee escolhido é muito alto! Este é o valor da taxa de transação que você irá pagar se enviar a transação.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Atenção: Por favor, verifique que a data e hora do seu computador estão corretas! Se o seu relógio estiver errado, o Bitcoin não irá funcionar corretamente.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Atenção: A rede não parecem concordar plenamente! Alguns mineiros parecem estar enfrentando problemas.</translation>
     </message>
@@ -2830,8 +2928,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Verificando carteira...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Carteira %s reside fora do diretório de dados %s</translation>
+=======
+        <source>Wait for RPC server to start</source>
+        <translation>Aguarde um servidor RPC para iniciar</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet options:</source>
@@ -2854,6 +2957,7 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Não foi possível obter proteção exclusiva ao diretório de dados %s. Bitcoin Core já está sendo executado provavelmente.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Erro: Escutar por conexões de entrada falhou (escutar retornou erro %s)</translation>
     </message>
@@ -2868,6 +2972,10 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
     <message>
         <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>Taxas (em BTC/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
+=======
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation>Informação de saída de debug (padrão: 0, definir &lt;category&gt; é opcional)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -2878,12 +2986,17 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Impossível resolver endereço -whitebind: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS5 proxy</source>
         <translation>Connecte-se através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
         <translation>Copyright (C) 2009-%i Desenvolvedores Bitcoin Core</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantidade inválida para -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3054,8 +3167,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com⏎
         <translation>Endereço -proxy inválido: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify pid file (default: %s)</source>
         <translation>Especificar aqrquivo pid (default: %s)</translation>
+=======
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

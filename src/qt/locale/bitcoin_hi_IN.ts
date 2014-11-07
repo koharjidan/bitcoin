@@ -1,4 +1,14 @@
 <TS language="hi_IN" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>Copyright</source>
+        <translation>कापीराइट</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -156,6 +166,13 @@
         <translation>अप्लिकेशन से बाहर निकलना !</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>बीटकोइन के बारे में जानकारी !</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Options...</source>
         <translation>&amp;विकल्प</translation>
     </message>
@@ -191,6 +208,13 @@
         <source>Tabs toolbar</source>
         <translation>टैबस टूलबार</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>[testnet]</source>
+        <translation>[टेस्टनेट]</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n सक्रिया संपर्क बीटकोइन नेटवर्क से</numerusform><numerusform>%n सक्रिया संपर्क बीटकोइन नेटवर्क से</numerusform></translation>
@@ -254,7 +278,11 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ClientModel</name>
     </context>
@@ -295,6 +323,7 @@ Address: %4
     <message>
         <source>(no label)</source>
         <translation>(कोई लेबल नही !)</translation>
+<<<<<<< HEAD
     </message>
     </context>
 <context>
@@ -302,8 +331,14 @@ Address: %4
     <message>
         <source>Edit Address</source>
         <translation>पता एडिट करना</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Label</source>
         <translation>&amp;लेबल</translation>
     </message>
@@ -338,6 +373,42 @@ Address: %4
     <message>
         <source>New key generation failed.</source>
         <translation>नयी कुंजी का निर्माण असफल रहा|</translation>
+=======
+        <source>Edit Address</source>
+        <translation>पता एडिट करना</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;लेबल</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;पता</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>नया स्वीकार्य पता</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>नया भेजने वाला पता</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>एडिट स्वीकार्य पता </translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>एडिट भेजने वाला पता</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>डाला गया पता "%1" एड्रेस बुक में पहले से ही मोजूद है|</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>वॉलेट को unlock नहीं किया जा सकता|</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -346,17 +417,34 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>version</source>
         <translation>संस्करण</translation>
+=======
+        <source>New key generation failed.</source>
+        <translation>नयी कुंजी का निर्माण असफल रहा|</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>खपत :</translation>
+=======
+        <source>version</source>
+        <translation>संस्करण</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>भूल</translation>
     </message>
@@ -373,17 +461,48 @@ Address: %4
     <message>
         <source>&amp;OK</source>
         <translation>&amp;ओके</translation>
+=======
+        <source>Usage:</source>
+        <translation>खपत :</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>बीटकोइन</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation>भूल</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Cancel</source>
         <translation>&amp;कैन्सल</translation>
+=======
+        <source>Options</source>
+        <translation>विकल्प</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>फार्म</translation>
+=======
+        <source>&amp;OK</source>
+        <translation>&amp;ओके</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -395,15 +514,74 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>राशि</translation>
+=======
+        <source>&amp;Cancel</source>
+        <translation>&amp;कैन्सल</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
+        <source>N/A</source>
+        <translation>लागू नही
+</translation>
+=======
+        <source>Form</source>
+        <translation>फार्म</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
         <source>N/A</source>
         <translation>लागू नही
 </translation>
     </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>जानकारी</translation>
+    </message>
     </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+    </message>
+    <message>
+=======
+        <source>Wallet</source>
+        <translation>वॉलेट</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;हाल का लेन-देन&lt;/b&gt;</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>बीटकोइन</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Bitcoin एड्रेस लिखें (उदाहरण: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -426,12 +604,15 @@ Address: %4
         <translation>लेबल:</translation>
     </message>
     <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy label</source>
         <translation>लेबल कॉपी करे </translation>
     </message>
     <message>
         <source>Copy amount</source>
         <translation>कॉपी राशि</translation>
+<<<<<<< HEAD
+=======
     </message>
 </context>
 <context>
@@ -458,10 +639,74 @@ Address: %4
     <message>
         <source>Label</source>
         <translation>लेबल</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>लेबल</translation>
+=======
+        <source>(no label)</source>
+        <translation>(कोई लेबल नही !)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>राशि :</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>एक साथ कई प्राप्तकर्ताओं को भेजें</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>बाकी रकम :</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>भेजने की पुष्टि करें</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>राशि</translation>
+=======
+        <source>Confirm send coins</source>
+        <translation>सिक्के भेजने की पुष्टि करें</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>कॉपी राशि</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>भेजा गया अमाउंट शुन्य से अधिक होना चाहिए|</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>(no label)</source>
@@ -469,6 +714,7 @@ Address: %4
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
@@ -497,17 +743,7 @@ Address: %4
     <message>
         <source>Copy amount</source>
         <translation>कॉपी राशि</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>भेजा गया अमाउंट शुन्य से अधिक होना चाहिए|</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(कोई लेबल नही !)</translation>
-    </message>
-    </context>
-<context>
+=======
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
@@ -536,6 +772,7 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt-P</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -544,6 +781,101 @@ Address: %4
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>भेजा गया अमाउंट शुन्य से अधिक होना चाहिए|</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(कोई लेबल नही !)</translation>
+=======
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
+        <source>A&amp;mount:</source>
+        <translation>अमाउंट:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>प्राप्तकर्ता:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>आपकी एड्रेस बुक में इस एड्रेस के लिए एक लेबल लिखें</translation>
+=======
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>हस्ताक्षर</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Bitcoin एड्रेस लिखें (उदाहरण: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Label:</source>
+        <translation>लेबल:</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[टेस्टनेट]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
+        <source>Alt+A</source>
+        <translation>Alt-A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Clipboard से एड्रेस paste करें</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt-P</translation>
+=======
+        <source>Open until %1</source>
+        <translation>खुला है जबतक %1</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/अपुष्ट</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 पुष्टियाँ</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Alt+A</source>
         <translation>Alt-A</translation>
     </message>
@@ -558,13 +890,34 @@ Address: %4
     <message>
         <source>Signature</source>
         <translation>हस्ताक्षर</translation>
+=======
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>सही</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[टेस्टनेट]</translation>
+=======
+        <source>false</source>
+        <translation>ग़लत</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -573,22 +926,47 @@ Address: %4
 <context>
     <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>Open until %1</source>
         <translation>खुला है जबतक %1</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
         <translation>%1/अपुष्ट</translation>
+=======
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, अभी तक सफलतापूर्वक प्रसारित नहीं किया गया है</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>अज्ञात</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>%1 confirmations</source>
         <translation>%1 पुष्टियाँ</translation>
     </message>
     <message>
         <source>Date</source>
         <translation>taareek</translation>
+=======
+        <source>Transaction details</source>
+        <translation>लेन-देन का विवरण</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Transaction ID</source>
         <translation>ID</translation>
     </message>
@@ -611,22 +989,56 @@ Address: %4
     <message>
         <source>unknown</source>
         <translation>अज्ञात</translation>
+=======
+        <source>Date</source>
+        <translation>taareek</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>टाइप</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>खुला है जबतक %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>पक्के  ( %1 पक्का करना)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Transaction details</source>
         <translation>लेन-देन का विवरण</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+=======
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>यह ब्लॉक किसी भी और नोड को मिला नही है ! शायद यह ब्लॉक कोई भी नोड स्वीकारे गा नही !</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>जेनरेट किया गया किंतु स्वीकारा नही गया !</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation>taareek</translation>
     </message>
@@ -669,6 +1081,21 @@ Address: %4
     <message>
         <source>Payment to yourself</source>
         <translation>भेजा खुद को भुगतान</translation>
+=======
+        <source>Received with</source>
+        <translation>स्वीकारा गया</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>स्वीकार्य ओर से</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>भेजा गया</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>भेजा खुद को भुगतान</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -697,11 +1124,73 @@ Address: %4
     <message>
         <source>Amount removed from or added to balance.</source>
         <translation>अमाउंट बैलेंस से निकला या जमा किया गया |</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
+        <source>Mined</source>
+        <translation>माइंड</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(लागू नहीं)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>ट्रांसेक्शन स्तिथि| पुष्टियों की संख्या जानने के लिए इस जगह पर माउस लायें|</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>तारीख तथा समय जब ये ट्रांसेक्शन प्राप्त हुई थी|</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>ट्रांसेक्शन का प्रकार|</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>ट्रांसेक्शन की मंजिल का पता|</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>अमाउंट बैलेंस से निकला या जमा किया गया |</translation>
+=======
+        <source>All</source>
+        <translation>सभी</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>आज</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>इस हफ्ते</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>इस महीने</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>पिछले महीने</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>इस साल</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>विस्तार...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>All</source>
         <translation>सभी</translation>
     </message>
@@ -784,6 +1273,61 @@ Address: %4
     <message>
         <source>Date</source>
         <translation>taareek</translation>
+=======
+        <source>Received with</source>
+        <translation>स्वीकार करना</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>भेजा गया</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>अपनेआप को</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>माइंड</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>अन्य</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>ढूँदने के लिए कृपा करके पता या लेबल टाइप करे !</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>लघुत्तम राशि</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>पता कॉपी करे</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>लेबल कॉपी करे </translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>कॉपी राशि</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>एडिट लेबल</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>पक्का</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>taareek</translation>
     </message>
     <message>
         <source>Type</source>
@@ -798,6 +1342,10 @@ Address: %4
         <translation>पता</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>राशि</translation>
+    </message>
+    <message>
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -808,24 +1356,43 @@ Address: %4
     <message>
         <source>to</source>
         <translation>तक</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
 <context>
     <name>WalletFrame</name>
     </context>
 <context>
     <name>WalletModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Type</source>
+        <translation>टाइप</translation>
+=======
         <source>Send Coins</source>
         <translation>सिक्के भेजें|</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>विस्तार:</translation>
+=======
         <source>Backup Wallet</source>
         <translation>बैकप वॉलेट</translation>
     </message>
@@ -840,11 +1407,79 @@ Address: %4
     <message>
         <source>Backup Successful</source>
         <translation>बैकप सफल</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+        <source>to</source>
+        <translation>तक</translation>
+=======
+        <source>Usage:</source>
+        <translation>खपत :</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Send Coins</source>
+        <translation>सिक्के भेजें|</translation>
+=======
+        <source>List commands</source>
+        <translation>commands की लिस्ट बनाएं</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
+        <source>Backup Wallet</source>
+        <translation>बैकप वॉलेट</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>वॉलेट डेटा (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>बैकप असफल</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>बैकप सफल</translation>
+=======
+        <source>Get help for a command</source>
+        <translation>किसी command के लिए मदद लें</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>विकल्प:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>configuraion की फाइल का विवरण दें (default: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>pid फाइल का विवरण दें (default: bitcoin.pid)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Options:</source>
         <translation>विकल्प:</translation>
     </message>
@@ -875,6 +1510,38 @@ Address: %4
     <message>
         <source>Warning</source>
         <translation>चेतावनी</translation>
+=======
+        <source>Specify data directory</source>
+        <translation>डेटा डायरेक्टरी बताएं </translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>टेस्ट नेटवर्क का इस्तेमाल करे </translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>वॉलेट जाँचा जा रहा है...</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>जानकारी</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>चेतावनी</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>संस्करण</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -904,5 +1571,9 @@ Address: %4
         <source>Error</source>
         <translation>भूल</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

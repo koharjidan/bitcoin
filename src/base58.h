@@ -16,9 +16,13 @@
 
 #include "chainparams.h"
 #include "key.h"
+<<<<<<< HEAD
 #include "pubkey.h"
 #include "script/script.h"
 #include "script/standard.h"
+=======
+#include "script.h"
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
 #include <string>
 #include <vector>
@@ -106,7 +110,10 @@ public:
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
+<<<<<<< HEAD
     bool IsValid(const CChainParams &params) const;
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     CBitcoinAddress() {}
     CBitcoinAddress(const CTxDestination &dest) { Set(dest); }

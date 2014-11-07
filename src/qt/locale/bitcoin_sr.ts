@@ -1,4 +1,10 @@
 <TS language="sr" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -219,6 +225,17 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n активна веза са Bitcoin мрежом</numerusform><numerusform>%n активне везе са Bitcoin мрежом</numerusform><numerusform>%n активних веза са Bitcoin мрежом</numerusform></translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Up to date</source>
         <translation>Ажурно</translation>
     </message>
@@ -250,7 +267,11 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ClientModel</name>
     </context>
@@ -326,12 +347,13 @@ Address: %4
         <translation>верзија</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About Bitcoin Core</source>
         <translation>O Bitcoin Coru</translation>
-    </message>
-    <message>
+=======
         <source>Usage:</source>
         <translation>Korišćenje:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -343,23 +365,63 @@ Address: %4
 <context>
     <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
+        <source>Usage:</source>
+        <translation>Korišćenje:</translation>
+=======
+        <source>Options</source>
+        <translation>Поставке</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Options</source>
         <translation>Поставке</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Јединица за приказивање износа:</translation>
+=======
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Јединица за приказивање износа:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+=======
         <source>Form</source>
         <translation>Форма</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
+        <source>Form</source>
+        <translation>Форма</translation>
+=======
+        <source>Wallet</source>
+        <translation>новчаник</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -371,6 +433,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>iznos</translation>
     </message>
@@ -386,34 +449,107 @@ Address: %4
     <message>
         <source>&amp;Label:</source>
         <translation>&amp;Етикета</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Недавне трансакције&lt;/b&gt;</translation>
     </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite Bitcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy label</source>
         <translation>kopiraj naziv</translation>
     </message>
     <message>
         <source>Copy amount</source>
         <translation>kopiraj iznos</translation>
+=======
+        <source>&amp;Label:</source>
+        <translation>&amp;Етикета</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>kopiraj naziv</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Адреса</translation>
+=======
+        <source>Copy amount</source>
+        <translation>kopiraj iznos</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>iznos</translation>
     </message>
     <message>
         <source>Label</source>
         <translation>Етикета</translation>
+=======
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>datum</translation>
+=======
+        <source>Label</source>
+        <translation>Етикета</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикете)</translation>
+=======
         <source>Date</source>
         <translation>datum</translation>
     </message>
@@ -424,8 +560,24 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation>iznos</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Send Coins</source>
+        <translation>Слање новца</translation>
     </message>
     <message>
+        <source>Amount:</source>
+        <translation>Iznos:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Потврди акцију слања</translation>
+=======
         <source>(no label)</source>
         <translation>(без етикете)</translation>
     </message>
@@ -483,6 +635,97 @@ Address: %4
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+П</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite Bitcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
+        <source>S&amp;end</source>
+        <translation>&amp;Пошаљи</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
+        <source>Copy amount</source>
+        <translation>kopiraj iznos</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикете)</translation>
+=======
+        <source>Open until %1</source>
+        <translation>Otvorite do %1</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/nepotvrdjeno</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Label:</source>
+        <translation>&amp;Етикета</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+П</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Poruka:</translation>
+=======
+        <source>%1 confirmations</source>
+        <translation>%1 potvrde</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>етикета</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Alt+A</source>
         <translation>Alt+</translation>
     </message>
     <message>
@@ -495,6 +738,21 @@ Address: %4
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+=======
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, nije još uvek uspešno emitovan</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>detalji transakcije</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -503,10 +761,19 @@ Address: %4
 <context>
     <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>Open until %1</source>
         <translation>Otvoreno do %1</translation>
+=======
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ovaj odeljak pokazuje detaljan opis transakcije</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>%1/unconfirmed</source>
         <translation>%1/nepotvrdjeno</translation>
     </message>
@@ -533,22 +800,60 @@ Address: %4
     <message>
         <source>unknown</source>
         <translation>nepoznato</translation>
+=======
+        <source>Date</source>
+        <translation>datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>tip</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Otvoreno do %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Potvrdjena (%1 potvrdjenih)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ovaj blok nije primljen od ostalih čvorova (nodova) i verovatno neće biti prihvaćen!</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Transaction details</source>
         <translation>detalji transakcije</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Ovaj odeljak pokazuje detaljan opis transakcije</translation>
+=======
+        <source>Generated but not accepted</source>
+        <translation>Generisan ali nije prihvaćen</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Primljen sa</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation>datum</translation>
     </message>
@@ -587,6 +892,13 @@ Address: %4
     <message>
         <source>Sent to</source>
         <translation>Poslat ka</translation>
+=======
+        <source>Received from</source>
+        <translation>Primljeno od</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Poslat ka</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -619,11 +931,81 @@ Address: %4
     <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Iznos odbijen ili dodat balansu.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
+        <source>Payment to yourself</source>
+        <translation>Isplata samom sebi</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minirano</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Status vaše transakcije. Predjite mišem preko ovog polja da bi ste videli broj konfirmacija</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum i vreme primljene transakcije.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Tip transakcije</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Destinacija  i adresa transakcije</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Iznos odbijen ili dodat balansu.</translation>
+=======
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Danas</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>ove nedelje</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Ovog meseca</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Prošlog meseca</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Ove godine</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Opseg...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Primljen sa</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>All</source>
         <translation>Sve</translation>
     </message>
@@ -698,6 +1080,49 @@ Address: %4
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Зарезом одвојене вредности (*.csv)</translation>
+=======
+        <source>Sent to</source>
+        <translation>Poslat ka</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Vama - samom sebi</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minirano</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Drugi</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Navedite adresu ili naziv koji bi ste potražili</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Min iznos</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>kopiraj adresu</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>kopiraj naziv</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>kopiraj iznos</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>promeni naziv</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Зарезом одвојене вредности (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -720,12 +1145,88 @@ Address: %4
         <translation>Адреса</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>iznos</translation>
+    </message>
+    <message>
         <source>Range:</source>
         <translation>Opseg:</translation>
     </message>
     <message>
         <source>to</source>
         <translation>do</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Confirmed</source>
+        <translation>Potvrdjen</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Слање новца</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>datum</translation>
+=======
+        <source>Backup Wallet</source>
+        <translation>Backup новчаника</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>Type</source>
+        <translation>tip</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикета</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Opseg:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>do</translation>
+=======
+        <source>Usage:</source>
+        <translation>Korišćenje:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Listaj komande</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Zatraži pomoć za komande</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Opcije</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Potvrdi željeni konfiguracioni fajl (podrazumevani:bitcoin.conf)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -737,26 +1238,46 @@ Address: %4
 <context>
     <name>WalletModel</name>
     <message>
+<<<<<<< HEAD
         <source>Send Coins</source>
         <translation>Слање новца</translation>
+=======
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Konkretizuj pid fajl (podrazumevani: bitcoind.pid)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
+<<<<<<< HEAD
         <source>Backup Wallet</source>
         <translation>Backup новчаника</translation>
+=======
+        <source>Specify data directory</source>
+        <translation>Gde je konkretni data direktorijum </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Options:</source>
         <translation>Opcije</translation>
     </message>
     <message>
         <source>Specify data directory</source>
         <translation>Gde je konkretni data direktorijum </translation>
+=======
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Slušaj konekcije na &lt;port&gt; (default: 8333 or testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Održavaj najviše &lt;n&gt; konekcija  po priključku (default: 125)
+</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -775,10 +1296,32 @@ Address: %4
         <translation>Korisničko ime za JSON-RPC konekcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>верзија</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>Lozinka za JSON-RPC konekcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Dozvoli JSON-RPC konekcije sa posebne IP adrese</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Pošalji komande to nodu koji radi na &lt;ip&gt; (default: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Odredi veličinu zaštićenih ključeva na &lt;n&gt; (default: 100)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Ponovo skeniraj lanac blokova za nedostajuće transakcije iz novčanika</translation>
     </message>
@@ -787,6 +1330,13 @@ Address: %4
         <translation>Koristi OpenSSL (https) za  JSON-RPC konekcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server private key (default: server.pem)</source>
+        <translation>privatni ključ za Server (podrazumevan: server.pem)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>This help message</source>
         <translation>Ova poruka Pomoći</translation>
     </message>
@@ -799,6 +1349,13 @@ Address: %4
         <translation>Грешка током учитавања wallet.dat: Новчаник је покварен      </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation>Грешка током учитавања wallet.dat: Новчанику је неопходна нова верзија Bitcoin-a.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error loading wallet.dat</source>
         <translation>Грешка током учитавања wallet.dat      </translation>
     </message>

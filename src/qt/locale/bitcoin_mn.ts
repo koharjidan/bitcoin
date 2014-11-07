@@ -1,5 +1,11 @@
 <TS language="mn" version="2.1">
 <context>
+<<<<<<< HEAD
+=======
+    <name>AboutDialog</name>
+    </context>
+<context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <name>AddressBookPage</name>
     <message>
         <source>Double-click to edit address or label</source>
@@ -64,6 +70,13 @@
         <translation>Шинэ нууц үгийг давтана уу</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Түрүйвчийн шинэ нууц үгийг оруул. &lt;br/&gt;&lt;b&gt;Дор хаяж 10 дурын үсэг/тоо бүхий&lt;/b&gt; эсвэл &lt;b&gt;дор хаяж 8 дурын үгнээс бүрдсэн&lt;/b&gt; нууц үгийг ашиглана уу. </translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Encrypt wallet</source>
         <translation>Түрүйвчийг цоожлох</translation>
     </message>
@@ -163,6 +176,13 @@
         <translation>Програмаас Гарах</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>Биткойны мэдээллийг харуулах</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>About &amp;Qt</source>
         <translation>&amp;Клиентийн тухай</translation>
     </message>
@@ -218,6 +238,13 @@
         <source>&amp;Help</source>
         <translation>&amp;Тусламж</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Биткойн клиент</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
@@ -269,7 +296,11 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Түрүйвч &lt;b&gt;цоожтой&lt;/b&gt; ба одоогоор цоож &lt;b&gt;хаалттай&lt;/b&gt; байна</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ClientModel</name>
     </context>
@@ -384,6 +415,13 @@ Address: %4
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin</source>
+        <translation>Биткойн</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error</source>
         <translation>Алдаа</translation>
     </message>
@@ -425,14 +463,29 @@ Address: %4
 <context>
     <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Available:</source>
         <translation>Хэрэглэж болох хэмжээ:</translation>
     </message>
+=======
+        <source>Wallet</source>
+        <translation>Түрүйвч</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>Хэрэглэж болох хэмжээ:</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Сүүлд хийгдсэн гүйлгээнүүд&lt;/b&gt;</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PeerTableModel</name>
     </context>
 <context>
@@ -444,6 +497,12 @@ Address: %4
     <message>
         <source>N/A</source>
         <translation>Алга Байна</translation>
+=======
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Биткойн</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -496,6 +555,13 @@ Address: %4
         <translation>Одоогийн блокийн тоо</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Estimated total blocks</source>
+        <translation>Нийт блокийн барагцаа</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Last block time</source>
         <translation>Сүүлийн блокийн хугацаа</translation>
     </message>
@@ -816,6 +882,13 @@ Address: %4
         <translation>Хаяг</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Хэмжээ</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Open until %1</source>
         <translation>%1 хүртэл нээлттэй</translation>
     </message>
@@ -987,6 +1060,13 @@ Address: %4
         <translation>Хаяг</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Хэмжээ</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>ID</source>
         <translation>Тодорхойлолт</translation>
     </message>
@@ -996,9 +1076,12 @@ Address: %4
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
@@ -1018,14 +1101,51 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage:</source>
+        <translation>Хэрэглээ:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Үйлдлүүдийг жагсаах</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Үйлдэлд туслалцаа авах</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Options:</source>
         <translation>Сонголтууд:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>&lt;port&gt; дээрх холболтуудыг чагна (ѳгѳгдмѳл: 8333 эсвэл testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS proxy</source>
+        <translation>SOCKS проксигоор холбогдох</translation>
+    </message>
+    <message>
+        <source>Wait for RPC server to start</source>
+        <translation>RPC серверийг эхэлтэл хүлээ</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Wallet options:</source>
         <translation>Түрүйвчийн сонголтууд:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>хувилбар</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Upgrade wallet to latest format</source>
         <translation>Түрүйвчийг хамгийн сүүлийн үеийн форматруу шинэчлэх</translation>
     </message>
@@ -1038,6 +1158,13 @@ Address: %4
         <translation>wallet.dat-ыг ачааллахад алдаа гарлаа: Түрүйвч эвдэрсэн байна</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа: Түрүйвч Биткойны шинэ хувилбарыг шаардаж байна</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error loading wallet.dat</source>
         <translation>wallet.dat-ыг ачааллахад алдаа гарлаа</translation>
     </message>
@@ -1081,5 +1208,9 @@ Address: %4
         <source>Error</source>
         <translation>Алдаа</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

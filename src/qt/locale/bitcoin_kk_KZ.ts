@@ -1,4 +1,10 @@
 <TS language="kk_KZ" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -87,6 +93,7 @@
     <message>
         <source>Address</source>
         <translation>Адрес</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>(no label)</source>
@@ -159,6 +166,66 @@
     <message>
         <source>(no label)</source>
         <translation>(таңбасыз)</translation>
+=======
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>таңба</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -185,6 +252,7 @@
 <context>
     <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
@@ -194,8 +262,89 @@
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Үтірмен бөлінген файл (*.csv)</translation>
+=======
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(таңбасыз)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>таңба</translation>
+=======
+        <source>Address</source>
+        <translation>Адрес</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Адрес</translation>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Үтірмен бөлінген файл (*.csv)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>Transaction amount too small</source>
+        <translation>Транзакция өте кішкентай</translation>
     </message>
     <message>
+        <source>Transaction too large</source>
+        <translation>Транзакция өте үлкен</translation>
+    </message>
+    </context>
+=======
         <source>Label</source>
         <translation>таңба</translation>
     </message>
@@ -203,9 +352,6 @@
         <source>Address</source>
         <translation>Адрес</translation>
     </message>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
     <name>WalletFrame</name>
@@ -227,4 +373,5 @@
         <translation>Транзакция өте үлкен</translation>
     </message>
     </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

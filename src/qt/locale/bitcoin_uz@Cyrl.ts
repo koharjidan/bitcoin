@@ -1,4 +1,44 @@
 <TS language="uz@Cyrl" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Bitcoin Core ҳақида</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; версияси</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Бу синовдаги дастурий таъминот.
+
+MIT/X11 дастурий таъминот лицензияси остида тарқатилади, ҳамкорлик COPYING файлини ёки http://www.opensource.org/licenses/mit-license.php сайтини кўринг.
+
+Ушбу маҳсулотга "OpenSSL Toolkit"да фойдаланиш учун OpenSSL лойиҳаси (http://www.openssl.org/) ва Eric Young (eay@cryptsoft.com) томонидан ёзилган криптографик дастур ҳамда Thomas Bernard.томонидан тузилган UPnP дастури қўшилган.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Муаллифлик ҳуқуқи</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core дастурчилари</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -94,8 +134,13 @@
         <translation>Экспорт қилиб бўлмади</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>Манзил рўйхатини %1.га сақлашда хатолик юз берди. Яна уриниб кўринг.</translation>
+=======
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>Манзил рўйхатини %1га сақланаётганда хатолик юз берди.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -130,6 +175,13 @@
     <message>
         <source>Repeat new passphrase</source>
         <translation>Янги махфий сузни такрорланг</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Ҳамёнга янги махфий сўз киритинг.&lt;br/&gt;Илтимос, &lt;b&gt;10 махфий сўздан ёки кўпроқ тасодифий белгилар &lt;/b&gt; ёки &lt;b&gt;8 та ёки кўпроқ&lt;/b&gt; махфий сўзлардан фойдаланинг.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -162,6 +214,7 @@
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Ҳамённи кодлашни тасдиқлаш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
@@ -178,10 +231,13 @@
     <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Диққат: Caps Lock тугмаси ёқилган!</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet encrypted</source>
         <translation>Ҳамёни кодланган</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -190,6 +246,8 @@
     <message>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin кодлаш жараёнини тугатиш учун ёпилади. Ёдда сақланг: ҳамёнингизни кодлаш компьютерингизни зарарлаган зарарли дастурлар томонидан bitcoin тангаларингизни ўғирланишидан тўлиқ ҳимоя қила олмайди.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -215,6 +273,7 @@
         <source>Wallet decryption failed</source>
         <translation>Ҳамённи коддан чиқариш амалга ошмади</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Ҳамён пароли муваффақиятли алмаштирилди.</translation>
@@ -227,16 +286,25 @@
         <translation>&amp;Хабар ёзиш...</translation>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Synchronizing with network...</source>
         <translation>Тармоқ билан синхронланмоқда...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;Кўриб чиқиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Node</source>
         <translation>Улам</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -257,6 +325,7 @@
     <message>
         <source>Quit application</source>
         <translation>Иловадан чиқиш</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -333,8 +402,113 @@
     <message>
         <source>&amp;Verify message...</source>
         <translation>Хабарни &amp;тасдиқлаш...</translation>
+=======
     </message>
     <message>
+        <source>Show information about Bitcoin</source>
+        <translation>Bitcoin ҳақидаги маълумотларни кўрсатиш</translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation>&amp;Мосламалар...</translation>
+    </message>
+    <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Жўнатилувчи манзиллар...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Қабул қилувчи манзиллар...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Интернет манзилни очиш</translation>
+    </message>
+    <message>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Паролни ўзгартириш ҳамённи кодлашда фойдаланилади</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp; файл</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>&amp; Созламалар</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Ёрдам</translation>
+    </message>
+    <message>
+        <source>Tabs toolbar</source>
+        <translation>Ички ойналар асбоблар панели</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin мижози</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n та Bitcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+    </message>
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Ўтказма тарихи блоклари %1 та амалга оширилган. </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n соат</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n кун</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n ҳафта</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 ва %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n йил</numerusform></translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Янгиланган</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Жўнатилган операция</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Кирувчи операция</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфдан чиқарилган&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфланган&lt;/b&gt;</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Bitcoin</source>
         <translation>Bitcoin</translation>
     </message>
@@ -377,8 +551,52 @@
     <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
+=======
+        <source>Bytes:</source>
+        <translation>Байт:</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Манзил</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Сана</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Тасдиқланди</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Манзилни нусхалаш</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Ёрликни нусхала</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Кийматни нусхала</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>ўрта</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Ёрлик мавжуд эмас)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Settings</source>
         <translation>&amp; Созламалар</translation>
     </message>
@@ -413,20 +631,109 @@
     <message>
         <source>Open a bitcoin: URI or payment request</source>
         <translation>Bitcoin’ни очиш: URI ёки тўлов сўрови</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Манзилларни таҳрирлаш</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Ёрлик</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Манзил</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Янги кабул килувчи манзил</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Янги жунатилувчи манзил</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Кабул килувчи манзилни тахрирлаш</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Жунатилувчи манзилни тахрирлаш</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Ҳамён қулфдан чиқмади.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Янги калит яратиш амалга ошмади.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
+=======
+        <source>Usage:</source>
+        <translation>Фойдаланиш:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Мавжуд Bitcoin буйруқлар матни мосламалари билан  Bitcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n та Bitcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+=======
+        <source>Options</source>
+        <translation>Танламалар</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Шакл</translation>
     </message>
     <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Жорий утказмалар&lt;/b&gt;</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation>Блок манбалари мавжуд эмас...</translation>
     </message>
@@ -441,8 +748,39 @@
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation><numerusform>%n ҳафта</numerusform></translation>
+=======
+        <source>General</source>
+        <translation>Асосий</translation>
     </message>
     <message>
+        <source>Name</source>
+        <translation>Ном</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Ёрлиқ:</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Ёрликни нусхала</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Хабарни нусхала</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Кийматни нусхала</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>%1 and %2</source>
         <translation>%1 ва %2</translation>
     </message>
@@ -453,8 +791,24 @@
     <message>
         <source>%1 behind</source>
         <translation>%1 орқада</translation>
+=======
+        <source>Address</source>
+        <translation>Манзил</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ёрлик</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Last received block was generated %1 ago.</source>
         <translation>Сўнги қабул қилинган блок %1 олдин яратилган.</translation>
     </message>
@@ -469,8 +823,28 @@
     <message>
         <source>Warning</source>
         <translation>Диққат</translation>
+=======
+        <source>Date</source>
+        <translation>Сана</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Ёрлик</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Ёрлик мавжуд эмас)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Information</source>
         <translation>Маълумот</translation>
     </message>
@@ -509,18 +883,57 @@ Address: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфланган&lt;/b&gt;</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Тангаларни жунат</translation>
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
+        <source>Bytes:</source>
+        <translation>Байт:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Бирданига бир нечта қабул қилувчиларга жўнатиш</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Баланс</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Жўнатиш амалини тасдиқлаш</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Тангалар жўнаишни тасдиқлаш</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Кийматни нусхала</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(Ёрлик мавжуд эмас)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
         <source>Network Alert</source>
         <translation>Тармоқ огоҳлантиргичи</translation>
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Миқдори:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-</context>
-<context>
-    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Танга бошқарув манзилини танлаш</translation>
     </message>
@@ -543,8 +956,39 @@ Address: %4
     <message>
         <source>Fee:</source>
         <translation>Солиқ:</translation>
+=======
+        <source>Pay &amp;To:</source>
+        <translation>&amp;Тўлов олувчи:</translation>
     </message>
     <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Манзил китобингизга қўшиш учун ушбу манзил учун ёрлиқ киритинг</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Ёрлиқ:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Клипбоарддан манзилни қўйиш</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>Ахлат қутиси:</translation>
     </message>
@@ -555,16 +999,47 @@ Address: %4
     <message>
         <source>Change:</source>
         <translation>Ўзгартириш:</translation>
+=======
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Клипбоарддан манзилни қўйиш</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>барчасини танаш (бекор қилиш)</translation>
     </message>
     <message>
         <source>Tree mode</source>
         <translation>Дарахт усулида</translation>
+=======
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core дастурчилари</translation>
     </message>
     <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>List mode</source>
         <translation>Рўйхат усулида</translation>
     </message>
@@ -575,12 +1050,25 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>Манзил</translation>
+=======
+        <source>Open until %1</source>
+        <translation>%1 гача очиш</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/тасдиқланмади</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 тасдиқлашлар</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Date</source>
         <translation>Сана</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation>Тасдиқлашлар</translation>
     </message>
@@ -595,16 +1083,48 @@ Address: %4
     <message>
         <source>Copy address</source>
         <translation>Манзилни нусхалаш</translation>
+=======
+        <source>Transaction ID</source>
+        <translation>ID</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ҳалигача трансляция қилингани йўқ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>Номаълум</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy label</source>
         <translation>Ёрликни нусхала</translation>
     </message>
     <message>
         <source>Copy amount</source>
         <translation>Кийматни нусхала</translation>
+=======
+        <source>Transaction details</source>
+        <translation>Операция тафсилотлари</translation>
     </message>
     <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ушбу ойна операциянинг батафсил таърифини кўрсатади</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation>Ўтказам рақамидан нусха олиш</translation>
     </message>
@@ -675,8 +1195,84 @@ Address: %4
     <message>
         <source>lower</source>
         <translation>пастроқ</translation>
+=======
+        <source>Date</source>
+        <translation>Сана</translation>
     </message>
     <message>
+        <source>Type</source>
+        <translation>Тури</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Манзил</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>%1 гача очиш</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Тасдиқланди (%1 та тасдиқ)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ушбу тўсиқ бирорта бошқа уланишлар томонидан қабул қилинмаган ва тасдиқланмаган!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Яратилди, аммо қабул қилинмади</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ёрдамида қабул қилиш</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Жўнатиш</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Ўзингизга тўлов</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Фойда</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(қ/қ)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Ўтказма ҳолати. Ушбу майдон бўйлаб тасдиқлашлар сонини кўрсатиш.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Ўтказма қабул қилинган сана ва вақт.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Пул ўтказмаси тури</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Ўтказиладиган жараён манзили.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Миқдор ўчирилган ёки балансга қўшилган.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>lowest</source>
         <translation>энг паст</translation>
     </message>
@@ -1844,14 +2440,83 @@ Address: %4
         <translation>Ёрликни нусхалаш</translation>
     </message>
     <message>
+=======
+        <source>All</source>
+        <translation>Барча</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Бугун</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Шу ҳафта</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Шу ой</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Ўтган хафта</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Шу йил</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Оралиқ...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ёрдамида қабул қилинган</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Жўнатиш</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Ўзингизга</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Фойда</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Бошка</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Излаш учун манзил ёки ёрлиқни киритинг</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Мин қиймат</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Манзилни нусхалаш</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Ёрликни нусхалаш</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy amount</source>
         <translation>Кийматни нусхала</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy transaction ID</source>
         <translation>Ўтказам рақамидан нусха олиш</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Edit label</source>
         <translation>Ёрликни тахрирлаш</translation>
     </message>
@@ -1884,6 +2549,13 @@ Address: %4
         <translation>Манзил</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Миқдори</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>ID</source>
         <translation>ID</translation>
     </message>
@@ -1897,9 +2569,12 @@ Address: %4
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1923,10 +2598,36 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage:</source>
+        <translation>Фойдаланиш:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Буйруқлар рўйхати</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Буйруқ учун ёрдам олиш</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Options:</source>
         <translation>Танламалар:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Мослаш файлини кўрсатинг (default: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>pid файлини кўрсатинг (default: bitcoind.pid)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Specify data directory</source>
         <translation>Маълумотлар директориясини кўрсатинг</translation>
     </message>
@@ -1943,26 +2644,54 @@ Address: %4
         <translation>Синов тармоғидан фойдаланинг</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Information</source>
         <translation>Маълумот</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC уланишлари учун фойдаланувчи номи</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation>Диққат</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC уланишлари учун парол</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Махсус IP манзиллардан JSON-RPC уланишларига рухсат бериш </translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>&lt;ip&gt; (default: 127.0.0.1)да бажарилган уланишларга буйруқларни жўнатиш</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>JSON-RPC уланишлари учун OpenSSL (https)дан фойдаланиш</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Сервер сертификат файли (default: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Сервер махфий калити (бирламчи: server.pem)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>This help message</source>
         <translation>Бу ёрдам хабари</translation>
     </message>
@@ -1985,10 +2714,13 @@ Address: %4
     <message>
         <source>Done loading</source>
         <translation>Юклаш тайёр</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Error</source>
         <translation>Хатолик</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-</context>
+    </context>
 </TS>

@@ -163,7 +163,11 @@ bool CWallet::LoadCScript(const CScript& redeemScript)
      * these. Do not add them to the wallet and warn. */
     if (redeemScript.size() > MAX_SCRIPT_ELEMENT_SIZE)
     {
+<<<<<<< HEAD
         std::string strAddr = CBitcoinAddress(CScriptID(redeemScript)).ToString();
+=======
+        std::string strAddr = CBitcoinAddress(redeemScript.GetID()).ToString();
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         LogPrintf("%s: Warning: This wallet contains a redeemScript of size %i which exceeds maximum size %i thus can never be redeemed. Do not use address %s.\n",
             __func__, redeemScript.size(), MAX_SCRIPT_ELEMENT_SIZE, strAddr);
         return true;
@@ -172,6 +176,7 @@ bool CWallet::LoadCScript(const CScript& redeemScript)
     return CCryptoKeyStore::AddCScript(redeemScript);
 }
 
+<<<<<<< HEAD
 bool CWallet::AddWatchOnly(const CScript &dest)
 {
     if (!CCryptoKeyStore::AddWatchOnly(dest))
@@ -202,6 +207,8 @@ bool CWallet::LoadWatchOnly(const CScript &dest)
     return CCryptoKeyStore::AddWatchOnly(dest);
 }
 
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 bool CWallet::Unlock(const SecureString& strWalletPassphrase)
 {
     CCrypter crypter;

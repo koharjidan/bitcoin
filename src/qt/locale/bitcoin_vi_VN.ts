@@ -1,4 +1,10 @@
 <TS language="vi_VN" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -45,9 +51,12 @@
 <context>
     <name>PaymentServer</name>
     </context>
+<<<<<<< HEAD
 <context>
     <name>PeerTableModel</name>
     </context>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>QObject</name>
     </context>
@@ -96,9 +105,12 @@
 <context>
     <name>TransactionView</name>
     </context>
+<<<<<<< HEAD
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>WalletFrame</name>
     </context>

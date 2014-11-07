@@ -44,7 +44,10 @@ static map<string, boost::shared_ptr<deadline_timer> > deadlineTimers;
 static ssl::context* rpc_ssl_context = NULL;
 static boost::thread_group* rpc_worker_group = NULL;
 static boost::asio::io_service::work *rpc_dummy_work = NULL;
+<<<<<<< HEAD
 static std::vector<CSubNet> rpc_allow_subnets; //!< List of subnets to allow RPC connections from
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 static std::vector< boost::shared_ptr<ip::tcp::acceptor> > rpc_acceptors;
 
 void RPCTypeCheck(const Array& params,
@@ -514,7 +517,11 @@ static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol, 
     {
         // Only send a 403 if we're not using SSL to prevent a DoS during the SSL handshake.
         if (!fUseSSL)
+<<<<<<< HEAD
             conn->stream() << HTTPError(HTTP_FORBIDDEN, false) << std::flush;
+=======
+            conn->stream() << HTTPReply(HTTP_FORBIDDEN, "", false) << std::flush;
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         conn->close();
     }
     else {
@@ -612,6 +619,7 @@ void StartRPCThreads()
         SSL_CTX_set_cipher_list(rpc_ssl_context->impl(), strCiphers.c_str());
     }
 
+<<<<<<< HEAD
     std::vector<ip::tcp::endpoint> vEndpoints;
     bool bBindAny = false;
     int defaultPort = GetArg("-rpcport", BaseParams().RPCPort());
@@ -624,6 +632,34 @@ void StartRPCThreads()
             LogPrintf("WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect\n");
         }
     } else if (mapArgs.count("-rpcbind")) // Specific bind address
+=======
+    // Try a dual IPv6/IPv4 socket, falling back to separate IPv4 and IPv6 sockets
+    const bool loopback = !mapArgs.count("-rpcallowip");
+    asio::ip::address bindAddress = loopback ? asio::ip::address_v6::loopback() : asio::ip::address_v6::any();
+    ip::tcp::endpoint endpoint(bindAddress, GetArg("-rpcport", Params().RPCPort()));
+    boost::system::error_code v6_only_error;
+
+    bool fListening = false;
+    std::string strerr;
+    try
+    {
+        boost::shared_ptr<ip::tcp::acceptor> acceptor(new ip::tcp::acceptor(*rpc_io_service));
+        acceptor->open(endpoint.protocol());
+        acceptor->set_option(boost::asio::ip::tcp::acceptor::reuse_address(true));
+
+        // Try making the socket dual IPv6/IPv4 (if listening on the "any" address)
+        acceptor->set_option(boost::asio::ip::v6_only(loopback), v6_only_error);
+
+        acceptor->bind(endpoint);
+        acceptor->listen(socket_base::max_connections);
+
+        RPCListen(acceptor, *rpc_ssl_context, fUseSSL);
+
+        rpc_acceptors.push_back(acceptor);
+        fListening = true;
+    }
+    catch(boost::system::system_error &e)
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     {
         BOOST_FOREACH(const std::string &addr, mapMultiArgs["-rpcbind"])
         {
@@ -646,6 +682,7 @@ void StartRPCThreads()
         // to both addresses seperately.
         bBindAny = true;
     }
+<<<<<<< HEAD
 
     bool fListening = false;
     std::string strerr;
@@ -657,6 +694,16 @@ void StartRPCThreads()
         boost::shared_ptr<ip::tcp::acceptor> acceptor(new ip::tcp::acceptor(*rpc_io_service));
 
         try {
+=======
+    try {
+        // If dual IPv6/IPv4 failed (or we're opening loopback interfaces only), open IPv4 separately
+        if (!fListening || loopback || v6_only_error)
+        {
+            bindAddress = loopback ? asio::ip::address_v4::loopback() : asio::ip::address_v4::any();
+            endpoint.address(bindAddress);
+
+            boost::shared_ptr<ip::tcp::acceptor> acceptor(new ip::tcp::acceptor(*rpc_io_service));
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
             acceptor->open(endpoint.protocol());
             acceptor->set_option(boost::asio::ip::tcp::acceptor::reuse_address(true));
 
@@ -669,6 +716,7 @@ void StartRPCThreads()
 
             RPCListen(acceptor, *rpc_ssl_context, fUseSSL);
 
+            rpc_acceptors.push_back(acceptor);
             fListening = true;
             rpc_acceptors.push_back(acceptor);
             // If dual IPv6/IPv4 bind successful, skip binding to IPv4 separately
@@ -711,8 +759,11 @@ void StartDummyRPCThread()
 void StopRPCThreads()
 {
     if (rpc_io_service == NULL) return;
+<<<<<<< HEAD
     // Set this to false first, so that longpolling loops will exit when woken up
     fRPCRunning = false;
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     // First, cancel all timers and acceptors
     // This is not done automatically by ->stop(), and in some cases the destructor of

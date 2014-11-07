@@ -96,7 +96,11 @@ Value getinfo(const Array& params, bool fHelp)
     }
     if (pwalletMain && pwalletMain->IsCrypted())
         obj.push_back(Pair("unlocked_until", nWalletUnlockTime));
+<<<<<<< HEAD
     obj.push_back(Pair("paytxfee",      ValueFromAmount(payTxFee.GetFeePerK())));
+=======
+    obj.push_back(Pair("paytxfee",      ValueFromAmount(nTransactionFee)));
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 #endif
     obj.push_back(Pair("relayfee",      ValueFromAmount(::minRelayTxFee.GetFeePerK())));
     obj.push_back(Pair("errors",        GetWarnings("statusbar")));
@@ -251,7 +255,12 @@ CScript _createmultisig_redeemScript(const Array& params)
             throw runtime_error(" Invalid public key: "+ks);
         }
     }
+<<<<<<< HEAD
     CScript result = GetScriptForMultisig(nRequired, pubkeys);
+=======
+    CScript result;
+    result.SetMultisig(nRequired, pubkeys);
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     if (result.size() > MAX_SCRIPT_ELEMENT_SIZE)
         throw runtime_error(
@@ -293,7 +302,11 @@ Value createmultisig(const Array& params, bool fHelp)
 
     // Construct using pay-to-script-hash:
     CScript inner = _createmultisig_redeemScript(params);
+<<<<<<< HEAD
     CScriptID innerID(inner);
+=======
+    CScriptID innerID = inner.GetID();
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     CBitcoinAddress address(innerID);
 
     Object result;

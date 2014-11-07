@@ -1,4 +1,26 @@
 <TS language="pam" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Metung ya ining experimental software.
+Me-distribute ya lalam na ning lisensya na ning MIT/X11 software, lawan ye ing makayabeng file COPYING o http://www.opensource.org/licenses/mit-license.php.
+Ing produktung ini atin yang makayabeng software a gewa dareng OpenSSL Project para gamit king OpenSSL Toolkit(http://www.openssl.org/) at cryptographic software a sinulat ng Eric Young (eay@cryptsoft.com) at UPnp software a sinulat ng Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Karapatan ning Pamangopya</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -10,14 +32,18 @@
         <translation>Maglalang kang bayung address</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation>&amp;Bayu</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopyan me ing salukuyan at makipiling address keng system clipboard</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation>&amp;Kopyan</translation>
     </message>
@@ -26,6 +52,8 @@
         <translation>I&amp;sara</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopyan ing address</translation>
     </message>
@@ -38,6 +66,7 @@
         <translation>&amp;Ilako</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation>Pilinan ing address a magpadalang coins kang</translation>
     </message>
@@ -58,14 +87,19 @@
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Reni reng kekang Bitcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Reni reng kekang Bitcoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy &amp;Label</source>
         <translation>Kopyan ing &amp;Label</translation>
     </message>
@@ -319,6 +353,33 @@
         <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin client</source>
+        <translation>Bitcoin client</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n ya ing aktibong koneksion keng Bitcoin network</numerusform><numerusform>%n lareng aktibong koneksion keng Bitcoin network</numerusform></translation>
+    </message>
+    <message>
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation>Me-prosesu %1 kareng %2 (me-estima) blocks ning kasalesayan ning transaksion.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n oras</numerusform><numerusform>%n oras</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n aldo</numerusform><numerusform>%n aldo</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n dominggu</numerusform><numerusform>%n dominggu</numerusform></translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Last received block was generated %1 ago.</source>
         <translation>Ing tatauling block a metanggap,  me-generate ya %1 ing milabas</translation>
     </message>
@@ -513,8 +574,13 @@ Address: %4
         <translation>Malaus ka</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Kapilubluban ning Bitcoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -571,6 +637,17 @@ Address: %4
         <translation>Port na ning proxy(e.g. 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>SOCKS &amp;Version:</source>
+        <translation>&amp;Bersion na ning SOCKS</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Bersion a SOCKS ning proxy (e.g 5)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Window</source>
         <translation>&amp;Awang</translation>
     </message>
@@ -611,6 +688,17 @@ Address: %4
         <translation>Pilinan ing default subdivision unit a ipalto o ipakit king interface at istung magpadala kang barya.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Ipakit man ing Bitcoin address king listahan naning transaksion o ali.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Ipakit ing address king listahan naning transaksion</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -638,6 +726,13 @@ Address: %4
         <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Bitcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Wallet</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Your current spendable balance</source>
         <translation>Ing kekang kasalungsungan balanse a malyari mung gastusan</translation>
     </message>
@@ -669,6 +764,7 @@ Address: %4
 <context>
     <name>PaymentServer</name>
     </context>
+<<<<<<< HEAD
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -681,6 +777,17 @@ Address: %4
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+=======
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Magpalub kang Bitcoin address(e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -942,6 +1049,13 @@ Address: %4
         <translation>Maliari kang mamirmang mensayi king kekang address bilang patune na keka ya ini. Mimingat mu king pamag-pirmang  e malino uling mapalyari kang mabiktimang phishing attack a manloku keka na pirman me ing sarili mu para king karela. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Ing address ban a -pirman ya ing mensayi kayabe ning (e.g.1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -986,6 +1100,13 @@ Address: %4
         <translation>&amp;Beripikan ing Mensayi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Ing address na ning mensayi nung nokarin me pirma ya ini (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
         <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Bitcoin address</translation>
     </message>
@@ -998,6 +1119,13 @@ Address: %4
         <translation>Ibalik king dati reng ngan fields na ning pamag beripikang mensayi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Magpalub kang Bitcoin address(e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>I-click ing "Pirman ing Mensayi" ban agawa ya ing metung a pirma</translation>
     </message>
@@ -1097,6 +1225,28 @@ Address: %4
     <message>
         <source>Generated</source>
         <translation>Megawa</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Menibat</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Para kang</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>sariling address</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>label</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Credit</translation>
+=======
     </message>
     <message>
         <source>From</source>
@@ -1144,7 +1294,7 @@ Address: %4
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID</translation>
+        <translation>ID ning Transaksion</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1197,6 +1347,399 @@ Address: %4
         <translation>Klase</translation>
     </message>
     <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Makabuklat anggang %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Me-kumpirma(%1 kumpirmasion)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ing block a ini ali de atanggap deng aliwa pang nodes ania ali ya magsilbing tanggapan</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Me-generate ya oneng ali ya metanggap</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Atanggap kayabe ning</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Atanggap menibat kang</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Mipadala kang</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Kabayaran keka</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Me-mina</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Status ning Transaksion: Itapat me babo na ning field a ini ban ipakit dala reng bilang dareng me-kumpirma na</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Aldo at oras nung kapilan me tanggap ya ing transaksion</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Klase ning transaksion</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Kepuntalan a address ning transaksion</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Alagang milako o miragdag king balanse.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Eganagana</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Aldo iti</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Paruminggung iti</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Bulan a iti</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Milabas a bulan</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Banuang iti</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Angganan...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Atanggap kayabe ning</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Mipadala kang</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Keng sarili mu</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Me-mina</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Aliwa</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Magpalub kang address o label para pantunan</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Pekaditak a alaga</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopyan ing address</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopyan ing label</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopyan ing alaga</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Alilan ing label</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Ipakit ing detalye ning transaksion</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Me-kumpirma</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Angga:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>para kang</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Magpadalang Barya</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Pamanggamit:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Listahan dareng commands</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Maniauad saup para kareng command</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Pipamilian:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Pilinan ing configuration file(default: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Pilinan ing pid file(default: bitcoind.pid)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Pilinan ing data directory</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Makiramdam king koneksion king &lt;port&gt;(default: 8333 o testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Mag-maintain peka &lt;n&gt; koneksion keng peers (default: 125)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Kumunekta king note ban ayakua mula reng peer address, at mako king panga konekta</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Sabyan me ing kekang pampublikong address</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>Atin kamalian a milyari kabang ayusan ya ing RPC port %u para keng pamakiramdam king IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Tumanggap command line at JSON-RPC commands</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gamitan ing test network</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Kapabaluan: Maliaring pakilawe ing oras at aldo a makalage king kekayung kompyuter nung istu la! Istung ing oras yu mali ya ali ya gumanang masalese ing Bitcoin.</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Pipamilian king pamag-gawang block:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Kumunekta mu king mepiling node(s)</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Mekapansin lang me-corrupt a block database</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>I-discover ing sariling IP address (default: 1 istung makiramdam at -externalip)</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Buri meng buuan pasibayu ing block database ngene?</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>ali metanggap</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Debit</source>
+        <translation>Debit</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Bayad king Transaksion</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Alaga dareng eganagana</translation>
+=======
+        <source>Error opening block database</source>
+        <translation>Kamalian king pamag buklat king block database</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensayi</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Comment</source>
+        <translation>Komentu</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+=======
+        <source>Error: system error: </source>
+        <translation>Kamalian: kamalian na ning sistema:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Impormasion ning Debug</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaksion</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Alaga</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>tutu</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>e tutu</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, eya matagumpeng mibalita</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>e miya balu</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Detalye ning Transaksion</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Ining pane a ini magpakit yang detalyadung description ning transaksion</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kaaldauan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Address</translation>
     </message>
@@ -1429,12 +1972,33 @@ Address: %4
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
+=======
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Mantun peers gamit ing pamamantun DNS (default: 1 unless -connect)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Pilan la reng block a lawan keng umpisa (default: 288, 0 = all)</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>&amp;Impormasion</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Pipamilian ning SSL: (lawen ye ing Bitcoin Wiki para king SSL setup instructions)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Magpadalang trace/debug info okeng console kesa keng debug.log file</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Pipamilian king pamag-gawang block:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect only to the specified node(s)</source>
         <translation>Kumunekta mu king mepiling node(s)</translation>
     </message>
@@ -1475,6 +2039,12 @@ Address: %4
         <translation>Magpadalang trace/debug info okeng console kesa keng debug.log file</translation>
     </message>
     <message>
+=======
+        <source>System error: </source>
+        <translation>Kamalian ning sistema:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Transaction too large</source>
         <translation>Maragul yang masiadu ing transaksion</translation>
     </message>
@@ -1491,6 +2061,13 @@ Address: %4
         <translation>Kapabaluan: Ing bersioin a ini laus ne, kailangan nang mag-upgrade!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>bersion</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>Password para king JSON-RPC koneksion</translation>
     </message>
@@ -1543,10 +2120,21 @@ Address: %4
         <translation>Eya me-resolve ing -bind address: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -externalip address: '%s'</source>
         <translation>Eya me-resolve ing -externalip address: '%s'</translation>
     </message>
     <message>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Eya me-resolve ing -bind address: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Eya me-resolve ing -externalip address: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Eya maliari ing alaga keng -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>

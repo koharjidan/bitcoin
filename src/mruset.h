@@ -33,11 +33,15 @@ public:
     bool empty() const { return set.empty(); }
     iterator find(const key_type& k) const { return set.find(k); }
     size_type count(const key_type& k) const { return set.count(k); }
+<<<<<<< HEAD
     void clear()
     {
         set.clear();
         queue.clear();
     }
+=======
+    void clear() { set.clear(); queue.clear(); }
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     bool inline friend operator==(const mruset<T>& a, const mruset<T>& b) { return a.set == b.set; }
     bool inline friend operator==(const mruset<T>& a, const std::set<T>& b) { return a.set == b; }
     bool inline friend operator<(const mruset<T>& a, const mruset<T>& b) { return a.set < b.set; }

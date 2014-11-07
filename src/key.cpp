@@ -251,3 +251,15 @@ bool ECC_InitSanityCheck() {
     return CECKey::SanityCheck();
 #endif
 }
+
+bool ECC_InitSanityCheck() {
+    EC_KEY *pkey = EC_KEY_new_by_curve_name(NID_secp256k1);
+    if(pkey == NULL)
+        return false;
+    EC_KEY_free(pkey);
+
+    // TODO Is there more EC functionality that could be missing?
+    return true;
+}
+
+

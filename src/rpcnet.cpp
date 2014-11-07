@@ -125,7 +125,11 @@ Value getpeerinfo(const Array& params, bool fHelp)
         obj.push_back(Pair("addr", stats.addrName));
         if (!(stats.addrLocal.empty()))
             obj.push_back(Pair("addrlocal", stats.addrLocal));
+<<<<<<< HEAD
         obj.push_back(Pair("services", strprintf("%016x", stats.nServices)));
+=======
+        obj.push_back(Pair("services", strprintf("%08x", stats.nServices)));
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         obj.push_back(Pair("lastsend", stats.nLastSend));
         obj.push_back(Pair("lastrecv", stats.nLastRecv));
         obj.push_back(Pair("bytessent", stats.nSendBytes));
@@ -410,11 +414,16 @@ Value getnetworkinfo(const Array& params, bool fHelp)
         );
 
     Object obj;
+<<<<<<< HEAD
     obj.push_back(Pair("version",       CLIENT_VERSION));
     obj.push_back(Pair("subversion",
         FormatSubVersion(CLIENT_NAME, CLIENT_VERSION, std::vector<string>())));
     obj.push_back(Pair("protocolversion",PROTOCOL_VERSION));
     obj.push_back(Pair("localservices",       strprintf("%016x", nLocalServices)));
+=======
+    obj.push_back(Pair("version",       (int)CLIENT_VERSION));
+    obj.push_back(Pair("protocolversion",(int)PROTOCOL_VERSION));
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     obj.push_back(Pair("timeoffset",    GetTimeOffset()));
     obj.push_back(Pair("connections",   (int)vNodes.size()));
     obj.push_back(Pair("networks",      GetNetworksInfo()));

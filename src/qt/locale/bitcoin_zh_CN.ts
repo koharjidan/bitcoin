@@ -1,4 +1,44 @@
 <TS language="zh_CN" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>关于比特币核心</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;比特币核心&lt;/b&gt; 版本</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>版权</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core 的开发者</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1 位)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -890,8 +930,17 @@ Address: %4
         <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>比特币核心</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>比特币</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>错误：指定的数据目录“%1”无法创建。</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -1214,6 +1263,17 @@ Address: %4
         <translation>暂时无法启动比特币：点击支付功能</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Net manager warning</source>
+        <translation>网络管理器警告</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>您的活动代理不支持 SOCKS5，而通过代理进行支付请求时这是必须的。</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>付款请求URI链接非法: %1</translation>
     </message>
@@ -1268,20 +1328,34 @@ Address: %4
         <translation>金额</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Bitcoin address (e.g. %1)</source>
         <translation>请输入一个比特币地址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
         <translation>%1 天</translation>
+=======
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>错误：指定的数据目录“%1”不存在。</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>错误: 无法解析配置文件: %1. 只有钥匙=重要的私匙.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%1 h</source>
         <translation>%1 小时</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 分钟</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>比特币核心钱包没有安全退出....</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%1 s</source>
@@ -2067,6 +2141,13 @@ Address: %4
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>请输入比特币地址 (例如: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>单击“签名消息“产生签名。</translation>
     </message>
@@ -2591,6 +2672,13 @@ Address: %4
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin Core RPC client version</source>
+        <translation>比特币核心钱包RPC客户端版本</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Run in the background as a daemon and accept commands</source>
         <translation>在后台运行并接受命令
 
@@ -2634,10 +2722,28 @@ rpcpassword=%s
         <translation>绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation>自由交易不断的速率限制为&lt;n&gt;*1000 字节每分钟(默认值:15)</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>进入回归测试模式，它采用一种特殊的可立即解决的区块链模拟情况。这是为了回归测试工具和应用的开发所设。</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>进入回归测试模式，它采用一种特殊的可立即解决的区块链模拟情况。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
+        <translation>错误: 监听接收连接失败 (监听错误 %d)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的比特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了比特币，但是这个钱包文件中没有记录。</translation>
     </message>
@@ -2650,12 +2756,34 @@ rpcpassword=%s
         <translation>当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation>比这手续费更小的被认为零手续费 (交易产生) (默认:</translation>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation>从缓冲池清理磁盘数据库活动日志每&lt;n&gt;兆字节 (默认值: 100)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation>如何有效的验证checkblocks区块(0-4, 默认值: 3)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>在-genproclimit这种模式下控制产出多少区块</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>设置脚本验证的程序 (%u 到 %d, 0 = 自动, &lt;0 = 保留自由的核心, 默认值: %d)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation>设置处理器生成的限制 (-1 = 无限, 默认值: -1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -2664,12 +2792,26 @@ rpcpassword=%s
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation>无法 %s的绑定到电脑上，比特币核心钱包可能已经在运行。</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>连接至 Tor隐藏服务器时 使用不同的SOCKS5代理 (缺省: -proxy) </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致比特币客户端运行异常。</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>警告：网络似乎并不完全同意！有些矿工似乎遇到了问题。</translation>
     </message>
@@ -2688,6 +2830,13 @@ rpcpassword=%s
     <message>
         <source>(default: 1)</source>
         <translation>(默认值: 1)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation>(默认: wallet.dat)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -2716,6 +2865,13 @@ rpcpassword=%s
     <message>
         <source>Debugging/Testing options:</source>
         <translation>调试/测试选项：</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation>禁止使用安全模式，重新写入一个真正的安全模式日志(默认值: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
@@ -2758,6 +2914,73 @@ rpcpassword=%s
         <translation>监听端口失败。请使用 -listen=0 参数。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Failed to read block info</source>
+        <translation>无法读取数据块信息</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>读取数据块失败</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>无法同步数据块索引</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>无法写入数据块索引</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>无法写入数据块信息</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>无法写数据块</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>无法写入文件信息</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>无法写入coin数据库</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>无法写入交易索引</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>无法写入回滚信息</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>为付款交易支付比特币(每kb)</translation>
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation>比这手续费更小的被认为零手续费 (中继) (默认值: </translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>通过DNS查找节点(缺省：1 除非使用 -connect 选项)</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: 0)</source>
+        <translation>强制安全模式(默认值: 0)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>生成比特币（默认为 0）</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>启动时检测多少个数据块(缺省：288，0=所有)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>如果&lt;category&gt;未提供，将输出所有调试信息。</translation>
     </message>
@@ -2842,6 +3065,7 @@ rpcpassword=%s
         <translation>无法解析 -whitebind 地址: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS5 proxy</source>
         <translation>通过 SOCKS5 代理连接</translation>
     </message>
@@ -2856,6 +3080,22 @@ rpcpassword=%s
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
         <translation>加载wallet.dat错误：需要新版的比特币核心钱包</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-minrelaytxfee=&lt;amount&gt;: '%s' 无效的金额</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-mintxfee=&lt;amount&gt;: '%s' 无效的金额</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation>签名缓冲大小限制每&lt;n&gt; 条目 (默认值: 50000)</translation>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation>开采区块时，日志优先级和手续费每KB (默认值: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
@@ -2878,6 +3118,7 @@ rpcpassword=%s
         <translation>-mintxfee=&lt;amount&gt;: '%s' 无效的金额</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>无效的金额 -paytxfee=&lt;amount&gt;: '%s' (必须至少为 %s)</translation>
     </message>
@@ -2888,12 +3129,25 @@ rpcpassword=%s
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>-whitebind: '%s' 需要指定一个端口</translation>
+=======
+        <source>Print block on startup, if found in block index</source>
+        <translation>如果在搜索区块中找到，请启动打印区块</translation>
+    </message>
+    <message>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation>启动时打印区块树 (默认值: 0)</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL选项：(见有关比特币设置用于SSL说明的维基百科)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>节点中继选项:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Print block on startup, if found in block index</source>
         <translation>如果在搜索区块中找到，请启动打印区块</translation>
     </message>
@@ -2904,8 +3158,7 @@ rpcpassword=%s
     <message>
         <source>RPC server options:</source>
         <translation>RPC 服务器选项：</translation>
-    </message>
-    <message>
+=======
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>随机每1个丢失测试&lt;n&gt;网络信息</translation>
     </message>
@@ -2914,12 +3167,47 @@ rpcpassword=%s
         <translation>随机每1个模拟测试&lt;n&gt;网络信息</translation>
     </message>
     <message>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation>运行一个程序，定时清理钱包 (默认值：1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>随机每1个丢失测试&lt;n&gt;网络信息</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>随机每1个模拟测试&lt;n&gt;网络信息</translation>
+=======
+        <source>Send command to Bitcoin Core</source>
+        <translation>发送指令到比特币核心钱包</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>跟踪/调试信息输出到控制台，不输出到 debug.log 文件</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>显示所有调试选项 (用法: --帮助 -帮助调试)</translation>
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>设置最小数据块大小(缺省:0)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation>设置DB_PRIVATE钱包标志DB环境 (默认值: 1)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>显示所有调试选项 (用法: --帮助 -帮助调试)</translation>
+    </message>
+    <message>
+        <source>Show benchmark information (default: 0)</source>
+        <translation>显示标准信息 (默认值: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -2930,8 +3218,21 @@ rpcpassword=%s
         <translation>签署交易失败</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is experimental software.</source>
         <translation>这是实验性的软件。</translation>
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>设置连接超时时间(缺省：5000毫秒)</translation>
+    </message>
+    <message>
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>开启比特币核心钱包守护进程</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>系统错误：</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2984,6 +3285,13 @@ rpcpassword=%s
     <message>
         <source>on startup</source>
         <translation>启动中</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>version</source>
+        <translation>版本</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -3044,10 +3352,21 @@ rpcpassword=%s
         <translation>无法解析 -bind 端口地址: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -externalip address: '%s'</source>
         <translation>无法解析 -externalip 地址: '%s'</translation>
     </message>
     <message>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>无法解析 -bind 端口地址: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>无法解析 -externalip 地址: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>非法金额 -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>

@@ -1,4 +1,10 @@
 <TS language="af_ZA" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -48,6 +54,13 @@
         <translation>Herhaal nuwe wagwoord</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Tik die nuwe wagwoord vir die beursie in.&lt;br/&gt;Gebruik asseblief 'n wagwoord van &lt;b&gt;ten minste 10 ewekansige karakters&lt;/b&gt;, of &lt;b&gt;agt (8) of meer woorde.&lt;/b&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Encrypt wallet</source>
         <translation>Enkripteer beursie</translation>
     </message>
@@ -139,6 +152,13 @@
         <translation>Sluit af</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>Wys inligting oor Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show information about Qt</source>
         <translation>Wys inligting oor Qt</translation>
     </message>
@@ -149,6 +169,8 @@
     <message>
         <source>Bitcoin</source>
         <translation>Bitcoin</translation>
+<<<<<<< HEAD
+=======
     </message>
     <message>
         <source>Wallet</source>
@@ -169,6 +191,10 @@
     <message>
         <source>Tabs toolbar</source>
         <translation>Blad nutsbalk</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klient</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -211,12 +237,17 @@
     <message>
         <source>Copy address</source>
         <translation>Maak kopie van adres</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>&amp;File</source>
+        <translation>&amp;Lêer</translation>
+=======
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
     </message>
@@ -257,6 +288,11 @@
 <context>
     <name>Intro</name>
     <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
@@ -277,6 +313,223 @@
         <source>Form</source>
         <translation>Vorm</translation>
     </message>
+    <message>
+<<<<<<< HEAD
+        <source>%1 behind</source>
+        <translation>%1 agter</translation>
+    </message>
+    <message>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Ontvangs van laaste blok is %1 terug.</translation>
+=======
+        <source>Wallet</source>
+        <translation>Beursie</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Onlangse transaksies&lt;/b&gt;</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
+        <source>Error</source>
+        <translation>Fout</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informasie</translation>
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Informasie</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+=======
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Maak kopie van adres</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+=======
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+=======
+        <source>Date</source>
+        <translation>Datum</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>New receiving address</source>
+        <translation>Nuwe ontvangende adres</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nuwe stuurende adres</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Wysig ontvangende adres</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Wysig stuurende adres</translation>
+=======
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Could not unlock wallet.</source>
+        <translation>Kon nie die beursie oopsluit nie.</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Stuur Munstukke</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+=======
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Stuur aan vele ontvangers op eens</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Options</source>
+        <translation>Opsies</translation>
+=======
+        <source>Balance:</source>
+        <translation>Balans:</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>S&amp;tuur</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
+        <source>Form</source>
+        <translation>Vorm</translation>
+=======
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
     </context>
 <context>
     <name>PaymentServer</name>
@@ -287,6 +540,7 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
@@ -299,11 +553,23 @@
     <message>
         <source>&amp;Information</source>
         <translation>Informasie</translation>
+=======
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
@@ -329,23 +595,104 @@
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+=======
+        <source>Message:</source>
+        <translation>Boodskap:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Teken boodskap</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Handtekening</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Teken &amp;Boodskap</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Etiket</translation>
+=======
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>eie adres</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>etiket</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Krediet</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>nie aanvaar nie</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debiet</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaksie fooi</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Netto bedrag</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Message</source>
         <translation>Boodskap</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transaction ID</source>
+        <translation>Transaksie ID</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
     </message>
@@ -379,13 +726,68 @@
     <message>
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
+=======
+        <source>true</source>
+        <translation>waar</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>onwaar</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipe</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvang met</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Ontvang van</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Gestuur na</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Betalings Aan/na jouself</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <source>Message:</source>
         <translation>Boodskap:</translation>
+=======
+        <source>Mined</source>
+        <translation>Gemyn</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -394,6 +796,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sign Message</source>
         <translation>&amp;Teken boodskap</translation>
     </message>
@@ -477,46 +880,7 @@
     <message>
         <source>unknown</source>
         <translation>onbekend</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDescDialog</name>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Tipe</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Ontvang met</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Ontvang van</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Gestuur na</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Betalings Aan/na jouself</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Gemyn</translation>
-    </message>
-    <message>
+=======
         <source>(n/a)</source>
         <translation>(n.v.t)</translation>
     </message>
@@ -552,6 +916,198 @@
         <translation>Verlede maand</translation>
     </message>
     <message>
+        <source>This year</source>
+        <translation>Hierdie jaar</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Reeks...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvang met</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Gestuur na</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Aan/na jouself</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Gemyn</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Ander</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Min bedrag</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Maak kopie van adres</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipe</translation>
+=======
+        <source>Type</source>
+        <translation>Tipe</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Received with</source>
+        <translation>Ontvang met</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Ontvang van</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Gestuur na</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Betalings Aan/na jouself</translation>
+=======
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Reeks:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>aan</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Mined</source>
+        <translation>Gemyn</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Stuur Munstukke</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>(n/a)</source>
+        <translation>(n.v.t)</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum en tyd wat die transaksie ontvang was.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Tipe transaksie.</translation>
+=======
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Opsies:</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Luister vir konneksies op &lt;port&gt; (standaard: 8333 of testnet: 18333)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Vandag</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Hierdie week</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Hierdie maand</translation>
+=======
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Onderhou op die meeste &lt;n&gt; konneksies na eweknieë (standaard: 125)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gebruik die toets netwerk</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Fout: Hardeskyf spasie is baie laag!</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informasie</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Verlede maand</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>This year</source>
         <translation>Hierdie jaar</translation>
     </message>
@@ -655,6 +1211,8 @@
         <translation>Informasie</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>This help message</source>
         <translation>Hierdie help boodskap</translation>
     </message>
@@ -686,5 +1244,9 @@
         <source>Error</source>
         <translation>Fout</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

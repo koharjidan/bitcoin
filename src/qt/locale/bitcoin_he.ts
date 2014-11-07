@@ -1,4 +1,36 @@
 <TS language="he" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>על אודות ליבת ביטקוין</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;קליינט ביטקוין&lt;/b&gt; גירסאת</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+זוהי תוכנה ניסיונית.
+
+מופצת תחת רישיון התוכנה MIT/X11, ראה את הקובץ המצורף COPYING או http://www.opensource.org/licenses/mit-license.php.
+
+המוצר הזה כולל תוכנה שפותחה ע"י פרויקט OpenSSL לשימוש בתיבת הכלים OpenSSL (http://www.openssl.org/) ותוכנה קריפטוגרפית שנכתבה ע"י אריק יאנג (eay@cryptsoft.com) ותוכנת UPnP שנכתבה ע"י תומס ברנרד.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>זכויות יוצרים</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -93,11 +125,15 @@
         <source>Exporting Failed</source>
         <translation>היצוא נכשל</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>אירעה שגיאה בעת הניסיון לשמור את רשימת הכתובת אל %1. נא לנסות שוב.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -235,10 +271,13 @@
         <translation>&amp;סקירה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation>מפרק</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show general overview of wallet</source>
         <translation>הצגת סקירה כללית של הארנק</translation>
     </message>
@@ -283,6 +322,7 @@
         <translation>ה&amp;חלפת מילת הצופן…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sending addresses...</source>
         <translation>כתובת ה&amp;שליחה…</translation>
     </message>
@@ -299,6 +339,8 @@
         <translation>לקוח ליבה של ביטקוין</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Importing blocks from disk...</source>
         <translation>מקטעים מיובאים מהכונן…</translation>
     </message>
@@ -412,6 +454,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation>פתיחת ביטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -421,6 +464,13 @@
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>הצגת הודעות העזרה של ליבת ביטקוין כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של ביטקוין</translation>
+=======
+        <translation>פתח ביטקוין: URI או בקשת תשלום</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>תוכנת ביטקוין</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>No block source available...</source>
@@ -439,10 +489,13 @@
         <translation><numerusform>%n שבוע</numerusform><numerusform>%n שבועות</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 and %2</source>
         <translation>%1 ו%2</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Last received block was generated %1 ago.</source>
         <translation>המקטע האחרון שהתקבל נוצר לפני %1.</translation>
     </message>
@@ -509,7 +562,11 @@ Address: %4
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control Address Selection</source>
+<<<<<<< HEAD
         <translation>בחירת כתובת שליטה במטבעות</translation>
+=======
+        <translation>בחירת כתובת שליטת מטבעות</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Quantity:</source>
@@ -532,8 +589,13 @@ Address: %4
         <translation>תשלום:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>אבק:</translation>
+=======
+        <source>Low Output:</source>
+        <translation>פלט נמוך:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>After Fee:</source>
@@ -597,11 +659,19 @@ Address: %4
     </message>
     <message>
         <source>Lock unspent</source>
+<<<<<<< HEAD
         <translation>נעילת יתרה</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
         <translation>פתיחת יתרה</translation>
+=======
+        <translation>נעל יתרה</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>פתח יתרה</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy quantity</source>
@@ -624,8 +694,13 @@ Address: %4
         <translation>העתקת עדיפות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy dust</source>
         <translation>העתקת אבק</translation>
+=======
+        <source>Copy low output</source>
+        <translation>העתק פלט נמוך</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy change</source>
@@ -665,6 +740,7 @@ Address: %4
     </message>
     <message>
         <source>lowest</source>
+<<<<<<< HEAD
         <translation>הנמוך ביותר</translation>
     </message>
     <message>
@@ -674,6 +750,13 @@ Address: %4
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>יכולה להשתנות ב+/- %1 סטושי לקלט.</translation>
+=======
+        <translation>הכי נמוך</translation>
+    </message>
+    <message>
+        <source>Dust</source>
+        <translation>אבק</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>yes</source>
@@ -697,11 +780,19 @@ Address: %4
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
+<<<<<<< HEAD
         <translation>העברות עם עדיפות גבוהה, יותר סיכוי שיכנסו לתוך המקטע.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
         <translation>תווית זו מאדימה אם העדיפות היא פחות מ„בינוני“</translation>
+=======
+        <translation>העברות עם עדיפות גבוהה, יותר סיכוי שיכנסו לתוך הבלוק</translation>
+    </message>
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>סכומים נמוכים מ 0.546 כפול מינימום סכום ההעברה מופיעים כאבק</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>(no label)</source>
@@ -756,11 +847,19 @@ Address: %4
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
+<<<<<<< HEAD
         <translation>הכתובת שהוכנסה „%1“ כבר נמצאת בפנקס הכתובות.</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
         <translation>הכתובת שהוכנסה „%1“ אינה כתובת ביטקוין תקנית.</translation>
+=======
+        <translation>הכתובת שהכנסת "%1" כבר נמצאת בפנקס הכתובות.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>הכתובת שהוכנסה "%1" אינה כתובת ביטקוין תקינה.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -830,25 +929,36 @@ Address: %4
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
+<<<<<<< HEAD
         <translation>הגדרת שפה, למשל „he_il“ (בררת מחדל: שפת המערכת)</translation>
+=======
+        <translation>קבע שפה, למשל "he_il" (ברירת מחדל: שפת המערכת)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Start minimized</source>
         <translation>התחלה במצב ממוזער</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>הגדרות אישורי בסיס של SSL לבקשות תשלום (בררת המחדל: -מערכת-)</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show splash screen on startup (default: 1)</source>
         <translation>הצגת מסך פתיחה בעת הפעלה (בררת מחדל: 1)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>בחירת תיקיית נתונים עם ההפעלה (בררת מחדל: 0)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>Intro</name>
     <message>
@@ -880,14 +990,31 @@ Address: %4
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>שגיאה: לא ניתן ליצור את תיקיית הנתונים שצוינה „%1“.</translation>
+=======
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>שגיאה: אי אפשר ליצור את התיקיה "%1"</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>GB of free space available</source>
+        <translation>ג"ב של שטח אחסון פנוי</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(מתוך %1 ג"ב נחוצים)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -896,7 +1023,11 @@ Address: %4
     </message>
     <message>
         <source>Open payment request from URI or file</source>
+<<<<<<< HEAD
         <translation>פתיחת בקשת תשלום מכתובת משאב או מקובץ</translation>
+=======
+        <translation>פתח בקשת תשלום מ-URI או קובץ</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>URI:</source>
@@ -938,14 +1069,18 @@ Address: %4
         <translation>ה&amp;פעלת ביטקוין בעת הכניסה למערכת</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Size of &amp;database cache</source>
         <translation>גודל מ&amp;טמון מסד הנתונים</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>MB</source>
         <translation>מ״ב</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation>מספר תהליכי ה&amp;אימות של הסקריפט</translation>
     </message>
@@ -982,6 +1117,8 @@ Address: %4
         <translation>אפשרויות פעילות בשורת הפקודה שדורסות את האפשרויות שלהלן:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Reset all client options to default.</source>
         <translation>איפוס כל אפשרויות התכנית לבררת המחדל.</translation>
     </message>
@@ -994,6 +1131,7 @@ Address: %4
         <translation>&amp;רשת</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = אוטומטי, &lt;0 = להשאיר כזאת כמות של ליבות חופשיות)</translation>
     </message>
@@ -1020,6 +1158,10 @@ Address: %4
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+=======
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>פתח את פורט ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע"י הנתב.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1079,7 +1221,11 @@ Address: %4
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
+<<<<<<< HEAD
         <translation>האם להציג תכונות שליטת מטבע או לא.</translation>
+=======
+        <translation>הצג תכונות שליטת מטבע או לא.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1094,14 +1240,18 @@ Address: %4
         <translation>בררת מחדל</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation>ללא</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Confirm options reset</source>
         <translation>אישור איפוס האפשרויות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation>נדרשת הפעלה מחדש של הלקוח כדי להפעיל את השינויים.</translation>
     </message>
@@ -1114,6 +1264,8 @@ Address: %4
         <translation>שינוי זה ידרוש הפעלה מחדש של תכנית הלקוח.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>The supplied proxy address is invalid.</source>
         <translation>כתובת המתווך שסופקה אינה תקינה.</translation>
     </message>
@@ -1133,18 +1285,24 @@ Address: %4
         <translation>צפייה בלבד:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Available:</source>
         <translation>זמין:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Your current spendable balance</source>
         <translation>היתרה הזמינה הנוכחית</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Pending:</source>
         <translation>בהמתנה:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>הסכום הכולל של העברות שטרם אושרו ועדיין אינן נספרות בחישוב היתרה הזמינה</translation>
     </message>
@@ -1232,6 +1390,7 @@ Address: %4
         <translation>לא ניתן להתחיל את ביטקוין: טיפול בלחיצה–לתשלום </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>כתובת אחזור בקשת התשלום שגויה: %1</translation>
     </message>
@@ -1248,6 +1407,8 @@ Address: %4
         <translation>לא ניתן לקרוא את קובץ בקשת התשלום! מצב כזה יכול לקרות בעקבות קובץ בקשת תשלום פגום.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>בקשות תשלום בלתי מאומתות לסקריפטים לתשלום מותאמים אישית אינן נתמכות.</translation>
     </message>
@@ -1260,10 +1421,13 @@ Address: %4
         <translation>שגיאה בתקשורת עם %1: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request cannot be parsed!</source>
         <translation>לא ניתן לפענח את בקשת התשלום!</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Bad response from server %1</source>
         <translation>מענה שגוי משרת %1</translation>
     </message>
@@ -1314,18 +1478,24 @@ Address: %4
         <translation>%1 דקות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 s</source>
         <translation>%1 שניות</translation>
     </message>
     <message>
         <source>NETWORK</source>
         <translation>רשת</translation>
+=======
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>שגיאה: הספריה "%1" לא קיימת.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>UNKNOWN</source>
         <translation>לא ידוע</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>None</source>
         <translation>ללא</translation>
     </message>
@@ -1336,6 +1506,10 @@ Address: %4
     <message>
         <source>%1 ms</source>
         <translation>%1 מילישניות</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>הכנס כתובת ביטקוין (למשל 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -1557,11 +1731,15 @@ Address: %4
     </message>
     <message>
         <source>%1 GB</source>
+<<<<<<< HEAD
         <translation>%1 ג״ב</translation>
     </message>
     <message>
         <source>via %1</source>
         <translation>דרך %1</translation>
+=======
+        <translation>%1 ג'יגה בייט</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>never</source>
@@ -1607,6 +1785,7 @@ Address: %4
         <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ביטקוין.</translation>
     </message>
@@ -1623,6 +1802,8 @@ Address: %4
         <translation>סכום כרשות לבקשה. ניתן להשאיר זאת ריק כדי לא לבקש סכום מסוים.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Clear all fields of the form.</source>
         <translation>ניקוי כל השדות של הטופס.</translation>
     </message>
@@ -1631,16 +1812,23 @@ Address: %4
         <translation>ניקוי</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payments history</source>
         <translation>היסטוריית בקשות תשלום</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Request payment</source>
         <translation>&amp;בקשת תשלום</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
+<<<<<<< HEAD
         <translation>הצגת בקשות נבחרות (דומה ללחיצה כפולה על רשומה)</translation>
+=======
+        <translation>הצג בקשות נבחרות (דומה ללחיצה כפולה על רשומה)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Show</source>
@@ -1648,7 +1836,11 @@ Address: %4
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
+<<<<<<< HEAD
         <translation>הסרת הרשומות הנבחרות מהרשימה</translation>
+=======
+        <translation>הסר הרשומות הנבחרות מהרשימה</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Remove</source>
@@ -1659,10 +1851,13 @@ Address: %4
         <translation>העתקת תווית</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy message</source>
         <translation>העתקת הודעה</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy amount</source>
         <translation>העתקת כמות</translation>
     </message>
@@ -1748,11 +1943,15 @@ Address: %4
         <source>(no message)</source>
         <translation>(אין הודעה)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no amount)</source>
         <translation>(אין סכום)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1793,7 +1992,15 @@ Address: %4
     </message>
     <message>
         <source>Fee:</source>
+<<<<<<< HEAD
         <translation>עמלה:</translation>
+=======
+        <translation>תשלום:</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>פלט נמוך:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>After Fee:</source>
@@ -1804,10 +2011,13 @@ Address: %4
         <translation>עודף:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation>אם אפשרות זו מופעלת אך כתובת העודף ריקה או שגויה, העודף יישלח לכתובת חדשה שתיווצר.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Custom change address</source>
         <translation>כתובת לעודף מותאמת אישית</translation>
     </message>
@@ -1873,17 +2083,28 @@ Address: %4
     </message>
     <message>
         <source>Copy priority</source>
+<<<<<<< HEAD
         <translation>העתקת עדיפות</translation>
+=======
+        <translation>העתק קדימות</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>העתק פלט נמוך</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy change</source>
         <translation>העתקת עודף</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1 (= %2)</source>
         <translation>הסכום הכולל %1 (= %2)</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>or</source>
         <translation>או</translation>
     </message>
@@ -1912,6 +2133,7 @@ Address: %4
         <translation>יצירת ההעברה נכשלה!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>ההעברה נדחתה! מצב כזה עשוי לקרות אם חלק מהמטבעות בארנק שלך כבר הושקעו, כמו למשל עקב שימוש בעותק של wallet.dat והמטבעות הושקעו בעותק אבל לא סומנו כאילו הושקעו דרך כאן.</translation>
     </message>
@@ -1920,10 +2142,13 @@ Address: %4
         <translation>אזהרה: כתובת ביטקוין שגויה</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>(no label)</source>
         <translation>(אין תווית)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unknown change address</source>
         <translation>אזהרה: כתובת עודף בלתי ידועה</translation>
     </message>
@@ -1932,6 +2157,8 @@ Address: %4
         <translation>העתקת אבק</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Are you sure you want to send?</source>
         <translation>האם אכן לשלוח?</translation>
     </message>
@@ -1983,10 +2210,13 @@ Address: %4
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Remove this entry</source>
         <translation>הסרת רשומה זו</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Message:</source>
         <translation>הודעה:</translation>
     </message>
@@ -1999,10 +2229,13 @@ Address: %4
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>This is an unverified payment request.</source>
         <translation>זוהי בקשת תשלום בלתי־מאומתת.</translation>
     </message>
@@ -2018,10 +2251,13 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core is shutting down...</source>
         <translation>ליבת ביטקוין נסגרת…</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>אין לכבות את המחשב עד שחלון זה נעלם.</translation>
     </message>
@@ -2114,7 +2350,11 @@ Address: %4
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
+<<<<<<< HEAD
         <translation>יש ללחוץ על „חתימה על ההודעה“ כדי לחולל חתימה</translation>
+=======
+        <translation>לחץ "חתום על ההודעה" כדי לחולל חתימה</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2172,10 +2412,13 @@ Address: %4
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Bitcoin Core developers</source>
         <translation>מתכנתי ליבת ביטקוין</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>[testnet]</source>
         <translation>[רשת-בדיקה]</translation>
     </message>
@@ -2194,10 +2437,13 @@ Address: %4
         <translation>פתוחה עד %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>conflicted</source>
         <translation>מתנגש</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>%1/offline</source>
         <translation>%1/מנותק</translation>
     </message>
@@ -2291,7 +2537,11 @@ Address: %4
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+<<<<<<< HEAD
         <translation>מטבעות חדשים שנוצרו חייבים להבשיל במשך %1 מקטעים לפני שניתן לנצל אותם. כשמקטע זה נוצר הוא משודר ברשת על מנת שייכנס לשרשרת המקטעים. אם הוא לא ייכנס לשרשרת, מצבו ישתנה ל„לא התקבל“ ולא ניתן יהיה לנצלו. מצב כזה יכול לקרות מדי פעם אם במקרה מפרק אחר יצר מקטע בהבדל של שניות בודדות ממך.</translation>
+=======
+        <translation>מטבעות חדשים שנוצרו חייבים להבשיל במשך %1 בלוקים לפני שניתן לנצל אותם. כשבלוק זה נוצר הוא שודר ברשת על מנת שייכנס לשרשרת הבלוקים. במקרה והוא לא ייכנס לשרשרת, מצבו ישתנה ל"לא התקבל" ולא ניתן יהיה לנצלו. זה יכול לקרות מדי פעם אם במקרה צומת אחרת ייצרה בלוק בהבדל של שניות בודדות ממך.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Debug information</source>
@@ -2356,8 +2606,13 @@ Address: %4
         <translation>כתובת</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>לא בשל (%1 אישורים, יהיו זמינים לאחר %2)</translation>
+=======
+        <source>Amount</source>
+        <translation>כמות</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
@@ -2380,6 +2635,7 @@ Address: %4
         <translation>נוצר אך לא התקבל</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Offline</source>
         <translation>מנותק</translation>
     </message>
@@ -2396,6 +2652,8 @@ Address: %4
         <translation>מתנגש</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Received with</source>
         <translation>התקבל עם</translation>
     </message>
@@ -2543,10 +2801,13 @@ Address: %4
         <translation>היצוא נכשל</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the transaction history to %1.</source>
         <translation>אירעה שגיאה בעת ניסיון לשמור את היסטוריית ההעברות אל %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Exporting Successful</source>
         <translation>היצוא בוצע בהצלחה</translation>
     </message>
@@ -2635,6 +2896,7 @@ Address: %4
         <translation>גיבוי נכשל</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation>אירעה שגיאה בעת ניסיון לשמירת נתוני הארנק אל %1.</translation>
     </message>
@@ -2643,6 +2905,8 @@ Address: %4
         <translation>נתוני הארנק נשמרו בהצלחה אל %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Backup Successful</source>
         <translation>הגיבוי הושלם בהצלחה</translation>
     </message>
@@ -2667,7 +2931,11 @@ Address: %4
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
+<<<<<<< HEAD
         <translation>קבלת פקודות משורת הפקודה ומ־JSON-RPC</translation>
+=======
+        <translation>קבל פקודות משורת הפקודה ו- JSON-RPC</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2698,10 +2966,17 @@ for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
 מומלץ להשתמש בססמה האקראית הבאה:
 rpcuser=bitcoinrpc
 rpcpassword=%s
+<<<<<<< HEAD
 (אין צורך לזכור את הססמה)
 אסור ששם המשתמש והססמה יהיו זהים.
 אם הקובץ אינו קיים, יש ליצור אותו עם הרשאות קריאה לבעלים בלבד.
 כמו כן, מומלץ להגדיר את alertnotify כדי לקבל דיווח על תקלות;
+=======
+(אין צורך לזכור את הסיסמה)
+אסור ששם המשתמש והסיסמא יהיו זהים.
+אם הקובץ אינו קיים, צור אותו עם הרשאות קריאה לבעלים בלבד.
+זה מומלץ לסמן alertnotify כדי לקבל דיווח על תקלות;
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 למשל: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com 
 </translation>
     </message>
@@ -2710,6 +2985,7 @@ rpcpassword=%s
         <translation>להתאגד לכתובת נתונה להאזין לה תמיד. יש להשתמש בצורה ‎[host]:port עבור IPv6.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>מחיקת כל העברות הארנק ולשחזר רק את החלקים המסוימים בשרשרת המקטעים באמצעות ‎-rescan עם ההפעלה</translation>
     </message>
@@ -2718,6 +2994,12 @@ rpcpassword=%s
         <translation>כניסה למצב בדיקת נסיגה, שמשתמש בשרשרת מיוחדת בה ניתן לפתור את המקטעים במהירות.</translation>
     </message>
     <message>
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>כניסה למצב בדיקת רגרסיה, בה נעשה שימוש בשרשרת מיוחדת המאפשרת פתרון מיידי של בלוקים. מצב זה מיועד לכלי בדיקת רגרסיה ופיתוח תוכנה.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>שגיאה: ההעברה נדחתה! מצב כזה עלול לקרות אם כמה מהמטבעות בארנק שלך כבר נוצלו, למשל אם השתמשת בעותק של wallet.dat ומטבעות נשלחו בעותק אך לא סומנו כמושקעות כאן.</translation>
     </message>
@@ -2727,19 +3009,32 @@ rpcpassword=%s
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+<<<<<<< HEAD
         <translation>ביצוע פקודה כאשר העברה בארנק משתנה (%s ב־cmd יוחלף ב־TxID)</translation>
+=======
+        <translation>בצע פקודה כאשר פעולת ארנק משתנה (%s ב cmd יוחלף ב TxID)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת ביטקוין כבר פועלת.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>אזהרה: ‎-paytxfee נקבע לערך מאד גבוה! זוהי עמלת הפעולה שתשולם בעת העברת שליחה.</translation>
+=======
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>אזהרה: -paytxfee נקבע לערך מאד גבוה! זוהי עמלת הפעולה שתשלם אם אתה שולח פעולה.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>אזהרה: אנא בדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך אינו נכון ביטקוין לא יעבוד כראוי.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2758,6 +3053,7 @@ rpcpassword=%s
         <translation>אזהרה: הקובץ wallet.dat הושחת, המידע חולץ! קובץ ה־wallet.dat המקורי נשמר בשם wallet.{timestamp}.bak במיקום %s; אם המאזן או ההעברות שגויים עליך לשחזר גיבוי.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation>(בררת מחדל: 1)</translation>
     </message>
@@ -2766,18 +3062,31 @@ rpcpassword=%s
         <translation>&lt;קטגוריה&gt; יכולה להיות:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>נסה לשחזר מפתחות פרטיים מקובץ wallet.dat מושחת.</translation>
     </message>
     <message>
         <source>Block creation options:</source>
+<<<<<<< HEAD
         <translation>אפשרויות יצירת מקטע:</translation>
+=======
+        <translation>אפשרויות יצירת בלוק:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
         <translation>התחבר רק לצמתים המצוינים</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>התחבר ל JSON-RPC ב &lt;port&gt; (ברירת מחדל: 8332 או ברשת בדיקה: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connection options:</source>
         <translation>הגדרות חיבור:</translation>
     </message>
@@ -2786,18 +3095,24 @@ rpcpassword=%s
         <translation>התגלה מסד נתוני מקטעים לא תקין</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debugging/Testing options:</source>
         <translation>אפשרויות ניפוי/בדיקה:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>לגלות את כתובת ה־IP העצמית (בררת מחדל: 1 בעת האזנה וללא ‎-externalip)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>לא לטעון את הארנק ולנטרל קריאות RPC</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Do you want to rebuild the block database now?</source>
         <translation>האם לבנות מחדש את מסד נתוני המקטעים?</translation>
     </message>
@@ -2830,12 +3145,69 @@ rpcpassword=%s
         <translation>האזנה נכשלה בכל פורט. השתמש ב- -listen=0 אם ברצונך בכך.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>אם לא סופקה &lt;קטגוריה&gt; יש לייצא את כל פרטי הניפוי.</translation>
     </message>
     <message>
         <source>Importing...</source>
         <translation>מתבצע יבוא…</translation>
+=======
+        <source>Failed to read block info</source>
+        <translation>קריאת מידע הבלוקים נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>קריאת הבלוק נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>סנכרון אינדקס הבלוקים נכשל</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>כתיבת אינדקס הבלוקים נכשל</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>כתיבת מידע הבלוקים נכשל</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>כתיבת הבלוק נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>כתיבת מידע הקבצים נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>כתיבת מסד נתוני המטבעות נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>כתיבת אינדקס הפעולות נכשלה</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>כתיבת נתוני ביטול נכשלה</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>עמלה לכל kB להוסיף לפעולות שאתה שולח</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>מצא עמיתים ע"י חיפוש DNS (ברירת מחדל: 1 ללא -connect)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>ייצר מטבעות (ברגיל: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>מספר הבלוקים לבדוק בעת אתחול (ברירת מחדל: 288, 0 = כולם)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
@@ -2850,6 +3222,7 @@ rpcpassword=%s
         <translation>אין מספיק מידע על הקובץ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>תמיד להתחבר למפרקים ברשת &lt;net&gt;‏ (ipv4,‏ ipv6 או onion)</translation>
     </message>
@@ -2872,6 +3245,22 @@ rpcpassword=%s
     <message>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>תכונה זו מיועדת לכלי בדיקות נסיגה ופיתוח יישומים.</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>בנה מחדש את אינדק שרשרת הבלוקים מקבצי ה-blk000??.dat הנוכחיים.</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>קבע את מספר תהליכוני לשירות קריאות RPC (ברירת מחדל: 4)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>ציין קובץ ארנק (בתוך ספריית המידע)</translation>
+    </message>
+    <message>
+        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <translation>שימוש (מיושן, השתמש ב bitcoin-cli):</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2879,27 +3268,39 @@ rpcpassword=%s
     </message>
     <message>
         <source>Verifying wallet...</source>
+<<<<<<< HEAD
         <translation>הארנק מאומת…</translation>
+=======
+        <translation>מאמת את יושרת הארנק...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>הארנק %s יושב מחוץ לתיקיית הנתונים %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet options:</source>
         <translation>אפשרויות הארנק:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>עליך לבנות מחדש את מסד הנתונים תוך שימוש ב־‎-reindex על מנת לשנות את ‎-txindex</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
+<<<<<<< HEAD
         <translation>מיובאים מקטעים מקובצי blk000??.dat חיצוניים</translation>
+=======
+        <translation>מייבא בלוקים מקובצי blk000??.dat חיצוניים</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Fees (in BTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
@@ -2908,12 +3309,15 @@ rpcpassword=%s
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
         <translation>אזהרה: נא לבדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך שגוי ליבת ביטקוין לא תעבוד כראוי.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>לא ניתן לפתור את הכתובת ‎-whitebind:‏ '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS5 proxy</source>
         <translation>התחברות דרך מתווך SOCKS5</translation>
     </message>
@@ -2928,6 +3332,14 @@ rpcpassword=%s
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
         <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת ביטקוין</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
@@ -2950,6 +3362,7 @@ rpcpassword=%s
         <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
         <translation>כמות לא תקינה עבור ‎-mintxfee=&lt;amount&gt;‎:‏ '%s'</translation>
     </message>
@@ -2986,12 +3399,27 @@ rpcpassword=%s
         <translation>להשמיט אקראית אחת מתוך כל &lt;n&gt; הודעות רשת</translation>
     </message>
     <message>
+=======
+        <source>RPC server options:</source>
+        <translation>הגדרות שרת RPC</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>אפשרויות SSL: (ראה את הויקי של ביטקוין עבור הוראות הגדרת SSL)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>שלח מידע דיבאג ועקבה לקונסולה במקום לקובץ debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>הצגת כל אפשרויות הניפוי (שימוש: ‎--help -help-debug)</translation>
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>קבע את גודל הבלוק המינימלי בבתים (ברירת מחדל: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -3002,8 +3430,17 @@ rpcpassword=%s
         <translation>החתימה על ההעברה נכשלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is experimental software.</source>
         <translation>זוהי תכנית נסיונית.</translation>
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>ציין הגבלת זמן לחיבור במילישניות (ברירת מחדל: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>שגיאת מערכת:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3042,12 +3479,17 @@ rpcpassword=%s
         <translation>אזהרה: הגרסה הזאת מיושנת, יש צורך בשדרוג!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
         <translation>אזהרה: הארגומנט שאינו נתמך עוד ‎-benchmark לא הופעל, נא להשתמש ב־‎-debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
         <translation>אזהרה: הארגומנט שאינו נתמך עוד ‎-debugnet לא הופעל, נא להשתמש ב־‎-debug=net.</translation>
+=======
+        <source>on startup</source>
+        <translation>בפתיחה</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>on startup</source>
@@ -3099,23 +3541,44 @@ rpcpassword=%s
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
+<<<<<<< HEAD
         <translation>כתובת ‎-proxy לא תקינה: '%s'</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>רשת לא ידועה צוינה דרך ‎-onlynet:‏ '%s'</translation>
+=======
+        <translation>כתובת -proxy לא תקינה: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>רשת לא ידועה צוינה ב- -onlynet: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
         <translation>לא ניתן לפתור את הכתובת ‎-bind:‏ '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -externalip address: '%s'</source>
         <translation>לא ניתן לפתור את הכתובת ‎-externalip:‏ '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>כמות לא תקינה עבור ‎-paytxfee=&lt;amount&gt;‎:‏ '%s'</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>לא מסוגל לפתור כתובת -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>לא מסוגל לפתור כתובת -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Invalid amount</source>

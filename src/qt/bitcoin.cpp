@@ -496,7 +496,10 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(bitcoin);
+<<<<<<< HEAD
     Q_INIT_RESOURCE(bitcoin_locale);
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     GUIUtil::SubstituteFonts();
 
