@@ -25,7 +25,72 @@
 #include <vector>
 
 #include <boost/filesystem/path.hpp>
+<<<<<<< HEAD
 #include <boost/thread/exceptions.hpp>
+=======
+#include <boost/thread.hpp>
+
+class CNetAddr;
+class uint256;
+
+static const int64_t COIN = 100000000;
+static const int64_t CENT = 1000000;
+
+#define BEGIN(a)            ((char*)&(a))
+#define END(a)              ((char*)&((&(a))[1]))
+#define UBEGIN(a)           ((unsigned char*)&(a))
+#define UEND(a)             ((unsigned char*)&((&(a))[1]))
+#define ARRAYLEN(array)     (sizeof(array)/sizeof((array)[0]))
+
+// This is needed because the foreach macro can't get over the comma in pair<t1, t2>
+#define PAIRTYPE(t1, t2)    std::pair<t1, t2>
+
+// Align by increasing pointer, must have extra space at end of buffer
+template <size_t nBytes, typename T>
+T* alignup(T* p)
+{
+    union
+    {
+        T* ptr;
+        size_t n;
+    } u;
+    u.ptr = p;
+    u.n = (u.n + (nBytes-1)) & ~(nBytes-1);
+    return u.ptr;
+}
+
+#ifdef WIN32
+#define MSG_DONTWAIT        0
+
+#ifndef S_IRUSR
+#define S_IRUSR             0400
+#define S_IWUSR             0200
+#endif
+#else
+#define MAX_PATH            1024
+#endif
+// As Solaris does not have the MSG_NOSIGNAL flag for send(2) syscall, it is defined as 0
+#if !defined(HAVE_MSG_NOSIGNAL) && !defined(MSG_NOSIGNAL)
+#define MSG_NOSIGNAL 0
+#endif
+
+inline void MilliSleep(int64_t n)
+{
+// Boost's sleep_for was uninterruptable when backed by nanosleep from 1.50
+// until fixed in 1.52. Use the deprecated sleep method for the broken case.
+// See: https://svn.boost.org/trac/boost/ticket/7238
+#if defined(HAVE_WORKING_BOOST_SLEEP_FOR)
+    boost::this_thread::sleep_for(boost::chrono::milliseconds(n));
+#elif defined(HAVE_WORKING_BOOST_SLEEP)
+    boost::this_thread::sleep(boost::posix_time::milliseconds(n));
+#else
+//should never get here
+#error missing boost sleep implementation
+#endif
+}
+
+
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
 extern std::map<std::string, std::string> mapArgs;
 extern std::map<std::string, std::vector<std::string> > mapMultiArgs;
@@ -38,6 +103,11 @@ extern bool fLogTimestamps;
 extern bool fLogIPs;
 extern volatile bool fReopenDebugLog;
 
+<<<<<<< HEAD
+=======
+void RandAddSeed();
+void RandAddSeedPerfmon();
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 void SetupEnvironment();
 
 /* Return true if log accepts specified category */
@@ -83,6 +153,24 @@ static inline bool error(const char* format)
 }
 
 void PrintExceptionContinue(std::exception* pex, const char* pszThread);
+<<<<<<< HEAD
+=======
+std::string FormatMoney(int64_t n, bool fPlus=false);
+bool ParseMoney(const std::string& str, int64_t& nRet);
+bool ParseMoney(const char* pszIn, int64_t& nRet);
+std::string SanitizeString(const std::string& str);
+std::vector<unsigned char> ParseHex(const char* psz);
+std::vector<unsigned char> ParseHex(const std::string& str);
+bool IsHex(const std::string& str);
+std::vector<unsigned char> DecodeBase64(const char* p, bool* pfInvalid = NULL);
+std::string DecodeBase64(const std::string& str);
+std::string EncodeBase64(const unsigned char* pch, size_t len);
+std::string EncodeBase64(const std::string& str);
+std::vector<unsigned char> DecodeBase32(const char* p, bool* pfInvalid = NULL);
+std::string DecodeBase32(const std::string& str);
+std::string EncodeBase32(const unsigned char* pch, size_t len);
+std::string EncodeBase32(const std::string& str);
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 void ParseParameters(int argc, const char*const argv[]);
 void FileCommit(FILE *fileout);
 bool TruncateFile(FILE *file, unsigned int length);
@@ -105,6 +193,135 @@ boost::filesystem::path GetTempPath();
 void ShrinkDebugFile();
 void runCommand(std::string strCommand);
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+inline std::string i64tostr(int64_t n)
+{
+    return strprintf("%d", n);
+}
+
+inline std::string itostr(int n)
+{
+    return strprintf("%d", n);
+}
+
+inline int64_t atoi64(const char* psz)
+{
+#ifdef _MSC_VER
+    return _atoi64(psz);
+#else
+    return strtoll(psz, NULL, 10);
+#endif
+}
+
+inline int64_t atoi64(const std::string& str)
+{
+#ifdef _MSC_VER
+    return _atoi64(str.c_str());
+#else
+    return strtoll(str.c_str(), NULL, 10);
+#endif
+}
+
+inline int atoi(const std::string& str)
+{
+    return atoi(str.c_str());
+}
+
+inline int roundint(double d)
+{
+    return (int)(d > 0 ? d + 0.5 : d - 0.5);
+}
+
+inline int64_t roundint64(double d)
+{
+    return (int64_t)(d > 0 ? d + 0.5 : d - 0.5);
+}
+
+inline int64_t abs64(int64_t n)
+{
+    return (n >= 0 ? n : -n);
+}
+
+template<typename T>
+std::string HexStr(const T itbegin, const T itend, bool fSpaces=false)
+{
+    std::string rv;
+    static const char hexmap[16] = { '0', '1', '2', '3', '4', '5', '6', '7',
+                                     '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
+    rv.reserve((itend-itbegin)*3);
+    for(T it = itbegin; it < itend; ++it)
+    {
+        unsigned char val = (unsigned char)(*it);
+        if(fSpaces && it != itbegin)
+            rv.push_back(' ');
+        rv.push_back(hexmap[val>>4]);
+        rv.push_back(hexmap[val&15]);
+    }
+
+    return rv;
+}
+
+template<typename T>
+inline std::string HexStr(const T& vch, bool fSpaces=false)
+{
+    return HexStr(vch.begin(), vch.end(), fSpaces);
+}
+
+template<typename T>
+void PrintHex(const T pbegin, const T pend, const char* pszFormat="%s", bool fSpaces=true)
+{
+    LogPrintf(pszFormat, HexStr(pbegin, pend, fSpaces).c_str());
+}
+
+inline void PrintHex(const std::vector<unsigned char>& vch, const char* pszFormat="%s", bool fSpaces=true)
+{
+    LogPrintf(pszFormat, HexStr(vch, fSpaces).c_str());
+}
+
+inline int64_t GetPerformanceCounter()
+{
+    int64_t nCounter = 0;
+#ifdef WIN32
+    QueryPerformanceCounter((LARGE_INTEGER*)&nCounter);
+#else
+    timeval t;
+    gettimeofday(&t, NULL);
+    nCounter = (int64_t) t.tv_sec * 1000000 + t.tv_usec;
+#endif
+    return nCounter;
+}
+
+inline int64_t GetTimeMillis()
+{
+    return (boost::posix_time::ptime(boost::posix_time::microsec_clock::universal_time()) -
+            boost::posix_time::ptime(boost::gregorian::date(1970,1,1))).total_milliseconds();
+}
+
+inline int64_t GetTimeMicros()
+{
+    return (boost::posix_time::ptime(boost::posix_time::microsec_clock::universal_time()) -
+            boost::posix_time::ptime(boost::gregorian::date(1970,1,1))).total_microseconds();
+}
+
+std::string DateTimeStrFormat(const char* pszFormat, int64_t nTime);
+
+template<typename T>
+void skipspaces(T& it)
+{
+    while (isspace(*it))
+        ++it;
+}
+
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 inline bool IsSwitchChar(char c)
 {
 #ifdef WIN32

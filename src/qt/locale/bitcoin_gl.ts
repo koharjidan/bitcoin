@@ -1,4 +1,40 @@
 <TS language="gl" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Sobre Bitcoin core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin core&lt;/b&gt; versión</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Isto é software experimental.
+
+Distribuído baixo a licencia de software MIT/X11, véxase o arquivo que acompaña COPYING ou http://www.opensource.org/licenses/mit-license.php.
+
+Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no OpenSSL Toolkit (http://www.openssl.org/) e software criptográfico escrito por Eric Young (eay@cryptsoft.com) e software UPnP escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Os desarrolladores de Bitcoin Core</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -382,6 +418,13 @@
         <source>Open a bitcoin: URI or payment request</source>
         <translation>Abrir un bitcoin: URI ou solicitude de pago</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Cliente Bitcoin</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n conexión activa coa rede Bitcoin</numerusform><numerusform>%n conexións activas coa rede Bitcoin</numerusform></translation>
@@ -617,6 +660,13 @@ Dirección: %4
         <translation>(%1 bloqueado)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dust</source>
+        <translation>Limpar</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>yes</source>
         <translation>Si</translation>
     </message>
@@ -777,8 +827,17 @@ Dirección: %4
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Core de Bitcoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Erro: O directorio de datos especificado "%1" non pode ser creado.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -907,6 +966,17 @@ Dirección: %4
         <translation>Escolle a unidade de subdivisión por defecto para amosar na interface e ao enviar moedas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Se se amosan ou non as direccións Bitcoin na listaxe de transaccións.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Visualizar direccións na listaxe de transaccións</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -938,6 +1008,13 @@ Dirección: %4
         <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Moedeiro</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Your current spendable balance</source>
         <translation>O teu balance actualmente dispoñible</translation>
     </message>
@@ -1011,20 +1088,34 @@ Dirección: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Cantidade</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Erro: O directorio de datos especificado "%1" non existe.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%1 h</source>
         <translation>%1 h</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 m</translation>
     </message>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce unha dirección Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -1562,6 +1653,13 @@ Dirección: %4
         <translation>Restaurar todos os campos de verificación de mensaxe</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza unha dirección Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>Click en "Asinar Mensaxe" para xerar sinatura</translation>
     </message>
@@ -1784,6 +1882,13 @@ Dirección: %4
         <source>Address</source>
         <translation>Dirección</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Amount</source>
+        <translation>Cantidade</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Abrir para %n bloque máis</numerusform><numerusform>Abrir para %n bloques máis</numerusform></translation>
@@ -2103,6 +2208,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Enlazar a unha dirección dada e escoitar sempre nela. Emprega a notación [host]:post para IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Entra en modo de test de regresión, que emprega unha cadea especial na que os bloques poden ser resoltos instantáneamente. Esto está pensado para ferramentes de testing de regresión e desenvolvemento de aplicacións.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Erro: A transacción foi rexeitada! Esto podería suceder se unha das moedas do teu moedeiro xa foi gastada, como se usas unha copia de wallet.dat e hai moedas que se gastaron na copia pero non foron marcadas como gastadas aquí.</translation>
     </message>
@@ -2123,6 +2235,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Precaución: -paytxfee está posto moi algo! Esta é a tarifa de transacción que ti pagarás se envías unha transacción.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Precaución; Por favor revisa que a data e hora do teu ordenador son correctas! Se o teu reloxo está equivocato Bitcoin non funcionará adecuadamente.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Precaución: A rede non parece estar totalmente de acordo! Algúns mineitos parecen estar experimentando problemas.</translation>
     </message>
@@ -2155,6 +2274,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Conectar so ao(s) nodo(s) especificado(s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Conectar a JSON-RPC no &lt;porto&gt; (por defecto: 8332 ou testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Corrupted block database detected</source>
         <translation>Detectada base de datos de bloques corrupta.</translation>
     </message>
@@ -2195,6 +2321,61 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Fallou escoitar en calquera porto. Emprega -listen=0 se queres esto.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Failed to read block info</source>
+        <translation>Fallou a lectura da información do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Fallou a lectura do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Fallou a sincronización do índice do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Fallou a escritura do índice do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Fallou a escritura da información do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Fallou a escritura do bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Fallou a escritura da información do arquivo</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Fallou a escritura na base de datos de moedas</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>Fallou a escritura do índice de transaccións</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>Fallou a escritura dos datos para desfacer</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Atopar pares usando lookup DNS (por defecto: 1 agás -connect)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Xerar moedas (por defecto: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Cantos bloques para chequear ao arrancar (por defecto: 288, 0 = todos)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Bloque genesis incorrecto o no existente. Datadir erróneo para a rede?</translation>
     </message>
@@ -2211,10 +2392,24 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Reconstruír índice de cadea de bloque dende os ficheiros actuais blk000??.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Fixar o número de fíos para as chamadas aos servicios RPC (por defecto: 4)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Specify wallet file (within data directory)</source>
         <translation>Especificar arquivo do moedeiro (dentro do directorio de datos)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <translation>Emprego (desaconsellado, usar bitcoin-cli)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verifying blocks...</source>
         <translation>Verificando bloques...</translation>
     </message>
@@ -2245,16 +2440,54 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Cantidade inválida para -minrelaytxfee=&lt;cantidade&gt;: '%s'</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Cantidade inválida para -mintxfee=&lt;cantidade&gt;: '%s'</translation>
+=======
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
         <translation>Cantidade inválida para -mintxfee=&lt;cantidade&gt;: '%s'</translation>
     </message>
     <message>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Manter un índice completo de transaccións (por defecto: 0)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Máximo buffer por-conexión para recibir, &lt;n&gt;*1000 bytes (por defecto: 5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Máximo buffer por-conexión para enviar, &lt;n&gt;*1000 bytes (por defecto: 1000)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Aceptar so cadeas de bloques coincidentes con check-points incorporados (por defecto: 1)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Conectar so a nodos na rede &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcións SSL: (ver ńa Wiki Bitcoin as instrucción de configuración de SSL)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Enviar traza/información de depuración á consola en lugar de ao arquivo debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Fixar tamaño mínimo de bloque en bytes (por defecto: 0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Recortar o arquivo debug.log ao arrancar o cliente (por defecto: 1 cando no-debug)</translation>
     </message>
@@ -2263,6 +2496,17 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Fallou a sinatura da transacción</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Especificar tempo límite da conexión en milisegundos (por defecto: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Erro do sistema:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Transaction amount too small</source>
         <translation>A cantidade da transacción é demasiado pequena</translation>
     </message>
@@ -2291,6 +2535,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Precaución: Esta versión é obsoleta, precísase unha actualización!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>versión</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupto, fallou o gardado</translation>
     </message>
@@ -2337,6 +2588,13 @@ por exemplo: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Dirección -proxy inválida: '%s'</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Rede descoñecida especificada en -onlynet: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

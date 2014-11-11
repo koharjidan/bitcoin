@@ -94,6 +94,7 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
     BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG])
   fi
 
+<<<<<<< HEAD:build-aux/m4/bitcoin_qt.m4
   dnl This is ugly and complicated. Yuck. Works as follows:
   dnl We can't discern whether Qt4 builds are static or not. For Qt5, we can
   dnl check a header to find out. When Qt is built statically, some plugins must
@@ -153,6 +154,8 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
   CPPFLAGS=$TEMP_CPPFLAGS
   ])
 
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046:src/m4/bitcoin_qt.m4
   if test x$use_pkgconfig$qt_bin_path = xyes; then
     if test x$bitcoin_qt_got_major_vers = x5; then
       qt_bin_path="`$PKG_CONFIG --variable=host_bins Qt5Core 2>/dev/null`"

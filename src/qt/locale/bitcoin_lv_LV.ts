@@ -1,4 +1,44 @@
 <TS language="lv_LV" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Par Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; versija</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Šī ir eksperimentālā programmatūra.
+
+Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datni COPYING vai http://www.opensource.org/licenses/mit-license.php.
+
+Šis produkts ietver programmatūru, ko izstrādājis OpenSSL Project izmantošanai OpenSSL Toolkit (http://www.openssl.org/) un šifrēšanas programmatūru no Eric Young (eay@cryptsoft.com) un UPnP programmatūru no Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Autortiesības</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core izstrādātāji</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-biti)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -382,6 +422,13 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klients</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktīvu savienojumu ar Bitcoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Bitcoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Bitcoin tīklu</numerusform></translation>
@@ -390,6 +437,13 @@
         <source>No block source available...</source>
         <translation>Nav pieejams neviens bloku avots...</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Apstrādāti %1 bloki no transakciju vēstures.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation><numerusform>%n stundas</numerusform><numerusform>%n stunda</numerusform><numerusform>%n stundas</numerusform></translation>
@@ -466,6 +520,13 @@ Adrese: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Radās fatāla kļūda. Bitcoin Core nevar vairs droši turpināt un tiks izslēgta.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>ClientModel</name>
@@ -501,6 +562,13 @@ Adrese: %4
         <translation>Maksa:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Low Output:</source>
+        <translation>Zema Izeja:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>After Fee:</source>
         <translation>Pēc Maksas:</translation>
     </message>
@@ -589,6 +657,13 @@ Adrese: %4
         <translation>Kopēt prioritāti</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy low output</source>
+        <translation>Kopēt zemo izeju</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy change</source>
         <translation>Kopēt atlikumu</translation>
     </message>
@@ -637,6 +712,13 @@ Adrese: %4
         <translation>neviens</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dust</source>
+        <translation>Putekļi</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>yes</source>
         <translation>jā</translation>
     </message>
@@ -783,12 +865,21 @@ Adrese: %4
     <message>
         <source>Use a custom data directory:</source>
         <translation>Izmantot pielāgotu datu mapi:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error</source>
         <translation>Kļūda</translation>
     </message>
@@ -917,6 +1008,17 @@ Adrese: %4
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Starpniekservera ports (piem. 9050)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS &amp;Versija:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Starpniekservera SOCKS versija (piem. 5)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1039,10 +1141,13 @@ Adrese: %4
     <message>
         <source>URI handling</source>
         <translation>URI apstrāde</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Invalid payment address %1</source>
         <translation>Nederīga maksājuma adrese %1</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Payment request error</source>
@@ -1071,6 +1176,7 @@ Adrese: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Daudzums</translation>
     </message>
@@ -1081,6 +1187,14 @@ Adrese: %4
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core vel neizgāja droši...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>N/A</source>
@@ -1425,6 +1539,13 @@ Adrese: %4
         <translation>Maksa:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Low Output:</source>
+        <translation>Zema Izeja:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>After Fee:</source>
         <translation>Pēc Maksas:</translation>
     </message>
@@ -1497,6 +1618,13 @@ Adrese: %4
         <translation>Kopēt prioritāti</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy low output</source>
+        <translation>Kopēt zemās izejas</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy change</source>
         <translation>Kopēt atlikumu</translation>
     </message>
@@ -1548,6 +1676,17 @@ Adrese: %4
         <source>added as transaction fee</source>
         <translation>pievienots kā transakcijas maksa</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Payment request expired</source>
+        <translation>Maksājuma pieprasījums ir novecojis</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nederīga maksājuma adrese %1</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1634,6 +1773,13 @@ Adrese: %4
         <translation>Parakstīt &amp;Ziņojumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adrese ar kuru parakstīt ziņojumu (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Choose previously used address</source>
         <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
@@ -1682,12 +1828,26 @@ Adrese: %4
         <translation>&amp;Pārbaudīt Ziņojumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adrese ar kādu ziņojums tika parakstīts (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verify &amp;Message</source>
         <translation>&amp;Pārbaudīt Ziņojumu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
         <translation>Atiestatīt visus laukus</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Ierakstiet Bitcoin adresi (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1916,6 +2076,13 @@ Adrese: %4
         <source>Address</source>
         <translation>Adrese</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Atvērts vel %n blokus</numerusform><numerusform>Atvērts vel %n bloku</numerusform><numerusform>Atvērts vel %n blokus</numerusform></translation>
@@ -2199,10 +2366,28 @@ Adrese: %4
         <translation>Norādiet savu publisko adresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Slieksnis pārkāpējmezglu atvienošanai (pēc noklusēšanas: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Sekundes, cik ilgi atturēt pārkāpējmezglus no atkārtotas pievienošanās (pēc noklusēšanas: 86400)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin Core RPC client version</source>
+        <translation>Bitcoin Core RPC klienta versija</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
@@ -2211,8 +2396,21 @@ Adrese: %4
         <translation>Izmantot testa tīklu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: 1)</source>
         <translation>(noklusējums: 1)</translation>
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Brīdinājums: Lūdzu pārbaudi vai tava datora datums un laiks ir pareizs! Ja pulkstenis ir nepareizs, Bitcoin Core nestrādās pareizi.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(noklusējums: 1)</translation>
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation>(noklusējums: wallet.dat)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -2221,6 +2419,13 @@ Adrese: %4
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Mēģināt atgūt privātās atslēgas no bojāta wallet.dat</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bitcoin Core Daemon</source>
+        <translation>Bitcoin Core Process</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2229,6 +2434,13 @@ Adrese: %4
     <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Savienoties tikai ar norādītajām nodēm.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Connect through SOCKS proxy</source>
+        <translation>Savienoties caur SOCKS starpniekserveri</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Connection options:</source>
@@ -2249,6 +2461,25 @@ Adrese: %4
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Kļūda: Maciņš ir aizslēgts, nevar izveidot transakciju!</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>Kļūda: sistēmas kļūda:</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>Pievienot maksu par kB tām transakcijām kuras tu sūti</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Atrast pīrus izmantojot DNS uzmeklēšanu (noklusējums: 1 ja nav -connect)</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: 0)</source>
+        <translation>Piespiest drošo režīmu (noklusējums: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
@@ -2257,6 +2488,17 @@ Adrese: %4
     <message>
         <source>Importing...</source>
         <translation>Importē...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>RPC client options:</source>
+        <translation>RPC klienta iespējas:</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation>Tērēt neapstiprinātu atlikumu kad sūta transakcijas (noklusējums: 1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2267,6 +2509,13 @@ Adrese: %4
         <translation>Pārbauda maciņu...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wait for RPC server to start</source>
+        <translation>Uzgaidi līdz RPC serveris palaižas</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Wallet options:</source>
         <translation>Maciņa iespējas:</translation>
     </message>
@@ -2281,14 +2530,38 @@ Adrese: %4
     <message>
         <source>RPC server options:</source>
         <translation>RPC servera iestatījumi:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Send command to Bitcoin Core</source>
+        <translation>Sūtīt komandu uz Bitcoin Core</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Signing transaction failed</source>
         <translation>Transakcijas parakstīšana neizdevās</translation>
+=======
+        <source>Show benchmark information (default: 0)</source>
+        <translation>Rādīt etalonuzdevuma informāciju (noklusējums: 0)</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Transakcijas parakstīšana neizdevās</translation>
+    </message>
+    <message>
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>Sākt Bitcoin Core Procesu</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Sistēmas kļūda:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2317,6 +2590,13 @@ Adrese: %4
     <message>
         <source>on startup</source>
         <translation>startēšanas laikā</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versija</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -2371,6 +2651,7 @@ Adrese: %4
         <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -bind address: '%s'</source>
         <translation>Nevar uzmeklēt -bind adresi: '%s'</translation>
     </message>
@@ -2379,6 +2660,20 @@ Adrese: %4
         <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
     </message>
     <message>
+=======
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>Pieprasīta nezināma -socks starpniekservera versija: %i</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nevar uzmeklēt -bind adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
     </message>

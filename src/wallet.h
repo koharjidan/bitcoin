@@ -160,6 +160,7 @@ public:
         strWalletFile = strWalletFileIn;
         fFileBacked = true;
     }
+<<<<<<< HEAD
 
     ~CWallet()
     {
@@ -167,6 +168,8 @@ public:
         pwalletdbEncryption = NULL;
     }
 
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     void SetNull()
     {
         nWalletVersion = FEATURE_BASE;
@@ -952,7 +955,11 @@ public:
         READWRITE(nTimeCreated);
         READWRITE(nTimeExpires);
         READWRITE(LIMITED_STRING(strComment, 65536));
+<<<<<<< HEAD
     }
+=======
+    )
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 };
 
 

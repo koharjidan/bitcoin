@@ -60,6 +60,7 @@ string HTTPPost(const string& strMsg, const map<string,string>& mapRequestHeader
 static string rfc1123Time()
 {
     return DateTimeStrFormat("%a, %d %b %Y %H:%M:%S +0000", GetTime());
+<<<<<<< HEAD
 }
 
 static const char *httpStatusDescription(int nStatus)
@@ -72,6 +73,8 @@ static const char *httpStatusDescription(int nStatus)
         case HTTP_INTERNAL_SERVER_ERROR: return "Internal Server Error";
         default: return "";
     }
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 }
 
 string HTTPError(int nStatus, bool keepalive, bool headersOnly)
@@ -105,7 +108,11 @@ string HTTPReplyHeader(int nStatus, bool keepalive, size_t contentLength, const 
             "Date: %s\r\n"
             "Connection: %s\r\n"
             "Content-Length: %u\r\n"
+<<<<<<< HEAD
             "Content-Type: %s\r\n"
+=======
+            "Content-Type: application/json\r\n"
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
             "Server: bitcoin-json-rpc/%s\r\n"
             "\r\n",
         nStatus,

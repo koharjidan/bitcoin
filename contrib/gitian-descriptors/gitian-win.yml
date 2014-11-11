@@ -26,8 +26,13 @@ files:
 - "qt-win64-5.2.0-gitian-r3.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "boost-win64-1.55.0-gitian-r6.zip"
+<<<<<<< HEAD
 - "bitcoin-deps-win32-gitian-r13.zip"
 - "bitcoin-deps-win64-gitian-r13.zip"
+=======
+- "bitcoin-deps-win32-gitian-r15.zip"
+- "bitcoin-deps-win64-gitian-r15.zip"
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 - "protobuf-win32-2.5.0-gitian-r4.zip"
 - "protobuf-win64-2.5.0-gitian-r4.zip"
 script: |
@@ -61,7 +66,11 @@ script: |
     cd $STAGING
     unzip $INDIR/qt-win${BITS}-5.2.0-gitian-r3.zip
     unzip $INDIR/boost-win${BITS}-1.55.0-gitian-r6.zip
+<<<<<<< HEAD
     unzip $INDIR/bitcoin-deps-win${BITS}-gitian-r13.zip
+=======
+    unzip $INDIR/bitcoin-deps-win${BITS}-gitian-r15.zip
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     unzip $INDIR/protobuf-win${BITS}-2.5.0-gitian-r4.zip
     if [ "x$NEEDDIST" = "x1" ]; then
       # Make source code archive which is architecture independent so it only needs to be done once

@@ -1,4 +1,10 @@
 <TS language="cy" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -131,12 +137,20 @@
         <translation>Gadael rhaglen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>Dangos gwybodaeth am Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Options...</source>
         <translation>&amp;Opsiynau</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;File</source>
@@ -238,6 +252,8 @@
     <message>
         <source>Edit sending address</source>
         <translation>Golygu'r cyfeiriad anfon</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -278,6 +294,7 @@
 <context>
     <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>Ffurflen</translation>
     </message>
@@ -287,6 +304,283 @@
     </context>
 <context>
     <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Gwybodaeth</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Anfon arian</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Anfon at pobl lluosog ar yr un pryd</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Gweddill:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Cadarnhau'r gweithrediad anfon</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 i %2</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;Maint</translation>
+=======
+        <source>Error</source>
+        <translation>Gwall</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Paste address from clipboard</source>
+        <translation>Gludo cyfeiriad o'r glipfwrdd</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+=======
+        <source>Incoming transaction</source>
+        <translation>Trafodiad sy'n cyrraedd</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+=======
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Agor tan %1</translation>
+=======
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(heb label)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Golygu'r cyfeiriad</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Cyfeiriad derbyn newydd</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Cyfeiriad anfon newydd</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Golygu'r cyfeiriad derbyn</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Golygu'r cyfeiriad anfon</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Mae'r cyfeiriad "%1" sydd newydd gael ei geisio gennych yn y llyfr cyfeiriad yn barod.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Methodd ddatgloi'r waled.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Methodd gynhyrchu allwedd newydd.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Error</source>
+        <translation>Gwall</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Opsiynau</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+=======
+        <source>Form</source>
+        <translation>Ffurflen</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Trafodion diweddar&lt;/b&gt;</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
     </context>
 <context>
     <name>QObject</name>
@@ -408,16 +702,48 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+        <source>Open until %1</source>
+        <translation>Agor tan %1</translation>
+=======
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
+    <name>TransactionView</name>
+    <message>
+        <source>Today</source>
+        <translation>Heddiw</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Eleni</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+=======
     <name>TrafficGraphWidget</name>
     </context>
 <context>
@@ -429,13 +755,41 @@
     <message>
         <source>Date</source>
         <translation>Dyddiad</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Neges</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Send Coins</source>
+        <translation>Anfon arian</translation>
+=======
+        <source>Message</source>
+        <translation>Neges</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+<<<<<<< HEAD
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Information</source>
+        <translation>Gwybodaeth</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Rhybudd</translation>
+=======
     <name>TransactionDescDialog</name>
     </context>
 <context>
@@ -470,11 +824,15 @@
     <message>
         <source>Date</source>
         <translation>Dyddiad</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Type</source>
         <translation>Math</translation>
     </message>
+<<<<<<< HEAD
+</context>
+=======
     <message>
         <source>Label</source>
         <translation>Label</translation>
@@ -483,9 +841,6 @@
         <source>Address</source>
         <translation>Cyfeiriad</translation>
     </message>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
     <name>WalletFrame</name>
@@ -514,5 +869,6 @@
         <source>Error</source>
         <translation>Gwall</translation>
     </message>
-</context>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

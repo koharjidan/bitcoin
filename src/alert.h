@@ -65,7 +65,11 @@ public:
         READWRITE(LIMITED_STRING(strComment, 65536));
         READWRITE(LIMITED_STRING(strStatusBar, 256));
         READWRITE(LIMITED_STRING(strReserved, 256));
+<<<<<<< HEAD
     }
+=======
+    )
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     void SetNull();
 

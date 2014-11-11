@@ -1,4 +1,10 @@
 <TS language="vi" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -86,6 +92,7 @@
     <name>PaymentServer</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PeerTableModel</name>
     </context>
 <context>
@@ -93,7 +100,8 @@
     <message>
         <source>Amount</source>
         <translation>Số lượng</translation>
-    </message>
+=======
+    <name>QObject</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -109,14 +117,36 @@
     <message>
         <source>Address</source>
         <translation>Địa chỉ</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+=======
         <source>Amount</source>
         <translation>Số lượng</translation>
     </message>
     <message>
         <source>Label</source>
         <translation>Nhãn dữ liệu</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -125,13 +155,25 @@
         <source>Label</source>
         <translation>Nhãn dữ liệu</translation>
     </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
     <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>Nhãn dữ liệu</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+=======
         <source>Amount</source>
         <translation>Số lượng</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(chưa có nhãn)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -142,6 +184,34 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(chưa có nhãn)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+=======
     <name>SendCoinsEntry</name>
     </context>
 <context>
@@ -171,6 +241,22 @@
     <message>
         <source>Address</source>
         <translation>Địa chỉ</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+=======
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -187,9 +273,16 @@
         <source>Address</source>
         <translation>Địa chỉ</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
+=======
+    <message>
+        <source>Amount</source>
+        <translation>Số lượng</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>WalletFrame</name>

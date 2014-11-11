@@ -1,4 +1,23 @@
 <TS language="fa" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>⏎ ⏎ این یک نرم‌افزار آزمایشی است⏎ ⏎ نرم افزار تحت مجوز MIT/X11 منتشر شده است. پروندهٔ COPYING یا نشانی http://www.opensource.org/licenses/mit-license.php. را ببینید⏎ ⏎ این محصول شامل نرم‌افزار  توسعه داده‌شده در پروژهٔ OpenSSL است. در این نرم‌افزار از OpenSSL Toolkit (http://www.openssl.org/) و نرم‌افزار رمزنگاری نوشته شده توسط اریک یانگ (eay@cryptsoft.com) و UPnP توسط توماس برنارد استفاده شده است.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>حق تألیف</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -10,10 +29,13 @@
         <translation>ایجاد نشانی جدید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation>&amp;جدید</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>کپی نشانی انتخاب شده به حافظهٔ سیستم</translation>
     </message>
@@ -65,10 +87,13 @@
         <source>Comma separated file (*.csv)</source>
         <translation>پروندهٔ نوع CSV جداشونده با کاما (*.csv)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Failed</source>
         <translation>استخراج انجام نشد</translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -338,6 +363,13 @@
         <source>Bitcoin Core</source>
         <translation> هسته Bitcoin </translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Bitcoin client</source>
+        <translation>کلاینت بیت‌کوین</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n ارتباط فعال با شبکهٔ بیت‌کوین</numerusform></translation>
@@ -605,8 +637,17 @@ Address: %4
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation> هسته Bitcoin </translation>
+=======
+        <source>Bitcoin</source>
+        <translation>بیت‌کوین</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>خطا: نمی‌توان پوشه‌ای برای داده‌ها در «%1» ایجاد کرد.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -719,6 +760,17 @@ Address: %4
         <translation>انتخاب واحد پول مورد استفاده برای نمایش در پنجره‌ها و برای ارسال سکه.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>نمایش یا عدم نمایش نشانی‌های بیت‌کوین در لیست تراکنش‌ها.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>نمایش ن&amp;شانی‌ها در فهرست تراکنش‌ها</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;تأیید</translation>
     </message>
@@ -803,6 +855,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>مبلغ</translation>
     </message>
@@ -811,6 +864,27 @@ Address: %4
         <translation>ناموجود</translation>
     </message>
     </context>
+=======
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>نمی‌توان بیت‌کوین را اجرا کرد: کنترل‌کنندهٔ کلیک-و-پرداخت</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>بیت‌کوین</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>خطا: پوشهٔ مشخص شده برای داده‌ها در «%1» وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>یک آدرس بیت‌کوین وارد کنید (مثلاً 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -908,10 +982,13 @@ Address: %4
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>برای نمایش یک مرور کلی از دستورات ممکن، عبارت &lt;b&gt;help&lt;/b&gt; را بنویسید.</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Unknown</source>
         <translation>ناشناخته</translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1106,6 +1183,13 @@ Address: %4
         <translation>برای احراز اینکه پیام‌ها از جانب شما هستند، می‌توانید آن‌ها را با نشانی خودتان امضا کنید. مراقب باشید چیزی که بدان اطمینان ندارید را امضا نکنید زیرا حملات فیشینگ ممکن است بخواهند از.پیامی با امضای شما سوءاستفاده کنند. تنها مواردی را که حاوی اطلاعات دقیق و قابل قبول برای شما هستند امضا کنید.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>نشانی مورد استفاده برای امضا کردن پیام (برای مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1166,6 +1250,13 @@ Address: %4
         <translation>بازنشانی تمام فیلدهای پیام</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>یک نشانی بیت‌کوین وارد کنید (مثلاً 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>برای ایجاد یک امضای جدید روی «امضای پیام» کلیک کنید</translation>
     </message>
@@ -1384,6 +1475,13 @@ Address: %4
         <source>Address</source>
         <translation>نشانی</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Amount</source>
+        <translation>مبلغ</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>باز برای %n بلوک دیگر</numerusform></translation>
@@ -1532,10 +1630,13 @@ Address: %4
         <translation>نمایش جزئیات تراکنش</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Exporting Failed</source>
         <translation>استخراج انجام نشد</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Comma separated file (*.csv)</source>
         <translation>پروندهٔ نوع CSV جداشونده با کاما (*.csv)</translation>
     </message>
@@ -1671,6 +1772,13 @@ Address: %4
         <translation>هشدار: مبلغ paytxfee بسیار بالایی تنظیم شده است! این مبلغ هزینه‌ای است که شما برای تراکنش‌ها پرداخت می‌کنید.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد bitcoin ممکن است صحیح کار نکند</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Block creation options:</source>
         <translation>بستن گزینه ایجاد</translation>
     </message>
@@ -1703,10 +1811,72 @@ Address: %4
         <translation>خطا در بازگشایی پایگاه داده ی بلوک</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: system error: </source>
+        <translation>خطا: خطای سامانه:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>شنیدن هر گونه درگاه انجام پذیر نیست. ازlisten=0  برای اینکار استفاده کیند.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Failed to read block info</source>
+        <translation>خواندن اطلاعات بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>خواندن بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>همگام سازی فهرست بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>نوشتن فهرست بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>نوشتن اطلاعات بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>نوشتن بلوک با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>نوشتن اطلاعات پرونده با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>نوشتن اطلاعات در پایگاه داده ی سکه ها با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>نوشتن فهرست تراکنش ها با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>عملیات بازگشت دادن اطلاعات با شکست مواجه شدن</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>نرخ هر کیلوبایت برای اضافه کردن به تراکنش‌هایی که می‌فرستید</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>قرینه ها را برای جستجوی DNS بیاب (پیش فرض: 1 مگر در زمان اتصال)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>چند بلوک نیاز است که در ابتدای راه اندازی بررسی شوند(پیش فرض:288 ،0=همه)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verifying blocks...</source>
         <translation>در حال بازبینی بلوک ها...</translation>
     </message>
@@ -1719,14 +1889,55 @@ Address: %4
         <translation>اطلاعات</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>حداکثر بافر دریافت شده بر اساس اتصال &lt;n&gt;*  1000 بایت  (پیش فرض:5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>حداکثر بافر دریافت شده بر اساس اتصال &lt;n&gt;*  1000 بایت  (پیش فرض:1000)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>تنها =به گره ها در شبکه متصا شوید  &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>گزینه ssl (به ویکیbitcoin برای راهنمای راه اندازی ssl مراجعه شود)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>اطلاعات ردگیری/اشکال‌زدایی را به جای فایل لاگ اشکال‌زدایی به کنسول بفرستید</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>حداقل سایز بلاک بر اساس بایت تنظیم شود (پیش فرض: 0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>فایل debug.log  را در startup مشتری کوچک کن (پیش فرض:1 اگر اشکال زدایی روی نداد)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>(میلی ثانیه )فاصله ارتباط خاص</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>خطای سامانه</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>از UPnP  برای شناسایی درگاه شنیداری استفاده کنید (پیش فرض:0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>از UPnP  برای شناسایی درگاه شنیداری استفاده کنید (پیش فرض:1 در زمان شنیدن)</translation>
     </message>
@@ -1743,6 +1954,13 @@ Address: %4
         <translation>هشدار: این نسخه قدیمی است، روزآمدسازی مورد نیاز است</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>نسخه</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC عبارت عبور برای ارتباطات</translation>
     </message>
@@ -1791,6 +2009,13 @@ Address: %4
         <translation>شبکه مشخص شده غیرقابل شناسایی در onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>نسخه پراکسی ساکس غیرقابل شناسایی  درخواست شده است: %i</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Cannot resolve -bind address: '%s'</source>
         <translation>آدرس قابل اتصال- شناسایی نیست %s</translation>
     </message>
@@ -1846,5 +2071,9 @@ Address: %4
         <source>Error</source>
         <translation>خطا</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

@@ -9,6 +9,7 @@
 #include "config/bitcoin-config.h"
 #else
 
+<<<<<<< HEAD
 /**
  * client versioning and copyright year
  */
@@ -21,6 +22,16 @@
 
 //! Set to true for release, false for prerelease or test build
 #define CLIENT_VERSION_IS_RELEASE false
+=======
+// These need to be macros, as version.cpp's and bitcoin-qt.rc's voodoo requires it
+#define CLIENT_VERSION_MAJOR       0
+#define CLIENT_VERSION_MINOR       9
+#define CLIENT_VERSION_REVISION    3
+#define CLIENT_VERSION_BUILD       0
+
+// Set to true for release, false for prerelease or test build
+#define CLIENT_VERSION_IS_RELEASE  true
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
 /**
  * Copyright year (2009-this)

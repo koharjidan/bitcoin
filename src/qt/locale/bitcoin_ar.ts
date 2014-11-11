@@ -1,4 +1,26 @@
 <TS language="ar" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>عن جوهر البيت كوين</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;جوهر البيت كوين&lt;/b&gt; إصدار</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>الحقوق محفوظة</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>مطوري جوهر البيت كوين</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -32,10 +54,13 @@
     <message>
         <source>Delete the currently selected address from the list</source>
         <translation>حذف العنوان المحدد من القائمة</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>تحميل البيانات في علامة التبويب الحالية إلى ملف.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Export</source>
@@ -64,6 +89,7 @@
     <message>
         <source>Receiving addresses</source>
         <translation>استقبال العناوين</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -72,6 +98,8 @@
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>هذه هي عناوين Bitcion التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -84,10 +112,13 @@
     <message>
         <source>Export Address List</source>
         <translation>تصدير قائمة العناوين</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>ملف مفصول بفواصل (*.csv)</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -112,10 +143,13 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>حوار جملة السر</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Enter passphrase</source>
         <translation>ادخل كلمة المرور</translation>
     </message>
@@ -126,6 +160,13 @@
     <message>
         <source>Repeat new passphrase</source>
         <translation>ادخل كلمة المرور الجديدة مرة أخرى</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>أدخل كلمة مرور جديدة للمحفظة. &lt;br/&gt;الرجاء استخدام كلمة مرور تتكون &lt;b&gt;من 10 حروف عشوائية على الاقل&lt;/b&gt;, أو &lt;b&gt;أكثر من 7 كلمات&lt;/b&gt;. </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -158,6 +199,7 @@
     <message>
         <source>Confirm wallet encryption</source>
         <translation>تأكيد تشفير المحفظة</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
@@ -170,6 +212,8 @@
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>هام: أي نسخة إحتياطية سابقة  قمت بها لمحفظتك يجب استبدالها  بأخرى حديثة، مشفرة. لأسباب أمنية، النسخ الاحتياطية السابقة لملفات المحفظة الغير مشفرة تصبح عديمة الفائدة مع بداية استخدام المحفظة المشفرة الجديدة.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -211,11 +255,15 @@
         <source>Wallet decryption failed</source>
         <translation>فشل   فك التشفير المحفظة</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>لقد تم تغير عبارة مرور المحفظة بنجاح</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -255,6 +303,13 @@
         <translation>الخروج من التطبيق</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>  إظهار معلومات حول بت كوين</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>About &amp;Qt</source>
         <translation>عن</translation>
     </message>
@@ -277,6 +332,7 @@
     <message>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;تغيير كلمة المرور</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -285,24 +341,32 @@
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>استقبال العناوين</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation>افتح &amp;URI...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core client</source>
         <translation>عميل bitcion core</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
         <translation>ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for Bitcoin</source>
         <translation>تعديل إعدادات bitcoin</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Backup wallet to another location</source>
         <translation>احفظ نسخة احتياطية للمحفظة في مكان آخر</translation>
     </message>
@@ -329,10 +393,13 @@
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;استقبل</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
         <translation>  اظهار معلومات حول bitcion core</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -341,10 +408,13 @@
     <message>
         <source>Show or hide the main Window</source>
         <translation>عرض او اخفاء النافذة الرئيسية</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>تشفير المفتاح الخاص لمحفظتك</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;File</source>
@@ -367,8 +437,13 @@
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;About Bitcoin Core</source>
         <translation>حول bitcoin core</translation>
+=======
+        <source>Bitcoin client</source>
+        <translation>عميل بت كوين</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -418,7 +493,7 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>المحفظة &lt;b&gt;مشفرة&lt;/b&gt; و &lt;b&gt;مقفلة&lt;/b&gt; حاليا</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -630,10 +705,13 @@
         <translation>عن جوهر البيت كوين</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>المستخدم</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>UI options</source>
         <translation>خيارات UI</translation>
     </message>
@@ -651,6 +729,7 @@
     <message>
         <source>Use a custom data directory:</source>
         <translation>استخدام دليل بيانات مخصص:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core</source>
@@ -660,6 +739,21 @@
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
+=======
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>بت كوين</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>خطأ</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>قيقا بايت مساحة متاحة</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -691,10 +785,13 @@
         <translation>م ب</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside</source>
         <translation>إقبل التواصل من الخارج</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Third party transaction URLs</source>
         <translation>عنوان النطاق للطرف الثالث</translation>
     </message>
@@ -739,6 +836,13 @@
         <translation>واجهة المستخدم &amp;اللغة:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>عرض العناوين في قائمة الصفقة</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>تم</translation>
     </message>
@@ -770,6 +874,13 @@
         <translation>نمودج</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>محفظة</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Available:</source>
         <translation>متوفر</translation>
     </message>
@@ -788,6 +899,13 @@
     <message>
         <source>Your current total balance</source>
         <translation>رصيدك الكلي الحالي</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>اخر المعملات </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>out of sync</source>
@@ -798,6 +916,7 @@
     <name>PaymentServer</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PeerTableModel</name>
     </context>
 <context>
@@ -813,6 +932,16 @@
     <message>
         <source>N/A</source>
         <translation>غير معروف</translation>
+=======
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>بت كوين</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>إدخال عنوانBitcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -873,6 +1002,7 @@
         <translation>عدد الاتصالات</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received</source>
         <translation>إستقبل</translation>
     </message>
@@ -901,6 +1031,12 @@
         <translation>الفتح</translation>
     </message>
     <message>
+=======
+        <source>&amp;Open</source>
+        <translation>الفتح</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Network Traffic</source>
         <translation>&amp;حركة مرور الشبكة</translation>
     </message>
@@ -928,6 +1064,7 @@
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>استخدم اسهم الاعلى و الاسفل للتنقل بين السجلات و &lt;b&gt;Ctrl-L&lt;/b&gt;  لمسح الشاشة</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Unknown</source>
         <translation>غير معرف</translation>
@@ -937,6 +1074,9 @@
         <translation>جاري الجلب...</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1252,6 +1392,13 @@
     <message>
         <source>Verify &amp;Message</source>
         <translation>تحقق &amp;الرسالة</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>إدخال عنوانBitcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1437,6 +1584,13 @@
         <translation>عنوان</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>المبلغ</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>لم يتم تلقى هذه الكتلة (Block) من قبل أي العقد الأخرى وربما لن تكون مقبولة!</translation>
     </message>
@@ -1582,10 +1736,13 @@
     <message>
         <source>Exporting Successful</source>
         <translation>نجح التصدير</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>ملف مفصول بفواصل (*.csv)</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Confirmed</source>
@@ -1638,10 +1795,13 @@
     <message>
         <source>&amp;Export</source>
         <translation>&amp;تصدير</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>تحميل البيانات في علامة التبويب الحالية إلى ملف.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Backup Wallet</source>
@@ -1681,6 +1841,13 @@
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>تحذير: المحفظة مغلقة , لا تستطيع تنفيذ المعاملة</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>خطأ: خطأ في النظام:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -1705,6 +1872,13 @@
     <message>
         <source>Signing transaction failed</source>
         <translation>فشل توقيع المعاملة</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>خطأ في النظام :</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1727,8 +1901,21 @@
         <translation>تحذير : هذا الاصدار قديم , يتطلب التحديث</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Upgrade wallet to latest format</source>
         <translation>تحديث المحفظة للنسخة الاخيرة</translation>
+=======
+        <source>version</source>
+        <translation>النسخة</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>تحديث المحفظة للنسخة الاخيرة</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>المفتاح الخاص بالسيرفر (default: server.pem)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This help message</source>
@@ -1782,5 +1969,9 @@
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

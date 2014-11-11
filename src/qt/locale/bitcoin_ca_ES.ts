@@ -1,4 +1,27 @@
 <TS language="ca_ES" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Sobre el Nucli de Bitcoin</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>\n Aquest és software experimental.\n\n Distribuït sota llicència de software MIT/11, veure l'arxiu COPYING o http://www.opensource.org/licenses/mit-license.php.\n\nAquest producte inclou software desarrollat pel projecte OpenSSL per a l'ús de OppenSSL Toolkit (http://www.openssl.org/) i de softwqre criptogràfic escrit per l'Eric Young (eay@cryptsoft.com) i software UPnP escrit per en Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -15,23 +38,34 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Copia l'adreça seleccionada al porta-retalls del sistema</translation>
+=======
+        <translation>Copiar l'adreça seleccionada al porta-retalls del sistema</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Copy</source>
         <translation>&amp;Copia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>C&amp;lose</source>
         <translation>&amp;Tanca</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Copy Address</source>
         <translation>&amp;Copia l'adreça</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
+<<<<<<< HEAD
         <translation>Elimina l'adreça sel·leccionada actualment de la llista</translation>
+=======
+        <translation>Esborrar l'adreça sel·leccionada</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -51,11 +85,15 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
+<<<<<<< HEAD
         <translation>Trieu l'adreça on voleu rebre monedes</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
         <translation>T&amp;ria</translation>
+=======
+        <translation>Escull l'adreça a la quals vols rebre coins</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Sending addresses</source>
@@ -67,11 +105,15 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Aquestes són les vostres adreces de Bitcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Aquestes són les vostres adreces Bitcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+=======
+        <translation>Aquestes són la seva adreça de Bitcoin per enviar els pagaments. Sempre revisi la quantitat i l'adreça del destinatari abans transferència de monedes.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -83,12 +125,17 @@
     </message>
     <message>
         <source>Export Address List</source>
+<<<<<<< HEAD
         <translation>Exporta la llista d'adreces</translation>
+=======
+        <translation>Exportar la llista d'adre</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Fitxer de separació amb comes (*.csv)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Failed</source>
         <translation>L'exportació ha fallat</translation>
@@ -98,6 +145,9 @@
         <translation>S'ha produït un error en desar la llista d'adreces a %1. Torneu-ho a provar.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -157,11 +207,19 @@
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
+<<<<<<< HEAD
         <translation>Introduïu tant la contrasenya antiga com la nova del moneder.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Confirma l'encriptació del moneder</translation>
+=======
+        <translation>Introdueixi tant l'antiga com la nova contrasenya de moneder.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirmar l'encriptació del moneder</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
@@ -189,7 +247,11 @@
     </message>
     <message>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+<<<<<<< HEAD
         <translation>Bitcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els bitcoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
+=======
+        <translation>Bitcoin es tancarà ara per acabar el procés d'encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus bitcoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -197,7 +259,11 @@
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+<<<<<<< HEAD
         <translation>L'encriptació del moneder ha fallat per un error intern. El moneder no ha estat encriptat.</translation>
+=======
+        <translation>L'encriptació del moneder ha fallat per un error intern. El seu moneder no ha estat encriptat.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -256,7 +322,15 @@
     </message>
     <message>
         <source>Quit application</source>
+<<<<<<< HEAD
         <translation>Surt de l'aplicació</translation>
+=======
+        <translation>Sortir de l'aplicació</translation>
+    </message>
+    <message>
+        <source>Show information about Bitcoin</source>
+        <translation>Mostra informació sobre Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -283,6 +357,7 @@
         <translation>&amp;Canvia la contrasenya...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sending addresses...</source>
         <translation>Adreces d'e&amp;nviament...</translation>
     </message>
@@ -299,6 +374,8 @@
         <translation>Client del Bitcoin Core</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Importing blocks from disk...</source>
         <translation>S'estan important els blocs del disc...</translation>
     </message>
@@ -320,7 +397,11 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
+<<<<<<< HEAD
         <translation>Canvia la contrasenya d'encriptació del moneder</translation>
+=======
+        <translation>Canviar la constrasenya d'encriptació del moneder</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -388,13 +469,22 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
+<<<<<<< HEAD
         <translation>Barra d'eines de les pestanyes</translation>
+=======
+        <translation>Barra d'eines de seccions</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Bitcoin Core</source>
         <translation>Nucli de Bitcoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Sol·licita pagaments (genera codis QR i bitcoin: URI)</translation>
     </message>
@@ -421,14 +511,27 @@
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostra el missatge d'ajuda del Bitcoin Core per obtenir una llista amb les possibles opcions de línia d'ordres de Bitcoin</translation>
+=======
+        <source>Bitcoin client</source>
+        <translation>Client Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n connexió activa a la xarxa Bitcoin</numerusform><numerusform>%n connexions actives a la xarxa Bitcoin</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>No block source available...</source>
         <translation>No hi ha cap font de bloc disponible...</translation>
+=======
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation>Processat el %1 de %2 (estimat) dels blocs del històric de transaccions.</translation>
+    </message>
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Proccessats %1 blocs del històric de transaccions.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -443,6 +546,7 @@
         <translation><numerusform>%n setmana</numerusform><numerusform>%n setmanes</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
     </message>
@@ -451,6 +555,8 @@
         <translation><numerusform>%n any</numerusform><numerusform>%n anys</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>%1 behind</source>
         <translation>%1 darrere</translation>
     </message>
@@ -460,7 +566,11 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
+<<<<<<< HEAD
         <translation>Les transaccions a partir d'això no seran visibles.</translation>
+=======
+        <translation>Les transaccions a partir d'això no seràn visibles.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -517,10 +627,13 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Selecció de l'adreça de control de monedes</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Quantity:</source>
         <translation>Quantitat:</translation>
     </message>
@@ -541,10 +654,13 @@ Address: %4
         <translation>Quota:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>Polsim:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>After Fee:</source>
         <translation>Quota posterior:</translation>
     </message>
@@ -553,10 +669,13 @@ Address: %4
         <translation>Canvi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>(des)selecciona-ho tot</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Tree mode</source>
         <translation>Mode arbre</translation>
     </message>
@@ -605,6 +724,7 @@ Address: %4
         <translation>Copiar ID de transacció</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Lock unspent</source>
         <translation>Bloqueja sense gastar</translation>
     </message>
@@ -641,6 +761,8 @@ Address: %4
         <translation>Copia el canvi</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>highest</source>
         <translation>El més alt</translation>
     </message>
@@ -677,6 +799,7 @@ Address: %4
         <translation>el més baix</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(%1 locked)</source>
         <translation>(%1 bloquejada)</translation>
     </message>
@@ -687,6 +810,10 @@ Address: %4
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Pot variar +/- %1 satoshi(s) per entrada.</translation>
+=======
+        <source>Dust</source>
+        <translation>Pols</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>yes</source>
@@ -701,6 +828,7 @@ Address: %4
         <translation>Aquesta etiqueta es posa de color vermell si la mida de la transacció és més gran de 1000 bytes.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This means a fee of at least %1 per kB is required.</source>
         <translation>Això comporta una comissi d'almenys %1 per kB.</translation>
     </message>
@@ -721,14 +849,19 @@ Address: %4
         <translation>Aquesta etiqueta es torna vermella si qualsevol destinatari rep un import inferior a %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>change from %1 (%2)</source>
         <translation>canvia de %1 (%2)</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>(change)</source>
         <translation>(canvia)</translation>
     </message>
@@ -744,6 +877,7 @@ Address: %4
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation>L'etiqueta associada amb aquesta entrada de llista d'adreces</translation>
     </message>
@@ -752,6 +886,8 @@ Address: %4
         <translation>L'adreça associada amb aquesta entrada de llista d'adreces. Només es pot modificar per a les adreces d'enviament.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Address</source>
         <translation>&amp;Adreça</translation>
     </message>
@@ -769,6 +905,7 @@ Address: %4
     </message>
     <message>
         <source>Edit sending address</source>
+<<<<<<< HEAD
         <translation>Edita les adreces d'enviament</translation>
     </message>
     <message>
@@ -778,6 +915,17 @@ Address: %4
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
         <translation>L'adreça introduïda «%1» no és una adreça de Bitcoin vàlida.</translation>
+=======
+        <translation>Editar adreces d'enviament</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>L'adreça introduïda "%1" ja és present a la llibreta d'adreces.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>L'adreça introduida "%1" no és una adreça Bitcoin valida.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -791,10 +939,13 @@ Address: %4
 <context>
     <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation>Es crearà un nou directori de dades.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>name</source>
         <translation>nom</translation>
     </message>
@@ -802,6 +953,7 @@ Address: %4
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>El directori ja existeix. Afegeix %1 si vols crear un nou directori en aquesta ubicació.</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Path already exists, and is not a directory.</source>
         <translation>El camí ja existeix i no és cap directori.</translation>
@@ -811,6 +963,9 @@ Address: %4
         <translation>No es pot crear el directori de dades aquí.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -847,13 +1002,18 @@ Address: %4
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
+<<<<<<< HEAD
         <translation>Defineix un idioma, per exemple "de_DE" (per defecte: preferències locals de sistema)</translation>
+=======
+        <translation>Definir llenguatge, per exemple "de_DE" (per defecte: Preferències locals de sistema)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Start minimized</source>
         <translation>Inicia minimitzat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Defineix certificats arrel SSL per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
     </message>
@@ -864,8 +1024,12 @@ Address: %4
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Tria el directori de dades a l'inici (per defecte: 0)</translation>
+=======
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Mostrar finestra de benvinguda a l'inici (per defecte: 1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-</context>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -877,6 +1041,7 @@ Address: %4
         <translation>Us donem la benvinguda al Bitcoin Core.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
         <translation>Atès que és la primera vegada que executeu el programa, podeu triar on emmagatzemarà el Bitcoin Core les dades.</translation>
     </message>
@@ -928,6 +1093,31 @@ Address: %4
         <translation>Selecciona el fitxer de sol·licitud de pagament per obrir</translation>
     </message>
 </context>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB d'espai lliure disponible</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(d' %1GB necessari)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -939,30 +1129,41 @@ Address: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Comissió opcional de transacció per kB que ajuda a assegurar que les transaccions es processen ràpidament. La majoria de transaccions són d'1 kB.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Pay transaction &amp;fee</source>
         <translation>Paga &amp;comissió de transacció</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
+<<<<<<< HEAD
         <translation>Inicia automàticament el Bitcoin després de l'inici de sessió del sistema.</translation>
+=======
+        <translation>Iniciar automàticament Bitcoin després de l'inici de sessió del sistema.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
         <translation>&amp;Inicia el Bitcoin a l'inici de sessió del sistema.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Size of &amp;database cache</source>
         <translation>Mida de la memòria cau de la base de &amp;dades</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation>Nombre de fils de &amp;verificació d'scripts</translation>
     </message>
@@ -999,6 +1200,8 @@ Address: %4
         <translation>Opcions de línies d'ordre active que sobreescriuen les opcions de dalt:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Reset all client options to default.</source>
         <translation>Reestableix totes les opcions del client.</translation>
     </message>
@@ -1011,6 +1214,7 @@ Address: %4
         <translation>&amp;Xarxa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = auto, &lt;0 = deixa tants nuclis lliures)</translation>
     </message>
@@ -1037,6 +1241,10 @@ Address: %4
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Obre el port del client de Bitcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+=======
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de Bitcoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l'opció està activada.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1060,11 +1268,19 @@ Address: %4
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
+<<<<<<< HEAD
         <translation>Mostra només la icona de la barra en minimitzar la finestra.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>&amp;Minimitza a la barra d'aplicacions en comptes de la barra de tasques</translation>
+=======
+        <translation>Mostrar només l'icona de la barra al minimitzar l'aplicació.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Minimitzar a la barra d'aplicacions</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
@@ -1080,11 +1296,19 @@ Address: %4
     </message>
     <message>
         <source>User Interface &amp;language:</source>
+<<<<<<< HEAD
         <translation>&amp;Llengua de la interfície d'usuari:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
         <translation>Aquí podeu definir la llengua de l'aplicació. Aquesta configuració tindrà efecte una vegada es reiniciï Bitcoin.</translation>
+=======
+        <translation>Llenguatge de la Interfície d'Usuari:</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
+        <translation>Aquí pots definir el llenguatge de l'aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Bitcoin.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1092,6 +1316,7 @@ Address: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+<<<<<<< HEAD
         <translation>Selecciona la unitat de subdivisió per defecte per mostrar en la interfície quan s'envien monedes.</translation>
     </message>
     <message>
@@ -1099,6 +1324,19 @@ Address: %4
         <translation>Si voleu mostrar les funcions de control de monedes o no.</translation>
     </message>
     <message>
+=======
+        <translation>Sel·lecciona la unitat de subdivisió per defecte per mostrar en la interficie quan s'envien monedes.</translation>
+    </message>
+    <message>
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces Bitcoin als llistats de transaccions o no.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Mostrar adreces al llistat de transaccions</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;D'acord</translation>
     </message>
@@ -1111,14 +1349,18 @@ Address: %4
         <translation>Per defecte</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation>cap</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Confirm options reset</source>
         <translation>Confirmeu el reestabliment de les opcions</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation>Cal reiniciar el client per activar els canvis.</translation>
     </message>
@@ -1131,6 +1373,8 @@ Address: %4
         <translation>Amb aquest canvi cal un reinici del client.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>The supplied proxy address is invalid.</source>
         <translation>L'adreça proxy introduïda és invalida.</translation>
     </message>
@@ -1150,6 +1394,7 @@ Address: %4
         <translation>Només lectura:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Available:</source>
         <translation>Disponible:</translation>
     </message>
@@ -1166,6 +1411,8 @@ Address: %4
         <translation>Total de transaccions que encara han de confirmar-se i que encara no compten en el balanç que es pot gastar</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Immature:</source>
         <translation>Immadur:</translation>
     </message>
@@ -1178,6 +1425,7 @@ Address: %4
         <translation>Total:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current total balance</source>
         <translation>El balanç total actual</translation>
     </message>
@@ -1196,6 +1444,10 @@ Address: %4
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Balanç total actual en adreces de només lectura</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Transaccions recents&lt;/b&gt;</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>out of sync</source>
@@ -1229,10 +1481,13 @@ Address: %4
         <translation>La sol·licitud de pagament no està inicialitzada.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>L'import de pagament sol·licitat %1 és massa petit (es considera polsim).</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment request error</source>
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
@@ -1241,6 +1496,7 @@ Address: %4
         <translation>No es pot iniciar bitcoin: gestor clica-per-pagar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de recuperació de la sol·licitud de pagament no és vàlida: %1</translation>
     </message>
@@ -1261,10 +1517,13 @@ Address: %4
         <translation>No s'accepten sol·licituds de pagament no verificades a scripts de pagament personalitzats.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Refund from %1</source>
         <translation>Reemborsament de %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error communicating with %1: %2</source>
         <translation>Error en comunicar amb %1: %2</translation>
     </message>
@@ -1277,6 +1536,8 @@ Address: %4
         <translation>Mala resposta del servidor %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment acknowledged</source>
         <translation>Pagament reconegut</translation>
     </message>
@@ -1319,6 +1580,7 @@ Address: %4
         <translation>%1 h</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 m</translation>
     </message>
@@ -1333,6 +1595,10 @@ Address: %4
     <message>
         <source>UNKNOWN</source>
         <translation>DESCONEGUT</translation>
+=======
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Error: El directori de dades específiques "%1! no existeix.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>None</source>
@@ -1350,6 +1616,7 @@ Address: %4
 <context>
     <name>QRImageWidget</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Save Image...</source>
         <translation>De&amp;sa la imatge...</translation>
     </message>
@@ -1358,6 +1625,8 @@ Address: %4
         <translation>&amp;Copia la imatge</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Save QR Code</source>
         <translation>Desa el codi QR</translation>
     </message>
@@ -1505,6 +1774,7 @@ Address: %4
         <translation>&amp;Consola</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Network Traffic</source>
         <translation>Trà&amp;nsit de la xarxa</translation>
     </message>
@@ -1513,6 +1783,8 @@ Address: %4
         <translation>Nete&amp;ja</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Totals</source>
         <translation>Totals</translation>
     </message>
@@ -1546,7 +1818,11 @@ Address: %4
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+<<<<<<< HEAD
         <translation>Utilitza les fletxes d'amunt i avall per navegar per l'historial, i &lt;b&gt;Ctrl-L&lt;\b&gt; per netejar la pantalla.</translation>
+=======
+        <translation>Utilitza les fletxes d'amunt i avall per navegar per l'històric, i &lt;b&gt;Ctrl-L&lt;\b&gt; per netejar la pantalla.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1573,6 +1849,7 @@ Address: %4
         <translation>a través de %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>never</source>
         <translation>mai</translation>
     </message>
@@ -1591,6 +1868,10 @@ Address: %4
     <message>
         <source>Fetching...</source>
         <translation>S'està obtenint...</translation>
+=======
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 m</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -1608,6 +1889,7 @@ Address: %4
         <translation>&amp;Missatge:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>Reutilitza una de les adreces de recepció utilitzades anteriorment. La reutilització d'adreces pot comportar problemes de seguretat i privadesa. No ho utilitzeu llevat que torneu a generar una sol·licitud de pagament feta abans.</translation>
     </message>
@@ -1632,6 +1914,8 @@ Address: %4
         <translation>Un import opcional per sol·licitar. Deixeu-ho en blanc o zero per no sol·licitar cap import específic.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Clear all fields of the form.</source>
         <translation>Esborra tots els camps del formuari.</translation>
     </message>
@@ -1640,18 +1924,24 @@ Address: %4
         <translation>Neteja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payments history</source>
         <translation>Historial de pagaments sol·licitats</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Request payment</source>
         <translation>&amp;Sol·licitud de pagament</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the selected request (does the same as double clicking an entry)</source>
         <translation>Mostra la sol·licitud seleccionada (fa el mateix que el doble clic a una entrada)</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show</source>
         <translation>Mostra</translation>
     </message>
@@ -1668,10 +1958,13 @@ Address: %4
         <translation>Copia l'etiqueta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy message</source>
         <translation>Copia el missatge</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy amount</source>
         <translation>Copia l'import</translation>
     </message>
@@ -1691,6 +1984,7 @@ Address: %4
         <translation>Copia l'&amp;adreça</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Save Image...</source>
         <translation>De&amp;sa la imatge...</translation>
     </message>
@@ -1699,6 +1993,8 @@ Address: %4
         <translation>Sol·licita un pagament a %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment information</source>
         <translation>Informació de pagament</translation>
     </message>
@@ -1757,11 +2053,15 @@ Address: %4
         <source>(no message)</source>
         <translation>(sense missatge)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no amount)</source>
         <translation>(sense import)</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1802,7 +2102,11 @@ Address: %4
     </message>
     <message>
         <source>Fee:</source>
+<<<<<<< HEAD
         <translation>Comissió:</translation>
+=======
+        <translation>Quota:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>After Fee:</source>
@@ -1813,6 +2117,7 @@ Address: %4
         <translation>Canvi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation>Si s'activa això, però l'adreça de canvi està buida o bé no és vàlida, el canvi s'enviarà a una adreça generada de nou.</translation>
     </message>
@@ -1821,6 +2126,8 @@ Address: %4
         <translation>Personalitza l'adreça de canvi</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send to multiple recipients at once</source>
         <translation>Envia a múltiples destinataris al mateix temps</translation>
     </message>
@@ -1846,7 +2153,11 @@ Address: %4
     </message>
     <message>
         <source>Confirm the send action</source>
+<<<<<<< HEAD
         <translation>Confirma l'acció d'enviament</translation>
+=======
+        <translation>Confirmi l'acció d'enviament</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>S&amp;end</source>
@@ -1854,6 +2165,7 @@ Address: %4
     </message>
     <message>
         <source>Confirm send coins</source>
+<<<<<<< HEAD
         <translation>Confirma l'enviament de monedes</translation>
     </message>
     <message>
@@ -1863,12 +2175,16 @@ Address: %4
     <message>
         <source>Copy quantity</source>
         <translation>Copia la quantitat</translation>
+=======
+        <translation>Confirmar l'enviament de monedes</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy amount</source>
         <translation>Copia l'import</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Copia la comissi</translation>
     </message>
@@ -1893,12 +2209,18 @@ Address: %4
         <translation>Import total %1 (= %2)</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>or</source>
         <translation>o</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
+<<<<<<< HEAD
         <translation>L'adreça de destinatari no és vàlida, si us plau comprovi-la.</translation>
+=======
+        <translation>L'adreça remetent no és vàlida, si us plau comprovi-la.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1915,6 +2237,7 @@ Address: %4
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>S'ha trobat una adreça duplicada, tan sols es pot enviar a cada adreça un cop per ordre de enviament.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1927,28 +2250,43 @@ Address: %4
     <message>
         <source>Warning: Invalid Bitcoin address</source>
         <translation>Avís: adreça Bitcoin no vàlida</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unknown change address</source>
         <translation>Avís: adreça de canvi desconeguda</translation>
     </message>
     <message>
         <source>Copy dust</source>
         <translation>Copia el polsim</translation>
+=======
+        <source>Are you sure you want to send?</source>
+        <translation>Estàs segur que ho vols enviar?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>S'ha afegit una taxa de transacció</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Are you sure you want to send?</source>
         <translation>Esteu segur que ho voleu enviar?</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>added as transaction fee</source>
         <translation>S'ha afegit una taxa de transacció</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1961,7 +2299,11 @@ Address: %4
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
+<<<<<<< HEAD
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llibreta d'adreces</translation>
+=======
+        <translation>Introdueixi una etiquera per a aquesta adreça per afegir-la a la llibreta d'adreces</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1972,6 +2314,7 @@ Address: %4
         <translation>Escull una adreça feta servir anteriorment</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a normal payment.</source>
         <translation>Això és un pagament normal.</translation>
     </message>
@@ -1980,6 +2323,8 @@ Address: %4
         <translation>L'adreça Bitcoin on enviar el pagament</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alta+A</translation>
     </message>
@@ -1992,14 +2337,18 @@ Address: %4
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Remove this entry</source>
         <translation>Elimina aquesta entrada</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Message:</source>
         <translation>Missatge:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a verified payment request.</source>
         <translation>Aquesta és una sol·licitud de pagament verificada.</translation>
     </message>
@@ -2035,6 +2384,15 @@ Address: %4
         <translation>No apagueu l'ordinador fins que no desaparegui aquesta finestra.</translation>
     </message>
 </context>
+=======
+        <source>Pay To:</source>
+        <translation>Paga a:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -2047,7 +2405,11 @@ Address: %4
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+<<<<<<< HEAD
         <translation>Podeu signar missatges amb la vostra adreça per provar que són vostres. Aneu amb compte no signar qualsevol cosa, ja que els atacs de pesca electrònica (phishing) poden provar de confondre-us perquè els signeu amb la vostra identitat. Només signeu als documents completament detallats amb què hi esteu d'acord.</translation>
+=======
+        <translation>Pots signar missatges amb la teva adreça per provar que són teus. Sigues cautelòs al signar qualsevol cosa, ja que els atacs phising poden intentar confondre't per a que els hi signis amb la teva identitat. Tan sols signa als documents completament detallats amb els que hi estàs d'acord.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
@@ -2122,6 +2484,7 @@ Address: %4
         <translation>Neteja tots els camps de verificació de missatge</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click "Sign Message" to generate signature</source>
         <translation>Feu clic a «Signa el missatge» per a generar una signatura</translation>
     </message>
@@ -2132,6 +2495,22 @@ Address: %4
     <message>
         <source>Please check the address and try again.</source>
         <translation>Comproveu l'adreça i torneu-ho a provar.</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de Bitcoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clica "Signar Missatge" per a generar una signatura</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>L'adreça intoduïda és invàlida.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Siu us plau, comprovi l'adreça i provi de nou.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
@@ -2155,7 +2534,11 @@ Address: %4
     </message>
     <message>
         <source>The signature could not be decoded.</source>
+<<<<<<< HEAD
         <translation>La signatura no s'ha pogut descodificar.</translation>
+=======
+        <translation>La signatura no s'ha pogut decodificar .</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -2181,10 +2564,13 @@ Address: %4
         <translation>Bitcoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Bitcoin Core developers</source>
         <translation>Els desenvolupadors del Bitcoin Core</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -2203,10 +2589,13 @@ Address: %4
         <translation>Obert fins %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>conflicted</source>
         <translation>en conflicte</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>%1/offline</source>
         <translation>%1/fora de línia</translation>
     </message>
@@ -2307,10 +2696,13 @@ Address: %4
         <translation>Mercader</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Les monedes generades han de madurar %1 blocs abans de poder ser gastades. Quan genereu aquest bloc, es farà saber a la xarxa per tal d'afegir-lo a la cadena de blocs. Si no pot fer-se lloc a la cadena, el seu estat canviarà a «no acceptat» i no es podrà gastar. Això pot passar ocasionalment si un altre node genera un bloc en un marge de segons respecte al vostre.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Debug information</source>
         <translation>Informació de depuració</translation>
     </message>
@@ -2372,10 +2764,13 @@ Address: %4
         <source>Address</source>
         <translation>Adreça</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>Immadur (%1 confirmacions, serà disponible després de %2)</translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Obre per %n bloc més</numerusform><numerusform>Obre per %n blocs més</numerusform></translation>
@@ -2397,6 +2792,7 @@ Address: %4
         <translation>Generat però no acceptat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Offline</source>
         <translation>Fora de línia</translation>
     </message>
@@ -2413,6 +2809,8 @@ Address: %4
         <translation>En conflicte</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Received with</source>
         <translation>Rebut amb</translation>
     </message>
@@ -2442,7 +2840,11 @@ Address: %4
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
+<<<<<<< HEAD
         <translation>Estat de la transacció. Desplaceu-vos sobre aquest camp per mostrar el nombre de confirmacions.</translation>
+=======
+        <translation>Estat de la transacció. Desplaça't per aquí sobre per mostrar el nombre de confirmacions.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
@@ -2544,6 +2946,7 @@ Address: %4
         <translation>Mostra detalls de la transacció</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Transaction History</source>
         <translation>Exporta l'historial de transacció</translation>
     </message>
@@ -2564,6 +2967,8 @@ Address: %4
         <translation>L'historial de transaccions s'ha desat correctament a %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Comma separated file (*.csv)</source>
         <translation>Fitxer separat per comes (*.csv)</translation>
     </message>
@@ -2609,11 +3014,15 @@ Address: %4
 </context>
 <context>
     <name>WalletFrame</name>
+<<<<<<< HEAD
     <message>
         <source>No wallet has been loaded.</source>
         <translation>No s'ha carregat cap moneder.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>WalletModel</name>
     <message>
@@ -2644,6 +3053,7 @@ Address: %4
         <translation>Ha fallat la còpia de seguretat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation>S'ha produït un error en provar de desar les dades del moneder a %1.</translation>
     </message>
@@ -2652,6 +3062,8 @@ Address: %4
         <translation>S'han desat les dades del moneder correctament a %1.</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Backup Successful</source>
         <translation>La còpia de seguretat s'ha realitzat correctament</translation>
     </message>
@@ -2659,6 +3071,21 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage:</source>
+        <translation>Ús:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Llista d'ordres</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Obtenir ajuda per a un ordre.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Options:</source>
         <translation>Opcions:</translation>
     </message>
@@ -2676,7 +3103,11 @@ Address: %4
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
+<<<<<<< HEAD
         <translation>Accepta la línia d'ordres i ordres JSON-RPC </translation>
+=======
+        <translation>Acceptar línia d'ordres i ordres JSON-RPC </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2688,7 +3119,11 @@ Address: %4
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+<<<<<<< HEAD
         <translation>Accepta connexions de fora (per defecte: 1 si no -proxy o -connect)</translation>
+=======
+        <translation>Aceptar connexions d'afora (per defecte: 1 si no -proxy o -connect)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -2702,6 +3137,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
 </source>
+<<<<<<< HEAD
         <translation>%s, heu de establir una contrasenya RPC al fitxer de configuració: %s
 Es recomana que useu la següent contrasenya aleatòria:
 rpcuser=bitcoinrpc
@@ -2724,6 +3160,17 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Entra en el mode de proves de regressió, que utilitza una cadena especial en què els blocs poden resoldre's al moment.</translation>
+=======
+        <translation>%s has de establir una contrasenya RPC a l'arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=bitcoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d'usuari i contrasenya NO HAN de ser els mateixos.\nSi l'arxiu no existeix, crea'l amb els permisos d'arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d'alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>Ha sorgit un error al configurar el port RPC %u escoltant a IPv6, retrocedint a IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Vincular a una adreça específica i sempre escoltar-hi. Utilitza la notació [host]:port per IPv6</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
@@ -2735,6 +3182,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+<<<<<<< HEAD
         <translation>Executa una ordre quan una transacció del moneder canviï (%s en cmd es canvia per TxID)</translation>
     </message>
     <message>
@@ -2744,12 +3192,16 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Defineix el nombre de fils de verificació d'scripts (%u a %d, 0 = auto, &lt;0 = deixa tants nuclis lliures, per defecte: %d)</translation>
+=======
+        <translation>Executar una ordre quan una transacció del moneder canviï (%s in cmd es canvia per TxID)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Aquesta és una versió de pre-llançament - utilitza-la sota la teva responsabilitat - No usar per a minería o aplicacions de compra-venda</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation>No es pot enllaçar %s a aquest ordinador. El Bitcoin Core probablement ja estigui executant-s'hi.</translation>
     </message>
@@ -2784,6 +3236,26 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Intenta recuperar les claus privades d'un fitxer wallet.dat corrupte</translation>
+=======
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Advertència: el -paytxfee és molt elevat! Aquesta és la comissió de transacció que pagaràs quan enviis una transacció.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Bitcoin no funcionará de manera apropiada.</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Advertència: Error llegint l'arxiu wallet.dat!! Totes les claus es llegeixen correctament, però hi ha dades de transaccions o entrades del llibre d'adreces absents o bé son incorrectes.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Advertència: L'arxiu wallet.dat és corrupte, dades rescatades! L'arxiu wallet.dat original ha estat desat com wallet.{estampa_temporal}.bak al directori %s; si el teu balanç o transaccions son incorrectes hauries de restaurar-lo de un backup.</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Intentar recuperar les claus privades d'un arxiu wallet.dat corrupte</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2791,29 +3263,39 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
+<<<<<<< HEAD
         <translation>Connecta només al(s) node(s) especificats</translation>
     </message>
     <message>
         <source>Connection options:</source>
         <translation>Opcions de connexió:</translation>
+=======
+        <translation>Connectar només al(s) node(s) especificats</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Corrupted block database detected</source>
         <translation>S'ha detectat una base de dades de blocs corrupta</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Opcions de depuració/proves:</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Descobreix la pròpia adreça IP (per defecte: 1 quan escoltant i no -externalip)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>No carreguis el moneder i inhabilita les crides RPC del moneder</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Do you want to rebuild the block database now?</source>
         <translation>Voleu reconstruir la base de dades de blocs ara?</translation>
     </message>
@@ -2846,6 +3328,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Ha fallat escoltar a qualsevol port. Feu servir -listen=0 si voleu fer això.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>Si no se subministra &lt;category&gt;, mostra tota la informació de depuració.</translation>
     </message>
@@ -2860,12 +3343,45 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Invalid -onion address: '%s'</source>
         <translation>Adreça -onion no vàlida: '%s'</translation>
+=======
+        <source>Failed to read block</source>
+        <translation>Ha fallat la lectura del bloc</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Ha fallat la sincronització de l'índex de bloc</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Ha fallat la escriptura de l'índex de blocs</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Ha fallat la escriptura de la informació de bloc</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Ha fallat l'escriptura del bloc</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Ha fallat l'escriptura de l'arxiu info</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Ha fallat l'escriptura de la basse de dades de monedes</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>Ha fallat l'escriptura de l'índex de transaccions</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>No hi ha suficient descriptors de fitxers disponibles.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Reconstrueix l'índex de la cadena de blocs dels fitxers actuals blk000??.dat</translation>
     </message>
@@ -2880,12 +3396,17 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Especifica un fitxer de moneder (dins del directori de dades)</translation>
+=======
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Cerca punts de connexió usant rastreig de DNS (per defecte: 1 tret d'usar -connect)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>Això es així per a eines de proves de regressió per al desenvolupament d'aplicacions.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying blocks...</source>
         <translation>S'estan verificant els blocs...</translation>
     </message>
@@ -2932,6 +3453,14 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuït sota la llicència de programari MIT/X11. Vegeu el fitxer acompanyant COPYING o &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+=======
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Quants blocs s'han de confirmar a l'inici (per defecte: 288, 0 = tots)</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstruir l'índex de la cadena de blocs dels arxius actuals blk000??.dat</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -2942,6 +3471,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Error: s'ha trobat un argument no permès de -socks. Ja no es pot definir més la versió de SOCKS, només s'accepten els proxies de SOCKS5.ç</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Executa l'ordre quan es rebi un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
@@ -2956,12 +3486,17 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consulta a adreces d'iguals a través de DNS, si es troba baix en adreces (per defecte: 1 a menys que -connect)</translation>
+=======
+        <source>Verifying blocks...</source>
+        <translation>Verificant blocs...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Defineix la mida màxima de transaccions d'alta prioritat / baixa comissió en bytes (per defecte: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Aquest producte inclou programari desenvolupat pel projecte OpenSSL per a ús a l'OpenSSL Toolkit &lt;https://www.openssl.org/&gt; i programari criptogràfic escrit per Eric Young i programari UPnP escrit per Thomas Bernard.</translation>
     </message>
@@ -3002,10 +3537,17 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Comissió en (BTC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
+=======
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importa blocs de un fitxer blk000??.dat extern</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Information</source>
         <translation>&amp;Informació</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
         <translation>Ha fallat la inicialització de la comprovació de validesa. El Bitcoin Core s'està aturant.</translation>
     </message>
@@ -3024,20 +3566,30 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>S'ha especificat una màscara de xarxa no vàlida a -whitelist: «%s»</translation>
+=======
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Mantenir tot l'índex de transaccions (per defecte: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation>Manté com a màxim &lt;n&gt; blocs no connectables en memòria (per defecte: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Cal especificar un port amb -whitebind: «%s»</translation>
+=======
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Mida màxima del buffer d'enviament per a cada connexió, &lt;n&gt;*1000 bytes (default: 5000)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>Opcions de transmissió del node:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Print block on startup, if found in block index</source>
         <translation>Imprimeix el block a l'inici, si es troba l'índex de blocs</translation>
     </message>
@@ -3092,6 +3644,34 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>No s'ha pogut vincular a %s en aquest ordinador (la vinculació ha retornat l'error %s)</translation>
+=======
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de Bitcoin per a instruccions de configuració SSL)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Enviar informació de traça/debug a la consola en comptes del arxiu debug.log</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Establir una mida mínima de bloc en bytes (per defecte: 0)</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Reduir l'arxiu debug.log al iniciar el client (per defecte 1 quan no -debug)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Especificar el temps limit per a un intent de connexió en milisegons (per defecte: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Error de sistema:</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Utilitza UPnP per a mapejar els ports d'escolta (per defecte: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3100,10 +3680,13 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Nom d'usuari per a connexions JSON-RPC</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
         <translation>Cal reescriure el moneder: reiniceu el Bitcoin Core per completar-ho.</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning</source>
@@ -3114,6 +3697,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Avís: aquesta versió està obsoleta. És necessari actualitzar-la!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
         <translation>Avís: s'ha ignorat l'argument no acceptat de -benchmark. Feu servir -debug=bench.</translation>
     </message>
@@ -3132,18 +3716,45 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>El fitxer wallet.data és corrupte. El rescat de les dades ha fallat</translation>
+=======
+        <source>version</source>
+        <translation>versió</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>L'arxiu wallet.data és corrupte, el rescat de les dades ha fallat</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
         <translation>Contrasenya per a connexions JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Permetre connexions JSON-RPC d'adreces IP específiques</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Enviar ordre al node en execució a &lt;ip&gt; (per defecte: 127.0.0.1)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Executa l'ordre quan el millor bloc canviï (%s en cmd es reemplaça per un resum de bloc)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
+<<<<<<< HEAD
         <translation>Actualitza el moneder a l'últim format</translation>
+=======
+        <translation>Actualitzar moneder a l'últim format</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Establir límit de nombre de claus a &lt;n&gt; (per defecte: 100)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
@@ -3156,6 +3767,13 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>This help message</source>
         <translation>Aquest misatge d'ajuda</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Impossible d'unir %s a aquest ordinador (s'ha retornat l'error %d, %s)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3171,6 +3789,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Error loading wallet.dat</source>
+<<<<<<< HEAD
         <translation>Error en carregar wallet.dat</translation>
     </message>
     <message>
@@ -3180,6 +3799,21 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Xarxa desconeguda especificada a -onlynet: '%s'</translation>
+=======
+        <translation>Error carregant wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Adreça -proxy invalida: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Xarxa desconeguda especificada a -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>S'ha demanat una versió desconeguda de -socks proxy: %i</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
@@ -3191,7 +3825,11 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+<<<<<<< HEAD
         <translation>Import no vàlid per a -paytxfee=&lt;amount&gt;: «%s»</translation>
+=======
+        <translation>Quantitat invalida per a -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Invalid amount</source>
@@ -3207,7 +3845,11 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
+<<<<<<< HEAD
         <translation>Afegeix un node per a connectar-s'hi i intenta mantenir-hi la connexió oberta</translation>
+=======
+        <translation>Afegir un node per a connectar's-hi i intentar mantenir la connexió oberta</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -3237,5 +3879,14 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <source>Error</source>
         <translation>Error</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Has de configurar el rpcpassword=&lt;password&gt; a l'arxiu de configuració:\n %s\n Si l'arxiu no existeix, crea'l amb els permís owner-readable-only.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 </TS>

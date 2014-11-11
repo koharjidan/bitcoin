@@ -14,14 +14,22 @@ remotes: []
 files:
 - "qt-everywhere-opensource-src-5.2.1.tar.gz"
 - "osx-native-depends-r3.tar.gz"
+<<<<<<< HEAD
 - "osx-depends-r4.tar.gz"
+=======
+- "osx-depends-r6.tar.gz"
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 - "MacOSX10.7.sdk.tar.gz"
 
 script: |
 
   echo "84e924181d4ad6db00239d87250cc89868484a14841f77fb85ab1f1dbdcd7da1  qt-everywhere-opensource-src-5.2.1.tar.gz" | sha256sum -c
 
+<<<<<<< HEAD
   REVISION=r4
+=======
+  REVISION=r5
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
   export SOURCES_PATH=`pwd`
   export TAR_OPTIONS="-m --mtime="$REFERENCE_DATE\\\ $REFERENCE_TIME""
   export ZERO_AR_DATE=1
@@ -73,7 +81,11 @@ script: |
   tar xf /home/ubuntu/build/osx-native-depends-r3.tar.gz
 
   export PATH=`pwd`/native-prefix/bin:$PATH
+<<<<<<< HEAD
   tar xf /home/ubuntu/build/osx-depends-r4.tar.gz
+=======
+  tar xf /home/ubuntu/build/osx-depends-r6.tar.gz
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
   SOURCE_FILE=${SOURCES_PATH}/qt-everywhere-opensource-src-5.2.1.tar.gz
   BUILD_DIR=${BUILD_BASE}/qt-everywhere-opensource-src-5.2.1
@@ -91,7 +103,11 @@ script: |
   cp -f ${BUILD_DIR}/qtbase/mkspecs/macx-clang/qplatformdefs.h ${BUILD_DIR}/qtbase/mkspecs/macx-clang-linux/
 
   cat > ${SPECFILE} <<ENDCONF
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
   MAKEFILE_GENERATOR      = UNIX
   CONFIG                 += app_bundle incremental global_init_link_order lib_version_first plugin_no_soname absolute_library_soname
   QMAKE_INCREMENTAL_STYLE = sublib
@@ -122,7 +138,11 @@ script: |
   QMAKE_INSTALL_NAME_TOOL=${HOST}-install_name_tool
 
   load(qt_config)
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
   ENDCONF
 
   pushd ${BUILD_DIR}

@@ -1,4 +1,40 @@
 <TS language="eo" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Pri la Bitmona Kerno</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>Versio de &lt;b&gt;Bitmona Kerno&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Tio ĉi estas eksperimenta programo.
+
+Eldonita laŭ la permesilo MIT/X11. Vidu la kunan dosieron COPYING aŭ http://www.opensource.org/licenses/mit-license.php.
+
+Tiu ĉi produkto enhavas erojn kreitajn de la "OpenSSL Project" por uzo en la "OpenSSL Toolkit" (http://www.openssl.org/) kaj ĉifrajn erojn kreitajn de Eric Young (eay@cryptsoft.com) kaj UPnP-erojn kreitajn de Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Kopirajto</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>La programistoj de Bitmona Kerno</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -398,6 +434,13 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandliniaj agordaĵoj</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitmon-kliento</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktiva konekto al la bitmona reto</numerusform><numerusform>%n aktivaj konektoj al la bitmona reto</numerusform></translation>
@@ -841,8 +884,17 @@ Adreso: %4
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Kerno de Bitmono</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitmono</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Eraro: ne eblas krei la elektitan dosierujon por datumoj "%1".</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -1018,6 +1070,13 @@ Adreso: %4
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Monujo</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Your current spendable balance</source>
         <translation>via aktuala elspezebla saldo</translation>
     </message>
@@ -1095,20 +1154,34 @@ Adreso: %4
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Sumo</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitmono</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Eraro: la elektita dosierujo por datumoj "%1" ne ekzistas.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%1 h</source>
         <translation>%1 h</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 m</source>
         <translation>%1 m</translation>
     </message>
     <message>
         <source>N/A</source>
         <translation>neaplikebla</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enigi Bitmon-adreson (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -1702,6 +1775,13 @@ Adreso: %4
         <translation>Reagordigi ĉiujn prikontrolajn kampojn</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Enigi Bitmon-adreson (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>Klaku "Subskribi Mesaĝon" por krei subskribon</translation>
     </message>
@@ -1936,6 +2016,13 @@ Adreso: %4
         <source>Address</source>
         <translation>Adreso</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Amount</source>
+        <translation>Sumo</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>Malferma dum ankoraŭ %n bloko</numerusform><numerusform>Malferma dum ankoraŭ %n blokoj</numerusform></translation>
@@ -2231,6 +2318,13 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Bindi al donita adreso kaj ĉiam aŭskulti per ĝi. Uzu la formaton [gastigo]:pordo por IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Ŝalti reĝimo de regresotestado, kiu uzas specialan ĉenon en kiu oni povas tuj solvi blokojn. La celo de tio estas regresotestilo kaj la kreado de aplikaĵoj.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Eraro: la transakcio estas rifuzita. Tio povas okazi se iom da Bitmono en via monujo jam elspeziĝis (ekz. se vi uzis kopion de wallet.dat kies Bitmono jam elspeziĝis, sed ne estis markita kiel elspezita ĉi tie).</translation>
     </message>
@@ -2251,6 +2345,13 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Averto: -paytxfee estas agordita per tre alta valoro! Tio estas la krompago, kion vi pagos se vi sendas la transakcion.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Averto: Bonvolu kontroli, ke la horo kaj dato de via komputilo estas ĝuste agorditaj! Se via horloĝo malĝustas, Bitmono ne bone funkcios.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Averto: La reto ne tute konsentas! Kelkaj minantoj ŝajne spertas problemojn aktuale.</translation>
     </message>
@@ -2283,6 +2384,13 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Konekti nur al specifita(j) nodo(j)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Konekti al la JSON-RPC per &lt;port&gt; (defaŭlte: 8332 aŭ testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Corrupted block database detected</source>
         <translation>Difektita blokdatumbazo trovita</translation>
     </message>
@@ -2323,6 +2431,61 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Ne sukcesis aŭskulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Failed to read block info</source>
+        <translation>Malsukcesis legi blokinformojn</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Malsukcesis legi blokon</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Malsukcesis sinkronigi blokindekson</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Malsukcesis skribi blokindekson</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Malsukcesis skribi blokinformojn</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Malsukcesis skribi blokon</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Malsukcesis skribi dosierinformojn</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Malsukcesis skribi Bitmon-datumbazon</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>Malsukcesis skribi transakcian indekson</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>Malsukcesis skribi malfarajn datumojn</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Trovi samtavolanojn per DNS-elserĉo (defaŭlte: 1 krom kaze de -connect)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Generi Bitmonon (defaŭlte: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Kiom da blokoj kontrolendas dum lanĉo (defaŭlte: 288, 0=ĉiuj)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Geneza bloko aŭ netrovita aŭ neĝusta. Ĉu eble la datadir de la reto malĝustas?</translation>
     </message>
@@ -2339,10 +2502,24 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Rekontrui blokĉenan indekson el la aktualaj blk000??.dat dosieroj</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Specifi la nombron de fadenoj por priatenti RPC-alvokojn (defaŭlte: 4)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Specify wallet file (within data directory)</source>
         <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <translation>Uzado (malaktuala, uzu anstataŭe bitcoin-cli):</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verifying blocks...</source>
         <translation>Kontrolado de blokoj...</translation>
     </message>
@@ -2383,10 +2560,44 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Nevalida sumo por -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Varti kompletan transakcian indekton (defaŭlte: 0)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Maksimuma po riceva bufro por konektoj, &lt;n&gt;*1000 bajtoj (defaŭlte: 5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Maksimuma po senda bufro por konektoj, &lt;n&gt;*1000 bajtoj (defaŭlte: 1000)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Akcepti nur blokĉenon, kiu kongruas kun integritaj kontrolpunktoj (defaŭlte: 1)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Konekti nur la nodoj en la reto &lt;net&gt; (IPv4, IPv6 aŭ Tor)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-agordaĵoj: (vidu la vikio de Bitmono por instrukcioj pri agordado de SSL)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Agordi minimuman grandon de blokoj je bajtoj (defaŭlte: 0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Malpligrandigi la sencimigan protokol-dosieron kiam kliento lanĉiĝas (defaŭlte: 1 kiam mankas -debug)</translation>
     </message>
@@ -2395,6 +2606,17 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Subskriba transakcio fiaskis</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Specifi konektan tempolimon je milisekundoj (defaŭlte: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Sistema eraro: </translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Transaction amount too small</source>
         <translation>Transakcia sumo tro malgranda</translation>
     </message>
@@ -2423,6 +2645,13 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <translation>Averto: tiu ĉi versio estas eksdata. Vi bezonas ĝisdatigon!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>versio</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat estas difektita, riparo malsukcesis</translation>
     </message>
@@ -2469,6 +2698,13 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Nevalid adreso -proxy: '%s'</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -2530,5 +2766,16 @@ ekzemple: alertnotify=echo %%s | mail -s "Averto de Bitmono" admin@foo.com
         <source>Error</source>
         <translation>Eraro</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Vi devas agordi rpcpassword=&lt;password&gt; en la konfigura dosiero:
+%s
+Se la dosiero ne ekzistas, kreu ĝin kun permeso "nur posedanto rajtas legi".</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 </TS>

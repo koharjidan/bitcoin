@@ -1,4 +1,46 @@
 <TS language="zh_TW" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>關於位元幣核心</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;位元幣核心&lt;/b&gt; 版本</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+位元幣，原名是 Bitcoin, 又叫做比特幣。
+
+這是一套實驗性的軟體。
+
+這套軟體是依據 MIT/X11 軟體授權條款散布，詳情請見附帶的 COPYING 檔案，或是以下網站: http://www.opensource.org/licenses/mit-license.php.
+
+此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit (http://www.openssl.org/) 軟體，和由 Eric Young (eay@cryptsoft.com) 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>版權</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>位元幣核心開發人員</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1 位元)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -901,8 +943,13 @@ Address: %4
         <translation>位元幣核心</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>錯誤: 無法新增指定的資料目錄: %1</translation>
+=======
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>錯誤: 沒辦法造出指定的資料目錄 %1 。</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -1257,6 +1304,17 @@ Address: %4
         <translation>沒辦法啟動 bitcoin 協議的按就付處理器</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Net manager warning</source>
+        <translation>網路管理員警告</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>目前使用中的代理伺服器不支援 SOCKS5 通訊協定，因此不能透過它來要求付款。</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>取得付款要求的 URL 無效: %1</translation>
     </message>
@@ -1339,8 +1397,13 @@ Address: %4
         <translation>%1 分鐘</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 s</source>
         <translation>%1 秒</translation>
+=======
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>錯誤: 沒有指定的資料目錄 %1 。</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>NETWORK</source>
@@ -1351,8 +1414,13 @@ Address: %4
         <translation>不明</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>None</source>
         <translation>無</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>位元幣核心還沒有安全地結束...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>N/A</source>
@@ -2138,6 +2206,13 @@ Address: %4
         <translation>重設所有訊息驗證欄位</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>請輸入位元幣位址(像是 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>請按一下「簽署訊息」來產生簽章</translation>
     </message>
@@ -2738,6 +2813,17 @@ rpcpassword=%s
 也建議你設定警示通知，發生問題時你才會被通知到；
 比如說設定成:
 alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation>可接受的加密演算法 (預設值: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>設定在 IPv6 網路上以通訊埠 %u 聽候 RPC 連線失敗，退而改用 IPv4 網路: %s</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -2768,8 +2854,13 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>在這個運作模式下，-genproclimit 選項控制立刻產生出的區塊數目。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>設定指令碼驗證的執行緒數目 (%u 到 %d，0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目，預設值: %d)</translation>
+=======
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation>當生產位元幣打開時，設定處理器使用數目限制 (-1 表示不限制，預設值: -1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -2784,6 +2875,13 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>警告: -paytxfee 設定了很高的金額！這可是你交易付款所要付的手續費。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>警告: 請檢查電腦日期和時間是否正確！位元幣軟體沒辦法在時鐘不準的情況下正常運作。</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>警告: 位元幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
     </message>
@@ -2940,8 +3038,13 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>改變 -txindex 參數後，必須要用 -reindex 參數來重建資料庫</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>從其它來源的 blk000??.dat 檔匯入區塊</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>無效的 -onion 位址: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
@@ -3044,12 +3147,21 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>資訊</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
         <translation>初始化時的基本檢查失敗了。位元幣核心將會關閉。</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
         <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定 -mintxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
@@ -3228,10 +3340,21 @@ alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
         <translation>沒辦法解析 -bind 位址: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -externalip address: '%s'</source>
         <translation>沒辦法解析 -externalip 位址: '%s'</translation>
     </message>
     <message>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>沒辦法解析 -bind 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>沒辦法解析 -externalip 位址: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
     </message>

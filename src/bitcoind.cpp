@@ -175,6 +175,11 @@ bool AppInit(int argc, char* argv[])
 int main(int argc, char* argv[])
 {
     SetupEnvironment();
+<<<<<<< HEAD
+=======
+
+    bool fRet = false;
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     // Connect bitcoind signal handlers
     noui_connect();

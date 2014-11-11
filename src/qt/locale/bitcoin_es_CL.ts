@@ -1,4 +1,31 @@
 <TS language="es_CL" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Este es un software experimental.
+
+Distribuido bajo la licencia MIT/X11, vea el archivo adjunto
+COPYING o http://www.opensource.org/licenses/mit-license.php.
+
+Este producto incluye software desarrollado por OpenSSL Project para su uso en
+el OpenSSL Toolkit (http://www.openssl.org/), software criptográfico escrito por
+Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -274,6 +301,17 @@
         <source>Tabs toolbar</source>
         <translation>Barra de pestañas</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>[testnet]</source>
+        <translation>[red-de-pruebas]</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Cliente Bitcoin</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n conexión activa hacia la red Bitcoin</numerusform><numerusform>%n conexiones activas hacia la red Bitcoin</numerusform></translation>
@@ -337,7 +375,11 @@ Dirección: %4</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ClientModel</name>
     <message>
@@ -460,6 +502,7 @@ Dirección: %4</translation>
     </context>
 <context>
     <name>Intro</name>
+<<<<<<< HEAD
     <message>
         <source>Error</source>
         <translation>Error</translation>
@@ -479,6 +522,31 @@ Dirección: %4</translation>
         <translation>&amp;Principal</translation>
     </message>
     <message>
+=======
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Opciones</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Principal</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Pay transaction &amp;fee</source>
         <translation>Comisión de &amp;transacciónes</translation>
     </message>
@@ -547,6 +615,13 @@ Dirección: %4</translation>
         <translation>Elige la subdivisión por defecto para mostrar cantidaded en la interfaz cuando se envien monedas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Muestra direcciones en el listado de transaccioines</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -570,10 +645,24 @@ Dirección: %4</translation>
         <translation>Formulario</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Cartera</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Total:</source>
         <translation>Total:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Transacciones recientes&lt;/b&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>out of sync</source>
         <translation>desincronizado</translation>
     </message>
@@ -585,6 +674,7 @@ Dirección: %4</translation>
         <translation>Pago completado</translation>
     </message>
     </context>
+<<<<<<< HEAD
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -597,6 +687,17 @@ Dirección: %4</translation>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+=======
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -659,11 +760,91 @@ Dirección: %4</translation>
     <message>
         <source>Totals</source>
         <translation>Total:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Clear console</source>
         <translation>Limpiar Consola</translation>
     </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Etiqueta:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;mensaje</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etiqueta</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar Cantidad</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>Código QR </translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Copia dirección</translation>
+    </message>
+<<<<<<< HEAD
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>Guardar imagen...</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensaje</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensaje</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sin etiqueta)</translation>
+    </message>
+    </context>
+<context>
+=======
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -739,6 +920,7 @@ Dirección: %4</translation>
     </message>
     </context>
 <context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
@@ -850,6 +1032,13 @@ Dirección: %4</translation>
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -886,10 +1075,24 @@ Dirección: %4</translation>
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verify &amp;Message</source>
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>Click en "Firmar Mensage" para conseguir firma</translation>
     </message>
@@ -937,6 +1140,40 @@ Dirección: %4</translation>
     <message>
         <source>%1/offline</source>
         <translation>%1/fuera de linea</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/no confirmado</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 confirmaciónes</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generado</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>A</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>propia dirección</translation>
+=======
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -1053,6 +1290,10 @@ Dirección: %4</translation>
         <translation>Dirección</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
         <source>Open until %1</source>
         <translation>Abierto hasta %1</translation>
     </message>
@@ -1097,6 +1338,286 @@ Dirección: %4</translation>
         <translation>Estado de transacción. Pasa el raton sobre este campo para ver el numero de confirmaciónes.</translation>
     </message>
     <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Fecha y hora cuando se recibió la transaccion</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Tipo de transacción.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Dirección de destino para la transacción</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Cantidad restada o añadida al balance</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
+        <source>label</source>
+        <translation>etiqueta</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Credito</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>no aceptada</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debito</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Comisión transacción</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Cantidad total</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensaje</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Comentario</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID de Transacción</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transacción</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, no ha sido emitido satisfactoriamente todavía</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+=======
+        <source>All</source>
+        <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hoy</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Esta semana</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Esta mes</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Mes pasado</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Este año</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Rango...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Recibido con</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Enviado a</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>A ti mismo</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minado</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Otra</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Introduce una dirección o etiqueta para  buscar</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Cantidad minima</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Transaction details</source>
+        <translation>Detalles de transacción</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
+=======
+        <source>Copy address</source>
+        <translation>Copia dirección</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etiqueta</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Abierto hasta %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Confirmado (%1 confirmaciones)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Este bloque no ha sido recibido por otros nodos y probablemente no sea aceptado !</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Generado pero no acceptado</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Recibido con</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Recibido de</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Enviado a</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Pagar a usted mismo</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Minado</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+=======
+        <source>Copy amount</source>
+        <translation>Copiar Cantidad</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Edita etiqueta</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Mostrar detalles de la transacción</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Archivos separados por coma (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmado</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Cantidad</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Rango:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>para</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Estado de transacción. Pasa el raton sobre este campo para ver el numero de confirmaciónes.</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+<<<<<<< HEAD
         <source>Date and time that the transaction was received.</source>
         <translation>Fecha y hora cuando se recibió la transaccion</translation>
     </message>
@@ -1226,24 +1747,7 @@ Dirección: %4</translation>
     <message>
         <source>to</source>
         <translation>para</translation>
-    </message>
-</context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    <message>
-        <source>Send Coins</source>
-        <translation>Enviar monedas</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
+=======
         <source>Export the data in the current tab to a file</source>
         <translation>Exportar los datos de la pestaña actual a un archivo</translation>
     </message>
@@ -1263,6 +1767,175 @@ Dirección: %4</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Usage:</source>
+        <translation>Uso:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Muestra comandos
+</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Recibir ayuda para un comando
+</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Opciones:
+</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: bitcoin.conf)
+</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: bitcoin.pid)
+</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Especifica directorio para los datos
+</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Escuchar por conecciones en &lt;puerto&gt; (Por defecto: 8333 o red de prueba: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Mantener al menos &lt;n&gt; conecciones por cliente (por defecto: 125) </translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Umbral de desconección de clientes con mal comportamiento (por defecto: 100)</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Escucha conexiones JSON-RPC en el puerto &lt;port&gt; (predeterminado: 8332 or testnet: 18332)</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aceptar comandos consola y JSON-RPC
+</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Correr como demonio y acepta comandos
+</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Usa la red de pruebas
+</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Precaución: -paytxfee es muy alta. Esta es la comisión que pagarás si envias una transacción.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado Bitcoin no funcionará correctamente.</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Conecta solo al nodo especificado
+</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Error cargando blkindex.dat</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Atención: Poco espacio en el disco duro</translation>
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>Error: error de sistema:</translation>
+    </message>
+    <message>
+        <source>Failed to read block info</source>
+        <translation>Falló la lectura de la información del bloque</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Falló la lectura del bloque</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Falló sincronización del índice del bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Falló la escritura del bloque del índice</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Falló la escritura de la información del bloque</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Falló la escritura del bloque</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>Comisión por kB para adicionarla a las transacciones enviadas</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importar bloques desde el archivo externo blk000??.dat </translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Send Coins</source>
+        <translation>Enviar monedas</translation>
+=======
+        <source>Information</source>
+        <translation>Información</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Backup Wallet</source>
+        <translation>Respaldar billetera</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Datos de billetera (*.dat)</translation>
+=======
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Enviar informacion de seguimiento a la consola en vez del archivo debug.log</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Ha fallado el respaldo</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
         <source>Options:</source>
         <translation>Opciones:
 </translation>
@@ -1315,6 +1988,18 @@ Dirección: %4</translation>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Enviar informacion de seguimiento a la consola en vez del archivo debug.log</translation>
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Especifica tiempo de espera para conexion en milisegundos (predeterminado: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Error de sistema:</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Intenta usar UPnP para mapear el puerto de escucha (default: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -1334,6 +2019,13 @@ Dirección: %4</translation>
         <translation>Advertencia: Esta versión está obsoleta, se necesita actualizar!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>versión</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrompió, guardado fallido</translation>
     </message>
@@ -1343,6 +2035,19 @@ Dirección: %4</translation>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Permite conexiones JSON-RPC desde la dirección IP especificada
+</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Envia comando al nodo situado en &lt;ip&gt; (predeterminado: 127.0.0.1)
+</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Upgrade wallet to latest format</source>
         <translation>Actualizar billetera al formato actual</translation>
     </message>
@@ -1422,5 +2127,9 @@ Dirección: %4</translation>
         <source>Error</source>
         <translation>Error</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

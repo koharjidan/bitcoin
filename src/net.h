@@ -44,6 +44,7 @@ static const int PING_INTERVAL = 2 * 60;
 static const int TIMEOUT_INTERVAL = 20 * 60;
 /** The maximum number of entries in an 'inv' protocol message */
 static const unsigned int MAX_INV_SZ = 50000;
+<<<<<<< HEAD
 /** -listen default */
 static const bool DEFAULT_LISTEN = true;
 /** -upnp default */
@@ -52,6 +53,8 @@ static const bool DEFAULT_UPNP = USE_UPNP;
 #else
 static const bool DEFAULT_UPNP = false;
 #endif
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 /** The maximum number of entries in mapAskFor */
 static const size_t MAPASKFOR_MAX_SZ = MAX_INV_SZ;
 
@@ -300,8 +303,72 @@ public:
     // Whether a ping is requested.
     bool fPingQueued;
 
+<<<<<<< HEAD
     CNode(SOCKET hSocketIn, CAddress addrIn, std::string addrNameIn = "", bool fInboundIn=false);
     ~CNode();
+=======
+    CNode(SOCKET hSocketIn, CAddress addrIn, std::string addrNameIn = "", bool fInboundIn=false) : ssSend(SER_NETWORK, INIT_PROTO_VERSION), setAddrKnown(5000)
+    {
+        nServices = 0;
+        hSocket = hSocketIn;
+        nRecvVersion = INIT_PROTO_VERSION;
+        nLastSend = 0;
+        nLastRecv = 0;
+        nSendBytes = 0;
+        nRecvBytes = 0;
+        nLastSendEmpty = GetTime();
+        nTimeConnected = GetTime();
+        addr = addrIn;
+        addrName = addrNameIn == "" ? addr.ToStringIPPort() : addrNameIn;
+        nVersion = 0;
+        strSubVer = "";
+        fOneShot = false;
+        fClient = false; // set by version message
+        fInbound = fInboundIn;
+        fNetworkNode = false;
+        fSuccessfullyConnected = false;
+        fDisconnect = false;
+        nRefCount = 0;
+        nSendSize = 0;
+        nSendOffset = 0;
+        hashContinue = 0;
+        pindexLastGetBlocksBegin = 0;
+        hashLastGetBlocksEnd = 0;
+        nStartingHeight = -1;
+        fStartSync = false;
+        fGetAddr = false;
+        fRelayTxes = false;
+        setInventoryKnown.max_size(SendBufferSize() / 1000);
+        pfilter = new CBloomFilter();
+        nPingNonceSent = 0;
+        nPingUsecStart = 0;
+        nPingUsecTime = 0;
+        fPingQueued = false;
+
+        {
+            LOCK(cs_nLastNodeId);
+            id = nLastNodeId++;
+        }
+
+        // Be shy and don't send version until we hear
+        if (hSocket != INVALID_SOCKET && !fInbound)
+            PushVersion();
+
+        GetNodeSignals().InitializeNode(GetId(), this);
+    }
+
+    ~CNode()
+    {
+        if (hSocket != INVALID_SOCKET)
+        {
+            closesocket(hSocket);
+            hSocket = INVALID_SOCKET;
+        }
+        if (pfilter)
+            delete pfilter;
+        GetNodeSignals().FinalizeNode(GetId());
+    }
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
 private:
     // Network usage totals
@@ -390,7 +457,42 @@ public:
         }
     }
 
+<<<<<<< HEAD
     void AskFor(const CInv& inv);
+=======
+    void AskFor(const CInv& inv)
+    {
+        if (mapAskFor.size() > MAPASKFOR_MAX_SZ)
+            return;
+
+        // We're using mapAskFor as a priority queue,
+        // the key is the earliest time the request can be sent
+        int64_t nRequestTime;
+        limitedmap<CInv, int64_t>::const_iterator it = mapAlreadyAskedFor.find(inv);
+        if (it != mapAlreadyAskedFor.end())
+            nRequestTime = it->second;
+        else
+            nRequestTime = 0;
+        LogPrint("net", "askfor %s   %d (%s)\n", inv.ToString().c_str(), nRequestTime, DateTimeStrFormat("%H:%M:%S", nRequestTime/1000000).c_str());
+
+        // Make sure not to reuse time indexes to keep things in the same order
+        int64_t nNow = GetTimeMicros() - 1000000;
+        static int64_t nLastTime;
+        ++nLastTime;
+        nNow = std::max(nNow, nLastTime);
+        nLastTime = nNow;
+
+        // Each retry is 2 minutes after the last
+        nRequestTime = std::max(nRequestTime + 2 * 60 * 1000000, nNow);
+        if (it != mapAlreadyAskedFor.end())
+            mapAlreadyAskedFor.update(it, nRequestTime);
+        else
+            mapAlreadyAskedFor.insert(std::make_pair(inv, nRequestTime));
+        mapAskFor.insert(std::make_pair(nRequestTime, inv));
+    }
+
+
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
     // TODO: Document the postcondition of this function.  Is cs_vSend locked?
     void BeginMessage(const char* pszCommand) EXCLUSIVE_LOCK_FUNCTION(cs_vSend);

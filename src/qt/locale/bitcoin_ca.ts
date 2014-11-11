@@ -1,23 +1,37 @@
 <TS language="ca" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Double-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Feu doble clic per editar l'adreça o l'etiqueta</translation>
+=======
+        <translation>Doble click per editar l'adreça o l'etiqueta</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Create a new address</source>
         <translation>Crea una nova adreça</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation>&amp;Nova</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia l'adreça seleccionada al porta-retalls del sistema</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation>&amp;Copia</translation>
     </message>
@@ -42,10 +56,13 @@
         <translation>&amp;Exporta</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Delete</source>
         <translation>&amp;Elimina</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation>Trieu una adreça on voleu enviar monedes</translation>
     </message>
@@ -86,9 +103,12 @@
         <translation>Exporta la llista d'adreces</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Comma separated file (*.csv)</source>
         <translation>Fitxer de separació amb comes (*.csv)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Failed</source>
         <translation>L'exportació ha fallat</translation>
@@ -98,6 +118,9 @@
         <translation>S'ha produït un error en desar la llista d'adreces a %1. Torneu-ho a provar.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -116,10 +139,13 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>Diàleg de contrasenya</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Enter passphrase</source>
         <translation>Introduïu una contrasenya</translation>
     </message>
@@ -157,6 +183,7 @@
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
+<<<<<<< HEAD
         <translation>Introduïu tant la contrasenya antiga com la nova del moneder.</translation>
     </message>
     <message>
@@ -178,6 +205,13 @@
     <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Avís: Les lletres majúscules estan activades!</translation>
+=======
+        <translation>Introduïu l'antiga i la nova frase-contrasenya per a la cartera.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirmeu l'encriptació de cartera</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -188,6 +222,7 @@
         <translation>Introduïu la contrasenya nova al moneder.&lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els bitcoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
     </message>
@@ -198,6 +233,14 @@
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>L'encriptació del moneder ha fallat per un error intern. El moneder no ha estat encriptat.</translation>
+=======
+        <source>Wallet encryption failed</source>
+        <translation>L'encriptació de cartera ha fallat</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>L'encriptació de cartera ha fallat degut a un error intern. La vostra cartera no ha estat encriptada.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -215,6 +258,7 @@
         <source>Wallet decryption failed</source>
         <translation>La desencriptació del moneder ha fallat</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>La contrasenya del moneder ha estat modificada correctament.</translation>
@@ -227,6 +271,12 @@
         <translation>Signa el &amp;missatge...</translation>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Synchronizing with network...</source>
         <translation>S'està sincronitzant amb la xarxa ...</translation>
     </message>
@@ -235,10 +285,13 @@
         <translation>&amp;Panorama general</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation>Node</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show general overview of wallet</source>
         <translation>Mostra el panorama general del moneder</translation>
     </message>
@@ -248,6 +301,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
+<<<<<<< HEAD
         <translation>Cerca a l'historial de transaccions</translation>
     </message>
     <message>
@@ -267,10 +321,24 @@
         <translation>Mostra informació sobre Qt</translation>
     </message>
     <message>
+=======
+        <translation>Exploreu l'historial de transaccions</translation>
+    </message>
+    <message>
+        <source>Quit application</source>
+        <translation>Sortir de l'aplicació</translation>
+    </message>
+    <message>
+        <source>Show information about Bitcoin</source>
+        <translation>Informació sobre Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Options...</source>
         <translation>&amp;Opcions...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Encripta el moneder...</translation>
     </message>
@@ -373,6 +441,10 @@
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
         <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Bitcoin específica.</translation>
+=======
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Canviar frase-contrasenya per a l'escriptació de la cartera</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;File</source>
@@ -388,6 +460,7 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
+<<<<<<< HEAD
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
@@ -479,6 +552,15 @@
         <translation>Al dia</translation>
     </message>
     <message>
+=======
+        <translation>Barra d'eines</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Catching up...</source>
         <translation>S'està posant al dia ...</translation>
     </message>
@@ -491,6 +573,7 @@
         <translation>Transacció entrant</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -499,11 +582,14 @@ Address: %4
         <translation>Data: %1\nImport: %2\n Tipus: %3\n Adreça: %4\n</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;desbloquejat&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+<<<<<<< HEAD
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
 </context>
@@ -531,8 +617,29 @@ Address: %4
     <message>
         <source>Amount:</source>
         <translation>Import:</translation>
+=======
+        <translation>La cartera està &lt;b&gt;encriptada&lt;b/&gt; i &lt;b&gt;bloquejada&lt;b/&gt;</translation>
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Adreça</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(sense etiqueta)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Prioritat:</translation>
     </message>
@@ -543,36 +650,146 @@ Address: %4
     <message>
         <source>Dust:</source>
         <translation>Polsim:</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Editar adreça</translation>
     </message>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiqueta</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Adreça</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>After Fee:</source>
         <translation>Quota posterior:</translation>
     </message>
     <message>
         <source>Change:</source>
         <translation>Canvi:</translation>
+=======
+        <source>Address</source>
+        <translation>Adreça</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>(des)selecciona-ho tot</translation>
     </message>
     <message>
         <source>Tree mode</source>
         <translation>Mode arbre</translation>
+=======
+        <source>Label</source>
+        <translation>Etiqueta</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(sense etiqueta)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>List mode</source>
         <translation>Mode llista</translation>
+=======
+        <source>(no label)</source>
+        <translation>(sense etiqueta)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Quantitat</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
         <source>Address</source>
         <translation>Adreça</translation>
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -809,9 +1026,22 @@ Address: %4
     <message>
         <source>Cannot create data directory here.</source>
         <translation>No es pot crear el directori de dades aquí.</translation>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fitxer separat per comes (*.csv)</translation>
     </message>
-</context>
+    <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreça</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
@@ -3238,4 +3468,17 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Error</translation>
     </message>
 </context>
+=======
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

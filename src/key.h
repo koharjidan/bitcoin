@@ -166,4 +166,8 @@ struct CExtKey {
 /** Check that required EC support is available at runtime */
 bool ECC_InitSanityCheck(void);
 
+<<<<<<< HEAD
 #endif // BITCOIN_KEY_H
+=======
+#endif
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046

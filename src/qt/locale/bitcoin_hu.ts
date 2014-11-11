@@ -1,4 +1,43 @@
 <TS language="hu" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>A Bitcoin Core-ról</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; verzió</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Ez egy kísérleti program.
+MIT/X11 szoftverlicenc alatt kiadva, lásd a mellékelt fájlt COPYING vagy http://www.opensource.org/licenses/mit-license.php.
+
+Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (http://www.openssl.org/) és kriptográfiai szoftvertben való felhasználásra,  írta Eric Young (eay@cryptsoft.com) és UPnP szoftver, írta Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>A Bitcoin Core fejlesztői</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -67,11 +106,19 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Ezekről a címekről küldhetsz bitcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ezekkel a címekkel fogadhatsz bitcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
+=======
+        <translation>Ezekkel a Bitcoin-címekkel küldhetsz kifizetéseket. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz bitcoint. Ajánlott minden tranzakciónál egy új fogadó címet használni.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -93,11 +140,15 @@
         <source>Exporting Failed</source>
         <translation>Az exportálás sikertelen volt</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>Hiba történt a címjegyzék %1 helyre való mentésekor. Kérlek próbáld újra.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -293,10 +344,13 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>&amp;URI azonosító megnyitása...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Bitcoin Core client</source>
         <translation>Bitcoin Core kliens</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -396,7 +450,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+<<<<<<< HEAD
         <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+=======
+        <translation>Kifizetési kérelem (QR-kódot és "bitcoin:" azonosítót (URI-t) hoz létre)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -404,7 +462,11 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
+<<<<<<< HEAD
         <translation>A használt küldési címek és címkék megtekintése</translation>
+=======
+        <translation>A használt küldési címek és címkék mutatása</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
@@ -421,6 +483,13 @@
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>A Bitcoin Core súgóüzenet megjelenítése a Bitcoin lehetséges parancssori kapcsolóival.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin kliens</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -445,10 +514,13 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 és %2</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n év</numerusform><numerusform>%n év</numerusform></translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>%1 behind</source>
@@ -510,6 +582,13 @@ Cím: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A Bitcoin működése nem biztonságos és hamarosan leáll.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>ClientModel</name>
@@ -543,10 +622,13 @@ Cím: %4
     <message>
         <source>Fee:</source>
         <translation>Díjak:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Dust:</source>
         <translation>Por-határ:</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>After Fee:</source>
@@ -635,10 +717,13 @@ Cím: %4
     <message>
         <source>Copy priority</source>
         <translation>Prioritás másolása</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy dust</source>
         <translation>Por-határ másolása</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Copy change</source>
@@ -687,10 +772,13 @@ Cím: %4
     <message>
         <source>none</source>
         <translation>semmi</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Bemenetenként  +/- %1 satoshi-val változhat</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>yes</source>
@@ -878,14 +966,31 @@ Cím: %4
         <translation>Üdvözlünk a Bitcoin Core-ban.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB hely érhető el</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>( ebből %1GB szükséges)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1012,6 +1117,17 @@ Cím: %4
         <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Mutassa-e a Bitcoin címeket a tranzakciólistában.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Címek megjelenítése a tranzakciólistában</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -1094,6 +1210,7 @@ Cím: %4
         <translation>A bitcoint nem lehet elindítani: click-to-pay handler</translation>
     </message>
     </context>
+<<<<<<< HEAD
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -1110,6 +1227,17 @@ Cím: %4
     <message>
         <source>N/A</source>
         <translation>Nem elérhető</translation>
+=======
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -1260,10 +1388,13 @@ Cím: %4
     <message>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>never</source>
         <translation>soha</translation>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -1414,10 +1545,13 @@ Cím: %4
         <translation>&amp;Címzett hozzáadása</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>Por-határ:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Clear &amp;All</source>
         <translation>Mindent &amp;töröl</translation>
     </message>
@@ -1493,10 +1627,13 @@ Cím: %4
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Copy dust</source>
         <translation>Visszajáró másolása</translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1560,6 +1697,13 @@ Cím: %4
         <translation>Aláírhat a címeivel üzeneteket, amivel bizonyíthatja, hogy a címek az önéi. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel a phising támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1604,6 +1748,17 @@ Cím: %4
         <translation>Írja be az aláírás címét, az üzenetet (ügyelve arra, hogy az új-sor, szóköz, tab, stb. karaktereket is pontosan) és az aláírást az üzenet ellenőrzéséhez. Ügyeljen arra, ne gondoljon többet az aláírásról, mint amennyi az aláírt szövegben ténylegesen áll, hogy elkerülje a köztes-ember (man-in-the-middle) támadást.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>The entered address is invalid.</source>
         <translation>A megadott cím nem érvényes.</translation>
     </message>
@@ -1648,7 +1803,11 @@ Cím: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
+<<<<<<< HEAD
         <translation>A Bitcoin fejlesztői</translation>
+=======
+        <translation>A Bitcoin Core fejlesztői</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>[testnet]</source>
@@ -1806,6 +1965,13 @@ Cím: %4
         <source>Address</source>
         <translation>Cím</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Amount</source>
+        <translation>Összeg</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>%n további blokkra megnyitva</numerusform><numerusform>%n további blokkra megnyitva</numerusform></translation>
@@ -2059,6 +2225,21 @@ Cím: %4
         <translation>Adja meg az Ön saját nyilvános címét</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Helytelenül viselkedő peerek leválasztási határértéke (alapértelmezés: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Helytelenül viselkedő peerek kizárási ideje másodpercben (alapértelmezés: 86400)</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8332 or testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Parancssoros és JSON-RPC parancsok elfogadása
 </translation>
@@ -2078,6 +2259,13 @@ Cím: %4
         <translation>Kívülről érkező kapcsolatok elfogadása (alapértelmezett: 1, ha nem használt a -proxy vagy a -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Regressziós teszt mód indítása, amely egy speciális láncot használ, amelyben a blokkok azonnal feloldhatók. Ez regressziós tesztalkalmazások által és alkalmazásfejlesztéshez használható.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Hiba: a tranzakciót elutasították. Ezt az okozhatja, ha már elköltöttél valamennyi érmét a tárcádból például ha a wallet.dat-od egy másolatát használtad, és így az elköltés csak abban lett jelölve, de itt nem.</translation>
     </message>
@@ -2090,6 +2278,13 @@ Cím: %4
         <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Bitcoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connect only to the specified node(s)</source>
         <translation>Csatlakozás csak a megadott csomóponthoz</translation>
     </message>
@@ -2124,12 +2319,74 @@ Cím: %4
     <message>
         <source>Error: Disk space is low!</source>
         <translation>Hiba: kevés a hely a lemezen!</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>Hiba: rendszerhiba:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Failed to read block info</source>
+        <translation>A blokkinformáció olvasása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>A blokk olvasása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>A blokkindex szinkronizálása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>A blokkindex írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>A blokkinformáció írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>A blokk írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>A fájlinformáció írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Az érme-adatbázis írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>A tranzakcióindex írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>A stornóadatok írása nem sikerült</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Csomópontok keresése a tartománynévrendszeren keresztül (alapérték: 1, kivéve -connect paraméternél)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Érmék generálása (alapértelmezett: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Hány blokkot ellenőrizzen induláskor (alapértelmezett: 288, 0 = mindet)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Importing...</source>
         <translation>Importálás</translation>
     </message>
@@ -2170,6 +2427,25 @@ Cím: %4
         <translation>Érvénytelen -mintxfee=&lt;amount&gt;: '%s' összeg</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Teljes tranzakcióindex megőrzése (alapértelmezett: 0)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Csak blokklánccal egyező beépített ellenőrző pontok elfogadása (alapértelmezés: 1)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Csak a &lt;net&gt; hálózat csomópontjaihoz kapcsolódjon (IPv4, IPv6 vagy Tor)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>trace/debug információ küldése a konzolra a debog.log fájl helyett</translation>
     </message>
@@ -2178,8 +2454,17 @@ Cím: %4
         <translation>Tranzakció aláírása sikertelen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is experimental software.</source>
         <translation>Ez egy kísérleti szoftver.</translation>
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Rendszerhiba:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2207,6 +2492,13 @@ Cím: %4
         <translation>Figyelem</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>verzió</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>Jelszó JSON-RPC csatlakozásokhoz
 </translation>
@@ -2253,6 +2545,13 @@ Cím: %4
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Érvénytelen -proxy cím: '%s'</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -2314,5 +2613,16 @@ Cím: %4
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Be kell állítani rpcpassword=&lt;password&gt; a konfigurációs fájlban
+%s
+Ha a fájl nem létezik, hozd létre 'csak a felhasználó által olvasható' fájl engedéllyel</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 </TS>

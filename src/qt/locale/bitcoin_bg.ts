@@ -1,4 +1,28 @@
 <TS language="bg" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Това е експериментален софтуер.
+
+Разпространява се под MIT/X11 софтуерен лиценз, виж COPYING или http://www.opensource.org/licenses/mit-license.php.
+
+Използван е софтуер, разработен от OpenSSL Project за употреба в OpenSSL Toolkit (http://www.openssl.org/), криптографски софтуер разработен от Eric Young (eay@cryptsoft.com) и UPnP софтуер разработен от Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Авторски права</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -278,6 +302,13 @@
         <source>Tabs toolbar</source>
         <translation>Раздели</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n връзка към Биткоин мрежата</numerusform><numerusform>%n връзки към Биткоин мрежата</numerusform></translation>
@@ -338,6 +369,13 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Биткойн не може да продължи безопасно и ще се изключи.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>ClientModel</name>
@@ -397,6 +435,13 @@
         <translation>Копирай сума</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Dust</source>
+        <translation>Прах</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>yes</source>
         <translation>да</translation>
     </message>
@@ -493,6 +538,7 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
@@ -530,6 +576,49 @@
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
+=======
+        <source>Bitcoin</source>
+        <translation>Биткоин</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Грешка</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Опции</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Основни</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>&amp;Такса за изходяща трансакция</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Пускане на Биткоин при вход в системата</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Мрежа</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Bitcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message>
         <source>Proxy &amp;IP:</source>
         <translation>Прокси &amp; АйПи:</translation>
@@ -543,6 +632,17 @@
         <translation>Порт на прокси сървъра (пр. 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS &amp;Версия:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>SOCKS версия на прокси сървъра (пр. 5)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Window</source>
         <translation>&amp;Прозорец</translation>
     </message>
@@ -583,6 +683,17 @@
         <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Ще се показват адресите в списъка с трансакции независимо от наличието на кратко име.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Адреси в списъка с трансакции</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>ОК</translation>
     </message>
@@ -606,6 +717,13 @@
         <translation>Форма</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Портфейл</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Available:</source>
         <translation>Налично:</translation>
     </message>
@@ -633,6 +751,7 @@
         <translation>Плащането е приета</translation>
     </message>
     </context>
+<<<<<<< HEAD
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -645,6 +764,17 @@
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+=======
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Биткоин</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     </context>
 <context>
@@ -722,6 +852,16 @@
     <message>
         <source>Show</source>
         <translation>Показване</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Премахване</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копирай име</translation>
+=======
     </message>
     <message>
         <source>Remove</source>
@@ -876,7 +1016,7 @@
         <source>added as transaction fee</source>
         <translation>добавено като такса за трансакция</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -942,6 +1082,10 @@
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
     <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Адресът, с който ще подпишете съобщението (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -982,8 +1126,16 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Адресът, с който е подписано съобщението (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1181,6 +1333,10 @@
         <translation>Адрес</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
         <source>Open until %1</source>
         <translation>Подлежи на промяна до %1</translation>
     </message>
@@ -1296,6 +1452,680 @@
         <translation>Собствени</translation>
     </message>
     <message>
+        <source>Mined</source>
+        <translation>Емитирани</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Други</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Търсене по адрес или име</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Минимална сума</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Копирай адрес</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копирай име</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копирай сума</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Редактирай име</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Копиране на съобщението</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копирай сума</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Payment information</source>
+        <translation>Данни за плащането</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Съобщение</translation>
+=======
+        <source>Exporting Successful</source>
+        <translation>Изнасянето е успешна</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>CSV файл (*.csv)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Грешка при създаването на QR Code от URI.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Съобщение</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без име)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Изпращане</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Байтове:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Сума:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Приоритет:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Fee:</source>
+        <translation>Такса:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Изпращане към повече от един получател</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Добави &amp;получател</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Изчисти</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Баланс:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Потвърдете изпращането</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>И&amp;зпрати</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Потвърждаване</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копирай сума</translation>
+    </message>
+=======
+        <source>Export the data in the current tab to a file</source>
+        <translation>Запишете данните от текущия раздел във файл</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Запазване на портфейла</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    <message>
+        <source>or</source>
+        <translation>или</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Невалиден адрес на получателя.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Сумата трябва да е по-голяма от 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Сумата надвишава текущия баланс</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Грешка при създаването на трансакция!</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>(no label)</source>
+        <translation>(без име)</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Наистина ли искате да изпратите?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>добавено като такса за трансакция</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>С&amp;ума:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Плати &amp;На:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Име:</translation>
+=======
+        <source>Specify data directory</source>
+        <translation>Определете директория за данните</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Праг на прекъсване на връзката при непорядъчно държащи се пиъри (по подразбиране:100)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Това е нормално плащане.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Вмъкни от клипборда</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Премахване на този запис</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Съобщение:</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Плащане на:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Подпиши / Провери съобщение</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Подпиши</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Вмъкни от клипборда</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Въведете съобщението тук</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Подпис</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Копиране на текущия подпис</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Подпиши &amp;съобщение</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Изчисти</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Провери</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Натиснете "Подписване на съобщение" за да създадете подпис</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Въведеният адрес е невалиден.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Моля проверете адреса и опитайте отново.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Отключването на портфейла беше отменено.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Не е наличен частният ключ за въведеният адрес.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Подписването на съобщение бе неуспешно.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Съобщението е подписано.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Подписът не може да бъде декодиран.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Проверете подписа и опитайте отново.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Подписът не отговаря на комбинацията от съобщение и адрес.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Проверката на съобщението беше неуспешна.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Съобщението е потвърдено.</translation>
+=======
+        <source>Use the test network</source>
+        <translation>Използвайте тестовата мрежа</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Внимание: -paytxfee има голяма стойност! Това е таксата за транзакциите, която ще платите ако направите транзакция.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Подлежи на промяна до %1</translation>
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Биткойн няма да работи правилно.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/офлайн</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/непотвърдени</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>%1 confirmations</source>
+        <translation>включена в %1 блока</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Източник</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Издадени</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>От</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>За</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>собствен адрес</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>име</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Кредит</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>не е приет</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Дебит</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Такса</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Сума нето</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Съобщение</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Коментар</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Търговец</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Трансакция</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>true</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>false</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, все още не е изпратено</translation>
+=======
+        <source>Connection options:</source>
+        <translation>Настройки на връзката:</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Грешка: мястото на диска е малко!</translation>
+    </message>
+    <message>
+        <source>Error: system error: </source>
+        <translation>Грешка: системна грешка:</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Провалено "слушане" на всеки порт. Използвайте -listen=0 ако искате това.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестен</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Трансакция</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Описание на трансакцията</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+=======
+        <source>Failed to write block info</source>
+        <translation>Грешка при запис данни на блок</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Open until %1</source>
+        <translation>Подлежи на промяна до %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Потвърдени (%1 потвърждения)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Блокът не е получен от останалите участници и най-вероятно няма да бъде одобрен.</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Генерирана, но отхвърлена от мрежата</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Непотвърдено</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Потвърждаване (%1 от %2 препоръчвани потвърждения)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Конфликтно</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Получени с</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Получен от</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Изпратени на</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Плащане към себе си</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Емитирани</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Състояние на трансакцията. Задръжте върху това поле за брой потвърждения.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Дата и час на получаване.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Вид трансакция.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Получател на трансакцията.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Сума извадена или добавена към баланса.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Всички</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Днес</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Тази седмица</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Този месец</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Предния месец</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Тази година</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>От - до...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Получени</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Изпратени на</translation>
+=======
+        <source>Importing...</source>
+        <translation>Внасяне...</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Проверка на блоковете...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Собствени</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Mined</source>
         <translation>Емитирани</translation>
     </message>
@@ -1461,6 +2291,26 @@
     <message>
         <source>Information</source>
         <translation>Данни</translation>
+=======
+        <source>Wallet options:</source>
+        <translation>Настройки на портфейла:</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Данни</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Изпрати локализиращата или дебъг информацията към конзолата, вместо файлът debug.log</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Задайте минимален размер на блок-а в байтове (подразбиране: 0)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Определете таймаут за свързване в милисекунди (подразбиране: 5000)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -1491,10 +2341,28 @@
         <translation>Внимание: Използвате остаряла версия, необходимо е обновление!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>версия</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>Парола за  JSON-RPC връзките</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Разреши  JSON-RPC връзките от отучнен IP адрес</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Изпрати команди до възел функциониращ на &lt;ip&gt; (По подразбиране: 127.0.0.1)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Upgrade wallet to latest format</source>
         <translation>Обновяване на портфейла до най-новия формат</translation>
     </message>
@@ -1519,6 +2387,13 @@
         <translation>Грешка при зареждане на wallet.dat: портфейлът е повреден</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation>Грешка при зареждане на  wallet.dat: портфейлът изисква по-нова версия на Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error loading wallet.dat</source>
         <translation>Грешка при зареждане на wallet.dat</translation>
     </message>
@@ -1550,5 +2425,9 @@
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

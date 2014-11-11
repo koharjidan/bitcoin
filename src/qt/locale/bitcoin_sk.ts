@@ -1,4 +1,44 @@
 <TS language="sk" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>O jadre Bitcoin</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;Bitcoin jadra&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Toto je experimentálny softvér.
+
+Distribuovaný pod MIT/X11 softvérovou licenciou, viď sprevádzajúci súbor COPYING alebo http://www.opensource.org/licenses/mit-license.php.
+
+Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v OpenSSL Toolkit (http://www.openssl.org/) a kryptografický softvér napísaný Ericom Youngom (eay@cryptsoft.com) a UPnP softvér napísaný Thomasom Bernardom.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Autorské práva</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Vývojári jadra Bitcoin</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -94,8 +134,13 @@
         <translation>Export zlyhal</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1. Skúste znovu.</translation>
+=======
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
 </context>
 <context>
@@ -421,6 +466,17 @@
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Zobraziť pomocnú správu od Bitcoin Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klient</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n aktívne spojenie v Bitcoin sieti</numerusform><numerusform>%n aktívne spojenia v Bitcoin sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>No block source available...</source>
@@ -489,6 +545,13 @@ Adresa: %4</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Vyskytla sa neblahá chyba. Bitcoin nemôže daľej bezpečne pokračovať a vypne sa.</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>ClientModel</name>
@@ -524,6 +587,13 @@ Adresa: %4</translation>
         <translation>Poplatok:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Low Output:</source>
+        <translation>Malá hodnota na výstupe:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>After Fee:</source>
         <translation>Po poplatku:</translation>
     </message>
@@ -612,6 +682,13 @@ Adresa: %4</translation>
         <translation>Kopírovať prioritu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy low output</source>
+        <translation>Kopírovať malý výstup.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy change</source>
         <translation>Kopírovať zmenu</translation>
     </message>
@@ -690,6 +767,21 @@ Adresa: %4</translation>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>Tento popis zčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation>To znamená že je požadovaný poplatok aspoň %1.</translation>
+    </message>
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>Sumy pod 0.546 násobkom minimálneho poplatku pre prenos sú považované za prach.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation>Tento popis zžervenie ak výdavok je menší než %1.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>(no label)</source>
@@ -785,6 +877,13 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Jadro Bitcoin - možnosti príkazového riadku</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Bitcoin Core</source>
         <translation>Jadro Bitcoin</translation>
     </message>
@@ -864,8 +963,17 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Jadro Bitcoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Chyba: Predpísaný priečinok pre dáta "%1" nemôže byt vytvorený.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error</source>
@@ -1052,6 +1160,17 @@ Adresa: %4</translation>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Či ukazovať Bitcoin adresy v zozname transakcií alebo nie.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Zobraziť adresy zo zoznamu transakcií</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1103,6 +1222,13 @@ Adresa: %4</translation>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informácie môžu byť neaktuápne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bitcoin po nadviazaní spojenia ale tento proces ešte nieje ukončený.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Peňaženka</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Available:</source>
@@ -1148,8 +1274,13 @@ Adresa: %4</translation>
         <translation>Spracovanie URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid payment address %1</source>
         <translation>Neplatná adresa platby %1</translation>
+=======
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI sa nedá rozložiť! To môže byť spôsobené neplatou Bitcoin adresou alebo zle upravenými vlastnosťami URI.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1162,6 +1293,17 @@ Adresa: %4</translation>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
         <translation>Nedá sa spustiť obslužný program bitcoin: click-to-pay zaplatiť kliknutím</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Varovanie správcu siete</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Vaše aktívne proxy nepodporuje SOCKS5, ktoré je potrebné pre vyzvu na zaplatenie cez proxy.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1170,6 +1312,13 @@ Adresa: %4</translation>
     <message>
         <source>Payment request file handling</source>
         <translation>Obsluha súboru s požiadavkou na platbu</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>Súbor s výzvou na zaplatenie sa nedá čítať alebo spracovať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1182,6 +1331,13 @@ Adresa: %4</translation>
     <message>
         <source>Error communicating with %1: %2</source>
         <translation>Chyba komunikácie s %1: %2 </translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>Požiadavka na platbu nemôže byť analyzovaná alebo spracovaná!</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1202,6 +1358,7 @@ Adresa: %4</translation>
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
@@ -1212,6 +1369,26 @@ Adresa: %4</translation>
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Chyba: Uvedený priečinok s dátami "%1" neexistuje.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Chyba: Nedá sa rozlúštit súbor s nastaveniami: %1. Používajte výlučne kľúč=hodnota syntax.</translation>
+    </message>
+    <message>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>Chyba: Nesprávna kombinácia -regtest a -testnet.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Jadro Bitcoin sa ešte úspešne nevyplo ...</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>N/A</source>
@@ -1580,6 +1757,13 @@ Adresa: %4</translation>
         <translation>Poplatok:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Low Output:</source>
+        <translation>Malá hodnota na výstupe:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>After Fee:</source>
         <translation>Po poplatku:</translation>
     </message>
@@ -1656,6 +1840,13 @@ Adresa: %4</translation>
         <translation>Kopírovať prioritu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy low output</source>
+        <translation>Kopírovať nízky výstup</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy change</source>
         <translation>Kopírovať zmenu</translation>
     </message>
@@ -1715,6 +1906,17 @@ Adresa: %4</translation>
         <source>added as transaction fee</source>
         <translation>pridané ako transakčný poplatok</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Payment request expired</source>
+        <translation>Vypršala platnosť požiadavky na platbu</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Neplatná adresa platby %1</translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1811,6 +2013,13 @@ Adresa: %4</translation>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1863,6 +2072,13 @@ Adresa: %4</translation>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
@@ -1875,6 +2091,13 @@ Adresa: %4</translation>
     <message>
         <source>Reset all verify message fields</source>
         <translation>Obnoviť všetky polia v overiť správu</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -2009,6 +2232,13 @@ Adresa: %4</translation>
         <source>Credit</source>
         <translation>Kredit</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>Dospeje o %n blokov</numerusform><numerusform>Dospeje o %n blokov</numerusform><numerusform>dospeje o %n blokov</numerusform></translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message>
         <source>not accepted</source>
         <translation>neprijaté</translation>
@@ -2073,6 +2303,13 @@ Adresa: %4</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, ešte nebola úspešne odoslaná</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Otvoriť pre %n viac blok</numerusform><numerusform>Otvoriť pre %n viac blokov </numerusform><numerusform>Otvoriť pre %n viac blokov </numerusform></translation>
+    </message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message>
         <source>unknown</source>
         <translation>neznámy</translation>
@@ -2394,10 +2631,36 @@ Adresa: %4</translation>
         <translation>Určite vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>Vyskytla sa chyba pri nastavovaní RPC portu %u pre počúvanie na IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 8332 or testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bitcoin Core RPC client version</source>
+        <translation>Verzia RPC klienta Jadra Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
     </message>
@@ -2432,14 +2695,43 @@ Ak súbor neexistuje, vytvorte ho s prístupovým právom owner-readable-only č
 Tiež sa odporúča nastaviť alertnotify aby ste boli upozorňovaní na problémy;
 napríklad: alertnotify=echo %%s | mail -s "Bitcoin Výstraha" admin@foo.com
 </translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation>Prijateľlné šifry (prednastavené: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>Vyskytla sa chyba pri nastavovaní RPC portu %u pre počúvanie na IPv6, vraciam sa späť ku IPv4: %s</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation>Priebežne obmedzuj transakcie bez poplatku na &lt;n&gt;*1000 bajtov za minútu (prednastavené: 15)</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Vstúpiť do regresného testovacieho módu, ktorý používa špeciálnu reťaz v ktorej môžu byť bloky v okamihu vyriešené. Pre účely regresného testovania a vývoja aplikácie.</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Vojsť do režimu regresného testovania, ktorý používa špeciálnu reťaz v ktorej môžu byť bloky v okamihu vyriešené.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
+        <translation>Chyba: Zlyhalo počúvanie prichádzajúcich spojení (listen vrátil chybu %d)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
@@ -2452,6 +2744,21 @@ napríklad: alertnotify=echo %%s | mail -s "Bitcoin Výstraha" admin@foo.com
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Vykonaj príkaz keď sa zmení transakcia peňaženky (%s v príkaze je nahradená TxID)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation>Poplatky menšie než toto sa považujú za nulové (pre vytvorenie transakcie) (prednastavené:</translation>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation>Odložiť aktivitu databázy spoločnej pamäti do logu na disku každých &lt;n&gt; megabajtov (prednastavené: 100)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation>Ako dôkladne sú overované bloky -checkblocks (0-4, prednastavené: 3)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -2460,6 +2767,13 @@ napríklad: alertnotify=echo %%s | mail -s "Bitcoin Výstraha" admin@foo.com
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation>Nastaviť obmedzenie pre procesor keď je zapnuté generovanie (-1 = bez obmedzenia, prednastavené: -1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
@@ -2468,12 +2782,26 @@ napríklad: alertnotify=echo %%s | mail -s "Bitcoin Výstraha" admin@foo.com
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Bitcoin Jadro je už pravdepodobne spustené.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Použite rozdielne SOCKS5 proxy pre dosiahnutie peer-ov cez Tor skryté služby (prednastavené: -proxy)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Varovanie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Varovanie: Skontroluj či je na počítači nastavený správny čas a dátum. Ak sú hodiny nastavené nesprávne, Bitcoin nebude správne pracovať.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varovanie: Javí sa že sieť sieť úplne nesúhlasí! Niektorí mineri zjavne majú ťažkosti.
 
@@ -2494,6 +2822,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>(default: 1)</source>
         <translation>(predvolené: 1)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation>(predvolené: wallet.dat)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -2502,16 +2837,41 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Pokus zachrániť súkromné kľúče z poškodeného wallet.dat</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bitcoin Core Daemon</source>
+        <translation>Démon Jadro Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Voľby vytvorenia bloku:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation>Vyčistiť zoznam transakcií peňaženky (diagnostický nástroj; zahŕňa -rescan)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connect only to the specified node(s)</source>
         <translation>Pripojiť sa len k určenej nóde</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect through SOCKS proxy</source>
+        <translation>Pripojiť cez SOCKS proxy</translation>
+    </message>
+    <message>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Pripojiť ku JSON-RPC na &lt;port&gt; (prednastavené: 8332 alebo testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connection options:</source>
         <translation>Možnosti pripojenia:</translation>
     </message>
@@ -2522,6 +2882,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Možnosti ladenia/testovania:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation>Vypnúť bezpečný režim, vypnúť udalosť skutočný bezpečný režim (prednastavené: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
@@ -2562,6 +2929,73 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Chyba počúvania na ktoromkoľvek porte. Použi -listen=0 ak toto chcete.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Failed to read block info</source>
+        <translation>Zlyhalo čítanie info o bloku</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Zlyhalo čítanie bloku</translation>
+    </message>
+    <message>
+        <source>Failed to sync block index</source>
+        <translation>Zlyhalo synchronizovanie zoznamu blokov</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>Zlyhalo zapisovanie do zoznamu blokov</translation>
+    </message>
+    <message>
+        <source>Failed to write block info</source>
+        <translation>Zlyhal zápis info o bloku</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Zlyhal zápis bloku</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Zlyhalo zapisovanie informácié o súbore</translation>
+    </message>
+    <message>
+        <source>Failed to write to coin database</source>
+        <translation>Zlyhalo zapisovanie do databázy coins</translation>
+    </message>
+    <message>
+        <source>Failed to write transaction index</source>
+        <translation>Zlyhal zápis zoznamu transakcií</translation>
+    </message>
+    <message>
+        <source>Failed to write undo data</source>
+        <translation>Zlyhalo zapisovanie </translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>Poplatok za kB ktorý treba pridať k odoslanej transakcii</translation>
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation>Poplatky menšie než toto sa považujú za nulové (pre preposielanie) (prednastavené:</translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Nájsť počítače v bitcoin sieti použitím DNS vyhľadávania (predvolené: 1 okrem -connect)</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: 0)</source>
+        <translation>Vnútiť bezpečný režim (prenastavené: 0)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Vytvárať mince (predvolené: 0)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Koľko blokov skontrolovať pri spustení (predvolené: 288, 0 = všetky)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
@@ -2582,10 +3016,28 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Nedostatok kľúčových slov súboru.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: 1)</source>
+        <translation>Na začiatok logu pre ladenie vlož dátum a čas (prednastavené: 1)</translation>
+    </message>
+    <message>
+        <source>RPC client options:</source>
+        <translation>Možnosti klienta RPC baník pyčo:</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Znovu vytvoriť zoznam blokov zo súčasných blk000??.dat súborov</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
+        <translation>Zvoľte SOCKS verziu -proxy (4 alebo 5, predvolené 5)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2594,14 +3046,35 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Nastaviť najväčšiu veľkosť bloku v bytoch (predvolené: %d)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Nastaviť množstvo vlákien na obsluhu RPC volaní (predvolené: 4)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Označ súbor peňaženky (v priečinku s dátami)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation>Míňať nepotvrdený výdavok pri odosielaní (prednastavené: 1)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>Toto je mienené nástrojom pre regresné testovania a vývoj programu.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <translation>Použitie (neodporúča sa, použite bitcoin-cli):</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2612,6 +3085,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Overujem peňaženku...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wait for RPC server to start</source>
+        <translation>Čakanie na štart RPC servra</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Peňaženka %s sa nachádza mimo dátového priečinka %s </translation>
     </message>
@@ -2620,6 +3100,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Voľby peňaženky:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>Varovanie: Zastaralý parameter -debugnet bol ignorovaný, použite -debug=net</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Potrebujete prebudovať databázu použitím -reindex zmeniť -txindex</translation>
     </message>
@@ -2634,6 +3121,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Vykonať príkaz keď po prijatí patričné varovanie alebo vidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation>Výstup informácií pre ladenie (prednastavené: 0, uvádzanie &lt;category&gt; je voliteľné)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -2646,14 +3140,56 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Neplatná suma pre -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -mintxfee=&lt;amount&gt;: '%s'</translation>
+=======
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
         <translation>Neplatná suma pre -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation>Obmedziť veľkosť pomocnej pamäti pre podpisy na &lt;n&gt; vstupov (prednastavené: 50000)</translation>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation>Zaznamenávať dôležitosť transakcií a poplatky za kB ak hľadáme bloky (prednastavené: 0)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Udržiavaj úplný zoznam transakcií (prednastavené: 0)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Maximálna veľkosť prijímacieho zásobníka pre jedno spojenie, &lt;n&gt;*1000 bytov (predvolené: 5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Maximálna veľkosť vysielacieho zásobníka pre jedno spojenie, &lt;n&gt;*1000 bytov (predvolené: 1000)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Akceptuj iba kontrolné body zhodné s blockchain (prednastavené: 1)</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Pripájať sa len k nódam v sieti &lt;net&gt; (IPv4, IPv6 alebo Tor)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
         <source>Print block on startup, if found in block index</source>
         <translation>Vytlač blok pri spustení, ak nájdený v zozname blokov</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation>Vytlačiť strom blokov pri spustení (prednastavené: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
@@ -2670,14 +3206,46 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
         <translation>Náhodne premiešaj 1 z každých &lt;n&gt; sieťových správ</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation>Mať spustené vlákno pravidelného čístenia peňaženky (predvolené: 1)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosť: (pozrite Bitcoin Wiki pre návod na nastavenie SSL)</translation>
+    </message>
+    <message>
+        <source>Send command to Bitcoin Core</source>
+        <translation>Poslať príkaz Jadru Bitcoin</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
+=======
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Nastaviť minimálnu veľkosť bloku v bytoch (predvolené: 0)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation>Nastaví DB_PRIVATE možnosť v db prostredí peňaženky (prednastavené: 1)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
+    </message>
+    <message>
+        <source>Show benchmark information (default: 0)</source>
+        <translation>Zobraziť porovnávacie informácie (prednastavené: 0)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -2688,6 +3256,21 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Podpísanie správy zlyhalo</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
+    </message>
+    <message>
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>Štart služby Jadro Bitcoin</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Systémová chyba:</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Transaction amount too small</source>
         <translation>Suma transakcie príliš malá</translation>
     </message>
@@ -2722,6 +3305,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
     <message>
         <source>on startup</source>
         <translation>pri štarte</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>version</source>
+        <translation>verzia</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -2752,6 +3342,13 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Táto pomocná správa</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Nepodarilo sa spojiť s %s na tomto počítači (bind vrátil chybu %d, %s)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
     </message>
@@ -2776,6 +3373,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Neznáma sieť upresnená v -onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -bind address: '%s'</source>
         <translation>Nemožno rozriešiť -bind adress: '%s'</translation>
     </message>
@@ -2784,6 +3382,20 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Nemožno rozriešiť -externalip address: '%s'</translation>
     </message>
     <message>
+=======
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>Neznáma verzia -socks proxy požadovaná: %i</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nemožno rozriešiť -bind adress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nemožno rozriešiť -externalip address: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>

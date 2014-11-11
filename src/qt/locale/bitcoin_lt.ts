@@ -1,4 +1,27 @@
 <TS language="lt" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>Tai eksperimentinė programa.
+
+Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.opensource.org/licenses/mit-license.php.
+
+Šiame produkte yra OpenSSL projekto kuriamas OpenSSL Toolkit (http://www.openssl.org/), Eric Young parašyta kriptografinė programinė įranga bei Thomas Bernard sukurta UPnP programinė įranga.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -38,6 +61,7 @@
         <translation>&amp;Trinti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>C&amp;hoose</source>
         <translation>P&amp;asirinkti</translation>
     </message>
@@ -50,6 +74,8 @@
         <translation>Gaunami adresai</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy &amp;Label</source>
         <translation>Kopijuoti ž&amp;ymę</translation>
     </message>
@@ -58,6 +84,7 @@
         <translation>&amp;Keisti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Export Address List</source>
         <translation>Eksportuoti adresų sąrašą</translation>
     </message>
@@ -74,6 +101,12 @@
         <translation>Bandant išsaugoti adresų sąrašą - įvyko klaida keliant į %1. Prašome bandyti dar kartą.</translation>
     </message>
 </context>
+=======
+        <source>Comma separated file (*.csv)</source>
+        <translation>Kableliais išskirtas failas (*.csv)</translation>
+    </message>
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -203,10 +236,13 @@
         <translation>&amp;Apžvalga</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node</source>
         <translation>Taškas</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Show general overview of wallet</source>
         <translation>Rodyti piniginės bendrą apžvalgą</translation>
     </message>
@@ -251,6 +287,7 @@
         <translation>&amp;Keisti slaptafrazę...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sending addresses...</source>
         <translation>&amp;Siunčiami adresai...</translation>
     </message>
@@ -263,6 +300,8 @@
         <translation>Bitcoin Core klientas</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Importing blocks from disk...</source>
         <translation>Blokai importuojami iš disko...</translation>
     </message>
@@ -327,10 +366,13 @@
         <translation>Rodyti arba slėpti pagrindinį langą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;File</source>
         <translation>&amp;Failas</translation>
     </message>
@@ -351,8 +393,13 @@
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;About Bitcoin Core</source>
         <translation>&amp;Apie Bitcoin Core</translation>
+=======
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klientas</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -370,10 +417,13 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n savaitė</numerusform><numerusform>%n savaitės</numerusform><numerusform>%n savaičių</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n metas</numerusform><numerusform>%n metai</numerusform><numerusform>%n metų</numerusform></translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     <message>
         <source>Error</source>
         <translation>Klaida</translation>
@@ -421,7 +471,11 @@ Adresas: %4</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Piniginė &lt;b&gt;užšifruota&lt;/b&gt; ir šiuo metu &lt;b&gt;užrakinta&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>ClientModel</name>
     <message>
@@ -432,6 +486,7 @@ Adresas: %4</translation>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation>Kiekis:</translation>
     </message>
@@ -440,10 +495,13 @@ Adresas: %4</translation>
         <translation>Baitai:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Amount:</source>
         <translation>Suma:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Pirmumas:</translation>
     </message>
@@ -472,6 +530,8 @@ Adresas: %4</translation>
         <translation>Sąrašo režimas</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
@@ -484,18 +544,24 @@ Adresas: %4</translation>
         <translation>Data</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation>Patvirtinimai</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Confirmed</source>
         <translation>Patvirtintas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation>Pirmumas</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy address</source>
         <translation>Kopijuoti adresą</translation>
     </message>
@@ -508,6 +574,7 @@ Adresas: %4</translation>
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy quantity</source>
         <translation>Kopijuoti kiekį</translation>
     </message>
@@ -576,6 +643,8 @@ Adresas: %4</translation>
         <translation>ne</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>(no label)</source>
         <translation>(nėra žymės)</translation>
     </message>
@@ -629,10 +698,13 @@ Adresas: %4</translation>
 </context>
 <context>
     <name>FreespaceChecker</name>
+<<<<<<< HEAD
     <message>
         <source>name</source>
         <translation>pavadinimas</translation>
     </message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
 <context>
     <name>HelpMessageDialog</name>
@@ -680,6 +752,7 @@ Adresas: %4</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to Bitcoin Core.</source>
         <translation>Sveiki atvykę į Bitcoin Core.</translation>
     </message>
@@ -688,6 +761,12 @@ Adresas: %4</translation>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
@@ -742,6 +821,17 @@ Adresas: %4</translation>
         <translation>Tarpinio serverio preivadas (pvz, 9050)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS &amp;versija:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Tarpinio serverio SOCKS versija (pvz., 5)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;Window</source>
         <translation>&amp;Langas</translation>
     </message>
@@ -782,6 +872,13 @@ Adresas: %4</translation>
         <translation>Rodomų ir siunčiamų monetų kiekio matavimo vienetai</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Rodyti adresus sandorių sąraše</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>&amp;OK</source>
         <translation>&amp;Gerai</translation>
     </message>
@@ -794,10 +891,13 @@ Adresas: %4</translation>
         <translation>numatyta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>none</source>
         <translation>niekas</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>The supplied proxy address is invalid.</source>
         <translation>Nurodytas tarpinio serverio adresas negalioja.</translation>
     </message>
@@ -809,6 +909,13 @@ Adresas: %4</translation>
         <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet</source>
+        <translation>Piniginė</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Immature:</source>
         <translation>Nepribrendę:</translation>
     </message>
@@ -837,6 +944,7 @@ Adresas: %4</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>PeerTableModel</name>
     </context>
 <context>
@@ -858,6 +966,18 @@ Adresas: %4</translation>
         <translation>nėra</translation>
     </message>
     </context>
+=======
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1032,6 +1152,7 @@ Adresas: %4</translation>
         <translation>Siųsti monetas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation>Kiekis:</translation>
     </message>
@@ -1040,10 +1161,13 @@ Adresas: %4</translation>
         <translation>Baitai:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Amount:</source>
         <translation>Suma:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>Pirmumas:</translation>
     </message>
@@ -1060,6 +1184,8 @@ Adresas: %4</translation>
         <translation>Graža:</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send to multiple recipients at once</source>
         <translation>Siųsti keliems gavėjams vienu metu</translation>
     </message>
@@ -1088,14 +1214,18 @@ Adresas: %4</translation>
         <translation>Patvirtinti monetų siuntimą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy quantity</source>
         <translation>Kopijuoti kiekį</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Copy amount</source>
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Kopijuoti mokestį</translation>
     </message>
@@ -1112,6 +1242,8 @@ Adresas: %4</translation>
         <translation>Kopijuoti pirmumą</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Negaliojantis gavėjo adresas. Patikrinkite.</translation>
     </message>
@@ -1181,6 +1313,13 @@ Adresas: %4</translation>
         <translation>&amp;Pasirašyti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1213,10 +1352,24 @@ Adresas: %4</translation>
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
         <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Click "Sign Message" to generate signature</source>
         <translation>Spragtelėkite "Registruotis žinutę" tam, kad gauti parašą</translation>
     </message>
@@ -1416,6 +1569,13 @@ Adresas: %4</translation>
         <translation>Adresas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Open until %1</source>
         <translation>Atidaryta iki %1</translation>
     </message>
@@ -1555,10 +1715,13 @@ Adresas: %4</translation>
         <translation>Rodyti sandėrio detales</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Exporting Failed</source>
         <translation>Eksportavimas nepavyko</translation>
     </message>
     <message>
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Comma separated file (*.csv)</source>
         <translation>Kableliais atskirtų duomenų failas (*.csv)</translation>
     </message>
@@ -1642,8 +1805,33 @@ Adresas: %4</translation>
         <translation>Nustatyti duomenų aplanką</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify your own public address</source>
         <translation>Nurodykite savo nuosavą viešą adresą</translation>
+=======
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Palaikyti ne daugiau &lt;n&gt; jungčių kolegoms (pagal nutylėjimą: 125)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Nurodykite savo nuosavą viešą adresą</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Atjungimo dėl netinkamo kolegų elgesio riba  (pagal nutylėjimą: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Sekundžių kiekis eikiamas palaikyti ryšį dėl lygiarangių nestabilumo (pagal nutylėjimą: 86.400)</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332 or testnet: 18332)</translation>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -1662,6 +1850,13 @@ Adresas: %4</translation>
         <translation>Įspėjimas: -paytxfee yra nustatytas per didelis. Tai sandorio mokestis, kurį turėsite mokėti, jei siųsite sandorį.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitcoin, veiks netinkamai.</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connect only to the specified node(s)</source>
         <translation>Prisijungti tik prie nurodyto mazgo</translation>
     </message>
@@ -1670,6 +1865,37 @@ Adresas: %4</translation>
         <translation>Klaida atveriant blokų duombazę</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error: system error: </source>
+        <translation>Klaida: sistemos klaida:</translation>
+    </message>
+    <message>
+        <source>Failed to read block info</source>
+        <translation>Nepavyko nuskaityti bloko informacijos</translation>
+    </message>
+    <message>
+        <source>Failed to read block</source>
+        <translation>Nepavyko nuskaityti bloko</translation>
+    </message>
+    <message>
+        <source>Failed to write block</source>
+        <translation>Nepavyko įrašyti bloko</translation>
+    </message>
+    <message>
+        <source>Failed to write file info</source>
+        <translation>Nepavyko įrašyti failo informacijos</translation>
+    </message>
+    <message>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation> Įtraukti mokestį už kB siunčiamiems sandoriams</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Generuoti monetas (numatyta: 0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Verifying blocks...</source>
         <translation>Tikrinami blokai...</translation>
     </message>
@@ -1682,10 +1908,40 @@ Adresas: %4</translation>
         <translation>Informacija</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Maksimalus buferis priėmimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 5000)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Maksimalus buferis siuntimo sujungimui &lt;n&gt;*1000 bitų (pagal nutylėjimą: 1000)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Bitcoin Wiki for SSL setup instructions)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Siųsti atsekimo/derinimo info į konsolę vietoj debug.log failo</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Nustatyti sujungimo trukmę milisekundėmis (pagal nutylėjimą: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Sistemos klaida:</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Bandymas naudoti UPnP struktūra klausymosi prievadui (default: 0)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Bandymas naudoti UPnP struktūra klausymosi prievadui (default: 1 when listening)</translation>
     </message>
@@ -1698,10 +1954,28 @@ Adresas: %4</translation>
         <translation>Įspėjimas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>versija</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Password for JSON-RPC connections</source>
         <translation>Slaptažodis JSON-RPC sujungimams</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Leisti JSON-RPC tik iš nurodytų IP adresų</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Siųsti komandą mazgui dirbančiam &lt;ip&gt; (pagal nutylėjimą: 127.0.0.1)</translation>
+    </message>
+    <message>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Upgrade wallet to latest format</source>
         <translation>Atnaujinti piniginę į naujausią formatą</translation>
     </message>
@@ -1777,5 +2051,9 @@ Adresas: %4</translation>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 </TS>

@@ -11,7 +11,10 @@ packages:
 - "bsdmainutils"
 - "pkg-config"
 - "p7zip-full"
+<<<<<<< HEAD
 - "libtool"
+=======
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
@@ -19,8 +22,13 @@ remotes:
   "dir": "bitcoin"
 files:
 - "osx-native-depends-r3.tar.gz"
+<<<<<<< HEAD
 - "osx-depends-r4.tar.gz"
 - "osx-depends-qt-5.2.1-r4.tar.gz"
+=======
+- "osx-depends-r6.tar.gz"
+- "osx-depends-qt-5.2.1-r5.tar.gz"
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 - "MacOSX10.7.sdk.tar.gz"
 
 script: |
@@ -38,8 +46,13 @@ script: |
   tar -C osx-cross-depends/SDKs -xf ${SOURCES_PATH}/MacOSX10.7.sdk.tar.gz
 
   tar -C osx-cross-depends -xf osx-native-depends-r3.tar.gz
+<<<<<<< HEAD
   tar -C osx-cross-depends -xf osx-depends-r4.tar.gz
   tar -C osx-cross-depends -xf osx-depends-qt-5.2.1-r4.tar.gz
+=======
+  tar -C osx-cross-depends -xf osx-depends-r6.tar.gz
+  tar -C osx-cross-depends -xf osx-depends-qt-5.2.1-r5.tar.gz
+>>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
   export PATH=`pwd`/osx-cross-depends/native-prefix/bin:$PATH
 
   cd bitcoin
