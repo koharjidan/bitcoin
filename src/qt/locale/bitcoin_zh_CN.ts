@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="zh_CN" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="zh_CN" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -557,10 +561,6 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>选择交易源地址</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>总量：</translation>
     </message>
@@ -607,10 +607,6 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation>金额</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>地址</translation>
     </message>
     <message>
         <source>Date</source>
@@ -981,14 +977,6 @@ Address: %4
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>可选的每 kB 交易费，这有助于您的交易被更快的处理。大多数交易都是 1 kB。</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>支付交易费用(&amp;F)</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>登录系统后自动开启比特币客户端</translation>
     </message>
@@ -1015,14 +1003,6 @@ Address: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>允许流入连接</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>通过 SOCKS 代理连接到比特币网络。</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>通过 SO&amp;CKS 代理连接 (默认代理):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

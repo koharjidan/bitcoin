@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="pl" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="pl" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -609,10 +613,6 @@ Adres: %4
         <translation>Kwota</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -989,14 +989,6 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Opcjonalna prowizja za transakcje za kB, wspomaga ona szybkość przebiegu transakcji. Większość transakcji jest 1 kB.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Płać prowizję za transakcje</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Automatycznie uruchamia Bitcoin po zalogowaniu do systemu.</translation>
     </message>
@@ -1022,12 +1014,15 @@ Adres: %4
         <translation>Zezwól na połączenia przychodzące</translation>
     </message>
     <message>
+<<<<<<< HEAD
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
         <translation>Połącz się z siecią Bitcoin poprzez SOCKS proxy.</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>Adres IP serwera proxy (np. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>

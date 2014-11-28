@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="kk_KZ" version="2.1">
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
     <name>AboutDialog</name>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="kk_KZ" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -91,11 +95,14 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Адрес</translation>
 <<<<<<< HEAD
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>(no label)</source>
         <translation>(таңбасыз)</translation>
     </message>

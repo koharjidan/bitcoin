@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="be_BY" version="2.1">
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
     <name>AboutDialog</name>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="be_BY" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -409,10 +413,6 @@ Address: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Amount</source>
         <translation>Колькасць</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Адрас</translation>
     </message>
     <message>
         <source>Date</source>

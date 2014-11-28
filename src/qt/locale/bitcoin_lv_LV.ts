@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="lv_LV" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="lv_LV" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -315,6 +319,10 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
+        <source>Bitcoin Core client</source>
+        <translation>Bitcoin Core klients</translation>
+    </message>
+    <message>
         <source>Importing blocks from disk...</source>
         <translation>Importē blokus no diska...</translation>
     </message>
@@ -364,7 +372,11 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Saņe&amp;mt</translation>
+        <translation>&amp;Saņemt</translation>
+    </message>
+    <message>
+        <source>Show information about Bitcoin Core</source>
+        <translation>Parādīt informāciju par Bitcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -538,10 +550,6 @@ Adrese: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Bitcoin Kontroles Adrešu Atlase</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Daudzums:</translation>
     </message>
@@ -591,10 +599,6 @@ Adrese: %4
     <message>
         <source>Amount</source>
         <translation>Daudzums</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adrese</translation>
     </message>
     <message>
         <source>Date</source>
@@ -918,10 +922,6 @@ Adrese: %4
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>&amp;Maksāt par transakciju</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Automātiski sākt Bitcoin pēc pieteikšanās sistēmā.</translation>
     </message>
@@ -940,14 +940,6 @@ Adrese: %4
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Savienoties ar Bitcoin tīklu caur SOCKS starpniekserveri.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Savienoties caur SOCKS starpniekserveri (noklusējuma starpniekserveris)</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

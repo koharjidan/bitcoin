@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="sl_SI" version="2.1">
 <<<<<<< HEAD
 =======
@@ -13,6 +14,9 @@
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="sl_SI" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -573,10 +577,6 @@ Naslov: %4
         <translation>Količina</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Naslov</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
@@ -978,6 +978,7 @@ Naslov: %4
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Neobvezna pristojbina k transakciji poskrbi, da je transackcija hitro opravljena. Velikost povprečne transakcije je 1 kB.</translation>
     </message>
@@ -988,6 +989,8 @@ Naslov: %4
         <translation>Nakazilo plačila &amp; provizija</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Po prijavi v sistem samodejno zaženite Bitcoin.</translation>
     </message>
@@ -1014,14 +1017,6 @@ Naslov: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>Dovoli prihajajoče povezave</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>V Bitcoin omrežje se poveži skozu SOCKS proxy.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Poveži se skozi SOCKS proxy (privzet proxy):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

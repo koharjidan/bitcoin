@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="hr" version="2.1">
 <<<<<<< HEAD
 =======
@@ -13,6 +14,9 @@
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="hr" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -544,10 +548,6 @@ Adresa:%4
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
@@ -696,10 +696,6 @@ Adresa:%4
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Glavno</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Plati &amp;naknadu za transakciju</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>

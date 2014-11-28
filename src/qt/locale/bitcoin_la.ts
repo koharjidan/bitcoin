@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="la" version="2.1">
 <<<<<<< HEAD
 =======
@@ -22,6 +23,9 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="la" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -454,10 +458,6 @@ Inscriptio: %4
         <translation>Quantitas</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Inscriptio</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Dies</translation>
     </message>
@@ -603,14 +603,6 @@ Inscriptio: %4
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Princeps</translation>
-    </message>
-    <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Optionalis merces transactionum singulis kB quae adiuvat curare tuas transactiones processas esse celeriter.  Plurimi transactiones 1kB sunt.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Solve &amp;mercedem transactionis</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>

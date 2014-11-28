@@ -23,6 +23,10 @@ Release Process
 
 * * *
 
+###update gitian
+
+ In order to take advantage of the new caching features in gitian, be sure to update to a recent version (e9741525c or higher is recommended)
+
 ###perform gitian builds
 
  From a directory containing the bitcoin source, gitian-builder and gitian.sigs
@@ -54,6 +58,7 @@ Release Process
  
 	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.7.sdk.tar.gz MacOSX10.7.sdk
 
+<<<<<<< HEAD
  Download remaining inputs, and build everything:
  
 	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.tar.gz' -O miniupnpc-1.9.tar.gz
@@ -144,29 +149,25 @@ Release Process
     ec95abef1df2b096a970359787c01d8c45e2a4475b7ae34e12c022634fbdba8a  osx-depends-qt-5.2.1-r4.tar.gz
 
 
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
  Build Bitcoin Core for Linux, Windows, and OS X:
   
 	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	pushd build/out
-	zip -r bitcoin-${VERSION}-linux-gitian.zip *
-	mv bitcoin-${VERSION}-linux-gitian.zip ../../../
-	popd
+	mv build/out/bitcoin-*.tar.gz build/out/src/bitcoin-*.tar.gz ../
 	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	pushd build/out
-	zip -r bitcoin-${VERSION}-win-gitian.zip *
-	mv bitcoin-${VERSION}-win-gitian.zip ../../../
+	mv build/out/bitcoin-*.zip build/out/bitcoin-*.exe ../
+	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/bitcoin-*-unsigned.tar.gz inputs
+	mv build/out/bitcoin-*.tar.gz build/out/bitcoin-*.dmg ../
 	popd
-        ./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
-        ./bin/gsign --signer $SIGNER --release ${VERSION}-osx --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
-	pushd build/out
-	mv Bitcoin-Qt.dmg ../../../
-	popd
-	popd
-
+bitcoin-0.9.99-osx-unsigned.tar.gz
   Build output expected:
 
+<<<<<<< HEAD
   1. linux 32-bit and 64-bit binaries + source (bitcoin-${VERSION}-linux-gitian.zip)
   2. windows 32-bit and 64-bit binaries + installer + source (bitcoin-${VERSION}-win-gitian.zip)
   3. OSX installer (Bitcoin-Qt.dmg)
@@ -194,6 +195,13 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 **Mac OS X .dmg:**
 
 	mv Bitcoin-Qt.dmg bitcoin-${VERSION}-osx.dmg
+=======
+  1. source tarball (bitcoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (bitcoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup.exe, bitcoin-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer (bitcoin-${VERSION}-osx-unsigned.dmg)
+  5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your gitian key)/
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 
 ###Next steps:
 
@@ -202,7 +210,28 @@ Commit your signature to gitian.sigs:
 	pushd gitian.sigs
 	git add ${VERSION}-linux/${SIGNER}
 	git add ${VERSION}-win/${SIGNER}
-	git add ${VERSION}-osx/${SIGNER}
+	git add ${VERSION}-osx-unsigned/${SIGNER}
+	git commit -a
+	git push  # Assuming you can push to the gitian.sigs tree
+	popd
+
+Wait for OSX detached signature:
+	Once the OSX build has 3 matching signatures, Gavin will sign it with the apple App-Store key.
+	He will then upload a detached signature to be combined with the unsigned app to create a signed binary.
+
+Create the signed OSX binary:
+	pushd ./gitian-builder
+	# Fetch the signature as instructed by Gavin
+	cp signature.tar.gz inputs/
+	./bin/gbuild -i ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/bitcoin-${VERSION}-osx.dmg ../
+	popd
+
+Commit your signature for the signed OSX binary:
+
+	pushd gitian.sigs
+	git add ${VERSION}-osx-signed/${SIGNER}
 	git commit -a
 	git push  # Assuming you can push to the gitian.sigs tree
 	popd
@@ -214,8 +243,6 @@ Commit your signature to gitian.sigs:
 - Perform code-signing.
 
     - Code-sign Windows -setup.exe (in a Windows virtual machine using signtool)
-
-    - Code-sign MacOSX .dmg
 
   Note: only Gavin has the code-signing keys currently.
 

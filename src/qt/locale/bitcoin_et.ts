@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="et" version="2.1">
 <<<<<<< HEAD
 =======
@@ -23,6 +24,9 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="et" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -450,10 +454,6 @@ Aadress: %4⏎</translation>
         <translation>Kogus</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Aadress</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Kuupäev</translation>
     </message>
@@ -591,10 +591,6 @@ Aadress: %4⏎</translation>
     <message>
         <source>Options</source>
         <translation>Valikud</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Tasu tehingu &amp;fee</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>

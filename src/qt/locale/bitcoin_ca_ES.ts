@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="ca_ES" version="2.1">
 <<<<<<< HEAD
 =======
@@ -22,6 +23,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="ca_ES" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -628,12 +632,15 @@ Address: %4
     <name>CoinControlDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Selecció de l'adreça de control de monedes</translation>
     </message>
     <message>
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Quantity:</source>
         <translation>Quantitat:</translation>
     </message>
@@ -686,10 +693,6 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation>Quantitat</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adreça</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1130,6 +1133,7 @@ Address: %4
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
         <translation>Comissió opcional de transacció per kB que ajuda a assegurar que les transaccions es processen ràpidament. La majoria de transaccions són d'1 kB.</translation>
     </message>
@@ -1140,6 +1144,8 @@ Address: %4
         <translation>Paga &amp;comissió de transacció</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Automatically start Bitcoin after logging in to the system.</source>
 <<<<<<< HEAD
         <translation>Inicia automàticament el Bitcoin després de l'inici de sessió del sistema.</translation>
@@ -1174,14 +1180,6 @@ Address: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>Permet connexions entrants</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Connecta a la xarxa Bitcoin a través d'un proxy SOCKS.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Connecta a través d'un proxy SOCKS (proxy per defecte):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -3451,6 +3449,7 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Crea fitxers nous amb els permisos per defecte del sistema, en comptes de l'umask 077 (només efectiu amb la funcionalitat de moneder inhabilitada)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuït sota la llicència de programari MIT/X11. Vegeu el fitxer acompanyant COPYING o &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
 =======
@@ -3463,6 +3462,8 @@ per exemple: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Error: ha fallat escoltar les connexions entrants (l'escoltament ha retornat l'error %s)</translation>
     </message>

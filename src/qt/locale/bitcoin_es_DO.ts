@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="es_DO" version="2.1">
 <<<<<<< HEAD
 =======
@@ -38,6 +39,9 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="es_DO" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -550,10 +554,6 @@ Dirección: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Selección de la dirección de control de la moneda</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Cantidad:</translation>
     </message>
@@ -596,10 +596,6 @@ Dirección: %4
     <message>
         <source>Amount</source>
         <translation>Cantidad</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Dirección</translation>
     </message>
     <message>
         <source>Date</source>
@@ -957,14 +953,6 @@ Dirección: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Tarifa de transacción opcional por kB que ayuda a asegurar que sus transacciones sean procesadas rápidamente. La mayoría de transacciones son de 1kB.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Comisión de &amp;transacciones</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Iniciar Bitcoin automáticamente al encender el sistema.</translation>
     </message>
@@ -975,10 +963,6 @@ Dirección: %4
     <message>
         <source>MB</source>
         <translation>MB</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Conéctese a la red Bitcoin través de un proxy SOCKS.</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

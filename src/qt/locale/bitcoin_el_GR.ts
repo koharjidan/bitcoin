@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="el_GR" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="el_GR" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -563,10 +567,6 @@ Address: %4
         <translation>Ποσό</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Διεύθυνση</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Ημερομηνία</translation>
     </message>
@@ -852,14 +852,6 @@ Address: %4
     <message>
         <source>&amp;Main</source>
         <translation>&amp;Κύριο</translation>
-    </message>
-    <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Η προαιρετική αμοιβή για κάθε kB επισπεύδει την επεξεργασία των συναλλαγών σας. Οι περισσότερες συναλλαγές είναι 1 kB. </translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Αμοιβή &amp;συναλλαγής</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>

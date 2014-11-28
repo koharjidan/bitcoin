@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="he" version="2.1">
 <<<<<<< HEAD
 =======
@@ -31,6 +32,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="he" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -561,6 +565,7 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
 <<<<<<< HEAD
         <translation>בחירת כתובת שליטה במטבעות</translation>
@@ -569,6 +574,8 @@ Address: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Quantity:</source>
         <translation>כמות:</translation>
     </message>
@@ -620,10 +627,6 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation>כמות</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>כתובת</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1053,14 +1056,6 @@ Address: %4
         <translation>&amp;ראשי</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>עמלת העברה כרשות לכל ק״ב תבטיח שההעברה שלך תעובד בזריזות. רוב ההעברות הן בנפח של ק״ב אחד.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>תשלום &amp;עמלת העברה</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>הפעלת ביטקוין אוטומטית לאחר כניסה למערכת.</translation>
     </message>
@@ -1091,14 +1086,6 @@ Address: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>לאפשר חיבורים נכנסים</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>התחברות לרשת ביטקוין דרך מתווך SOCKS.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>הת&amp;חברות באמצעות מתווך SOCKS (מתווך בררת מחדל):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

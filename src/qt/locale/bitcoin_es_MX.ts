@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="es_MX" version="2.1">
 <<<<<<< HEAD
 =======
@@ -25,6 +26,9 @@
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="es_MX" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -433,10 +437,6 @@
     <message>
         <source>Amount</source>
         <translation>Monto</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Domicilio</translation>
     </message>
     <message>
         <source>Date</source>

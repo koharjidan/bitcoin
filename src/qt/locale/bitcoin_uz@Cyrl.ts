@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="uz@Cyrl" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="uz@Cyrl" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -934,10 +938,13 @@ Address: %4
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Танга бошқарув манзилини танлаш</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Quantity:</source>
         <translation>Сони:</translation>
     </message>
@@ -1048,6 +1055,7 @@ Address: %4
         <translation>Миқдори</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Манзил</translation>
 =======
@@ -1064,6 +1072,8 @@ Address: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Date</source>
         <translation>Сана</translation>
     </message>
@@ -1527,14 +1537,6 @@ Address: %4
         <translation>&amp;Асосий</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Ҳар бир кб учун ўтказма солиғи ўтказмаларингизни тезроқ ўтишига ишонишингизга ёрдам беради. Кўпгина ўтказмалар 1 кб.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Ўтказма &amp;солиғини тўлаш</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Тизимга киргандан сўнг Bitcoin дастури автоматик ишга туширилсин.</translation>
     </message>
@@ -1561,14 +1563,6 @@ Address: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>Кирувчи уланишларга рухсат бериш</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Bitcoin тармоққа SOCKS прокси орқали уланинг.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>SOCKS прокси орқали &amp;уланинг (стандарт прокси):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

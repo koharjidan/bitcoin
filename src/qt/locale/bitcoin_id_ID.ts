@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="id_ID" version="2.1">
 <<<<<<< HEAD
 =======
@@ -35,6 +36,9 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="id_ID" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -563,10 +567,6 @@ Alamat: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Pilihan alamat pengaturan koin</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Kuantitas:</translation>
     </message>
@@ -609,10 +609,6 @@ Alamat: %4
     <message>
         <source>Amount</source>
         <translation>Nilai</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Alamat</translation>
     </message>
     <message>
         <source>Date</source>
@@ -958,14 +954,6 @@ Alamat: %4
         <translation>&amp;Utama</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Biaya transaksi untuk setiap kB yang membantu transaksi Andi diproses cepat (biayanya opsional). Ukuran transaksi biasanya 1kB.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Bayar &amp;biaya transaksi</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Menyalakan Bitcoin secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
@@ -976,14 +964,6 @@ Alamat: %4
     <message>
         <source>MB</source>
         <translation>MB</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Menghubungkan jaringan Bitcoin lewat proxy SOCKS.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Hubungkan melalui proxy SOCKS (proxy biasa):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>

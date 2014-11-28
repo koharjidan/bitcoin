@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="fr_CA" version="2.1">
 <<<<<<< HEAD
 =======
@@ -19,6 +20,9 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="fr_CA" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -97,11 +101,14 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Addresse</translation>
 <<<<<<< HEAD
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>(no label)</source>
         <translation>(pas de record)</translation>
     </message>

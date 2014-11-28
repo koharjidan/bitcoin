@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="es_CL" version="2.1">
 <<<<<<< HEAD
 =======
@@ -26,6 +27,9 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="es_CL" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -398,10 +402,6 @@ Dirección: %4</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Dirección</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
@@ -546,11 +546,14 @@ Dirección: %4</translation>
         <translation>&amp;Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Pay transaction &amp;fee</source>
         <translation>Comisión de &amp;transacciónes</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Inicia Bitcoin automáticamente despues de encender el computador</translation>
     </message>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="pt_BR" version="2.1">
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
 </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="pt_BR" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -560,10 +564,6 @@ Endereço: %4</translation>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Coin Control Address Selection</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Quantidade:</translation>
     </message>
@@ -610,10 +610,6 @@ Endereço: %4</translation>
     <message>
         <source>Amount</source>
         <translation>Quantidade</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Endereço</translation>
     </message>
     <message>
         <source>Date</source>
@@ -948,6 +944,7 @@ Endereço: %4</translation>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
+<<<<<<< HEAD
 =======
         <source>Error</source>
         <translation>Erro</translation>
@@ -958,6 +955,17 @@ Endereço: %4</translation>
     </message>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </context>
+=======
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB de espaço livre disponível</numerusform><numerusform>%n GB de espaço livre disponível</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(de %n GB necessário)</numerusform><numerusform>(de %n GB necessário)</numerusform></translation>
+    </message>
+</context>
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -992,14 +1000,6 @@ Endereço: %4</translation>
         <translation>Principal</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Taxa de transação opcional por kB que ajuda a garantir que suas transações sejam processadas rapidamente. A maioria das transações são de 1 kB.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Pagar taxa de &amp;transação</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Iniciar Bitcoin automaticamente após se logar no sistema.</translation>
     </message>
@@ -1026,14 +1026,6 @@ Endereço: %4</translation>
     <message>
         <source>Allow incoming connections</source>
         <translation>Permitir conexões de entrada</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Conectado na rede do Bitcoin através de proxy SOCKS.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Conectado via proxy SOCKS (padrão proxy):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1227,6 +1219,10 @@ Endereço: %4</translation>
         <translation>Saldo minerado que ainda não maturou</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Saldos</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Total:</translation>
     </message>
@@ -1237,6 +1233,10 @@ Endereço: %4</translation>
     <message>
         <source>Your current balance in watch-only addresses</source>
         <translation>Sua balança atual em endereços apenas visualizados</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Transações recentes</translation>
     </message>
     <message>
         <source>out of sync</source>

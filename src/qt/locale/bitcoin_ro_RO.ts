@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="ro_RO" version="2.1">
 <<<<<<< HEAD
 =======
@@ -35,6 +36,9 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="ro_RO" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -545,10 +549,6 @@ Adresa: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Control Address Selection</source>
-        <translation>Selectare Adresă de Comandă Monedă</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Cantitate:</translation>
     </message>
@@ -591,10 +591,6 @@ Adresa: %4
     <message>
         <source>Amount</source>
         <translation>Sumă</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresă</translation>
     </message>
     <message>
         <source>Date</source>
@@ -943,14 +939,6 @@ Adresa: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Taxa optionala de tranzactie per kB care ajuta ca tranzactiile dumneavoastra sa fie procesate rapid. Majoritatea tranzactiilor sunt 1 kB.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Plăteşte comision pentru tranzacţie &amp;f</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Porneşte automat programul Bitcoin la pornirea computerului.</translation>
     </message>
@@ -961,10 +949,6 @@ Adresa: %4
     <message>
         <source>MB</source>
         <translation>MB</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Conecteaza-te la reteaua Bitcoin printr-un proxy SOCKS</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>

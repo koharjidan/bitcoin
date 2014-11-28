@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="uk" version="2.1">
 <<<<<<< HEAD
 =======
@@ -23,6 +24,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="uk" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -122,7 +126,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Файли, розділені комою (*.csv)</translation>
+        <translation>Значення, розділені комою (*.csv)</translation>
     </message>
 <<<<<<< HEAD
     <message>
@@ -595,10 +599,13 @@ Address: %4
     <name>CoinControlDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Coin Control Address Selection</source>
         <translation>Вибір адрес для керування монетами</translation>
     </message>
     <message>
+=======
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
         <source>Quantity:</source>
         <translation>Кількість:</translation>
     </message>
@@ -659,10 +666,6 @@ Address: %4
     <message>
         <source>Amount</source>
         <translation>Кількість</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Адреса</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1090,14 +1093,6 @@ Address: %4
         <translation>&amp;Головні</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Необов'язкова комісия за Кб допомагає переконатися, що ваші транзакції обробляються швидше. Більшість транзакцій є 1 Кб.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Заплатити комісі&amp;ю</translation>
-    </message>
-    <message>
         <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
@@ -1125,14 +1120,6 @@ Address: %4
     <message>
         <source>Allow incoming connections</source>
         <translation>Дозволити вхідні з’єднання</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Підключатись до мережі Bitcoin через SOCKS-проксі.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
-        <translation>&amp;Підключатись через SOCKS-проксі (типовий проксі):</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1437,7 +1424,7 @@ Address: %4
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною Bitcoin-адресою, чи невірними параметрами URI.</translation>
+        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Bitcoin-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2883,7 +2870,7 @@ Address: %4
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>Comma separated file (*.csv)</source>
-        <translation>Файли, розділені комою (*.csv)</translation>
+        <translation>Значення, розділені комою (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -3063,7 +3050,7 @@ rpcpassword=%s
 Ім’я користувача та пароль ПОВИННІ бути різними.
 Якщо файлу не існує, створіть його, обмеживши доступ правом читання для власника.
 Також рекомендується використовувати alertnotify для того, щоб отримувати сповіщення про проблеми;
-наприклад: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+наприклад: alertnotify=echo %%s | mail -s "Сповіщення Bitcoin" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3353,10 +3340,6 @@ rpcpassword=%s
         <translation>Створювати нові файли з типовими для системи атрибутами доступу замість маски 077 (діє тільки при вимкненому гаманці)</translation>
     </message>
     <message>
-        <source>Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Поширюється за ліцензією MIT/X11, додаткова інформація міститься у файлі COPYING, а також за адресою &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
-    </message>
-    <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Помилка: Не вдалося налаштувати прослуховування вхідних підключень (listen повернув помилку: %s)</translation>
     </message>
@@ -3366,7 +3349,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Виконати команду при надходженні важливого попереджувального повідомлення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
+        <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
         <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3454,15 +3437,15 @@ rpcpassword=%s
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Вказано некоректну суму для параметру -minrelaytxfee: '%s'</translation>
+        <translation>Вказано некоректну суму для параметру -minrelaytxfee: «%s»</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Вказано некоректну суму для параметру -mintxfee: '%s'</translation>
+        <translation>Вказано некоректну суму для параметру -mintxfee: «%s»</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Вказано некоректну суму для параметру -paytxfee: '%s' (повинно бути щонайменше %s)</translation>
+        <translation>Вказано некоректну суму для параметру -paytxfee: «%s» (повинно бути щонайменше %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
@@ -3712,10 +3695,6 @@ rpcpassword=%s
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Виводити налагоджувальну інформацію (типово: %u, вказання &lt;category&gt; необов'язкове)</translation>
-    </message>
-    <message>
-        <source>Set the processor limit for when generation is on (-1 = unlimited, default: %d)</source>
-        <translation>Встановити максимальну кількість процесорів, що будуть використовуватися при ввімкненій генерації (-1 = необмежено, типово: %d)</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

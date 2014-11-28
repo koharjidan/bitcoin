@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <TS language="ach" version="2.1">
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
     <name>AboutDialog</name>
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+<TS language="ach" version="2.0">
+>>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
 <context>
     <name>AddressBookPage</name>
     </context>
