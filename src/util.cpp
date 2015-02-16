@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -488,7 +488,7 @@ bool SoftSetBoolArg(const std::string& strArg, bool fValue)
         return SoftSetArg(strArg, std::string("0"));
 }
 
-static std::string FormatException(std::exception* pex, const char* pszThread)
+static std::string FormatException(const std::exception* pex, const char* pszThread)
 {
 #ifdef WIN32
     char pszModule[MAX_PATH] = "";
@@ -504,7 +504,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
             "UNKNOWN EXCEPTION       \n%s in %s       \n", pszModule, pszThread);
 }
 
-void PrintExceptionContinue(std::exception* pex, const char* pszThread)
+void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 {
     std::string message = FormatException(pex, pszThread);
     LogPrintf("\n\n************************\n%s\n", message);
@@ -656,7 +656,7 @@ bool TryCreateDirectory(const boost::filesystem::path& p)
     try
     {
         return boost::filesystem::create_directory(p);
-    } catch (boost::filesystem::filesystem_error) {
+    } catch (const boost::filesystem::filesystem_error&) {
         if (!boost::filesystem::exists(p) || !boost::filesystem::is_directory(p))
             throw;
     }
@@ -864,6 +864,7 @@ void SetupEnvironment()
 #else // boost filesystem v2
             std::locale();                      // Raises runtime error if current locale is invalid
 #endif
+<<<<<<< HEAD
 =======
     #ifndef WIN32
     try
@@ -876,6 +877,9 @@ void SetupEnvironment()
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     } catch(std::runtime_error &e)
     {
+=======
+    } catch (const std::runtime_error&) {
+>>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
         setenv("LC_ALL", "C", 1); // Force C locale
     }
 <<<<<<< HEAD

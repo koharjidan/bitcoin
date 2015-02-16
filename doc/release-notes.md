@@ -2,6 +2,7 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to
 release-notes at release time)
 
+<<<<<<< HEAD
 Block file backwards-compatibility warning
 ===========================================
 
@@ -199,3 +200,5 @@ Thanks to everyone who contributed to this release:
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+>>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133

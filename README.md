@@ -5,8 +5,6 @@ Bitcoin Core integration/staging tree
 
 https://www.bitcoin.org
 
-Copyright (c) 2009-2014 Bitcoin Core Developers
-
 What is Bitcoin?
 ----------------
 
@@ -40,7 +38,7 @@ submitter will be asked to start a discussion (if they haven't already) on the
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or are
+match the project's coding conventions (see [doc/developer-notes.md](doc/developer-notes.md)) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
@@ -86,6 +84,7 @@ pull from Transifex would automatically overwrite them again.
 
 <<<<<<< HEAD
 Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
@@ -137,3 +136,5 @@ are held, and adds warnings to the debug.log file if inconsistencies are detecte
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
 are held, and adds warning to the debug.log file if inconsistencies are detected.
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+>>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Bitcoin 0.9.3 BETA
 
 Copyright (c) 2009-2014 Bitcoin Core Developers
@@ -8,6 +9,10 @@ This product includes software developed by the OpenSSL Project for use in
 the OpenSSL Toolkit (https://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
+=======
+Bitcoin Core 0.10.99
+=====================
+>>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
 
 Intro
 -----

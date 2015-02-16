@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@
 
 //! These need to be macros, as clientversion.cpp's and bitcoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 0
-#define CLIENT_VERSION_MINOR 9
+#define CLIENT_VERSION_MINOR 10
 #define CLIENT_VERSION_REVISION 99
 #define CLIENT_VERSION_BUILD 0
 
@@ -37,7 +37,7 @@
  * Copyright year (2009-this)
  * Todo: update this when changing our copyright comments in the source
  */
-#define COPYRIGHT_YEAR 2014
+#define COPYRIGHT_YEAR 2015
 
 #endif //HAVE_CONFIG_H
 
