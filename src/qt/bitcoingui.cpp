@@ -151,7 +151,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle *networkStyle, QWidget *parent) :
 
     // Create actions for the toolbar, menu bar and tray/dock icon
     // Needs walletFrame to be initialized
-    createActions(networkStyle);
+    createActions();
 
     // Create application menu bar
     createMenuBar();
@@ -243,7 +243,7 @@ BitcoinGUI::~BitcoinGUI()
     delete rpcConsole;
 }
 
-void BitcoinGUI::createActions(const NetworkStyle *networkStyle)
+void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
@@ -340,6 +340,7 @@ void BitcoinGUI::createActions(const NetworkStyle *networkStyle)
     openAction->setStatusTip(tr("Open a bitcoin: URI or payment request"));
 
     showHelpMessageAction = new QAction(TextColorIcon(":/icons/info"), tr("&Command-line options"), this);
+    showHelpMessageAction->setMenuRole(QAction::NoRole);
     showHelpMessageAction->setStatusTip(tr("Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
@@ -682,7 +683,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
     QDateTime lastBlockDate = clientModel->getLastBlockDate();
     QDateTime currentDate = QDateTime::currentDateTime();
-    int secs = lastBlockDate.secsTo(currentDate);
+    qint64 secs = lastBlockDate.secsTo(currentDate);
 
 <<<<<<< HEAD
     tooltip = tr("Processed %n blocks of transaction history.", "", count);
@@ -726,8 +727,8 @@ void BitcoinGUI::setNumBlocks(int count)
         }
         else
         {
-            int years = secs / YEAR_IN_SECONDS;
-            int remainder = secs % YEAR_IN_SECONDS;
+            qint64 years = secs / YEAR_IN_SECONDS;
+            qint64 remainder = secs % YEAR_IN_SECONDS;
             timeBehindText = tr("%1 and %2").arg(tr("%n year(s)", "", years)).arg(tr("%n week(s)","", remainder/WEEK_IN_SECONDS));
         }
 

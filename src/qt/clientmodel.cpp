@@ -33,8 +33,9 @@ ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
     QObject(parent), optionsModel(optionsModel),
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     cachedNumBlocks(0),
-    cachedReindexing(0), cachedImporting(0),
-    numBlocksAtStartup(-1), pollTimer(0)
+    cachedReindexing(0),
+    cachedImporting(0),
+    pollTimer(0)
 {
     peerTableModel = new PeerTableModel(this);
     pollTimer = new QTimer(this);
@@ -67,12 +68,6 @@ int ClientModel::getNumBlocks() const
 {
     LOCK(cs_main);
     return chainActive.Height();
-}
-
-int ClientModel::getNumBlocksAtStartup()
-{
-    if (numBlocksAtStartup == -1) numBlocksAtStartup = getNumBlocks();
-    return numBlocksAtStartup;
 }
 
 quint64 ClientModel::getTotalBytesRecv() const

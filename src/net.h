@@ -49,7 +49,12 @@ static const unsigned int MAX_INV_SZ = 50000;
 =======
 /** The maximum number of new addresses to accumulate before announcing. */
 static const unsigned int MAX_ADDR_TO_SEND = 1000;
+<<<<<<< HEAD
 >>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
+=======
+/** Maximum length of incoming protocol messages (no message over 2 MiB is currently acceptable). */
+static const unsigned int MAX_PROTOCOL_MESSAGE_LENGTH = 2 * 1024 * 1024;
+>>>>>>> 513e0252391688b919f1b08980c5759a515c341b
 /** -listen default */
 static const bool DEFAULT_LISTEN = true;
 /** -upnp default */
@@ -189,7 +194,7 @@ public:
 
     int64_t nTime;                  // time (in microseconds) of message receipt.
 
-    CNetMessage(int nTypeIn, int nVersionIn) : hdrbuf(nTypeIn, nVersionIn), vRecv(nTypeIn, nVersionIn) {
+    CNetMessage(const CMessageHeader::MessageStartChars& pchMessageStartIn, int nTypeIn, int nVersionIn) : hdrbuf(nTypeIn, nVersionIn), hdr(pchMessageStartIn), vRecv(nTypeIn, nVersionIn) {
         hdrbuf.resize(24);
         in_data = false;
         nHdrPos = 0;
@@ -675,9 +680,6 @@ public:
         }
     }
 
-    bool IsSubscribed(unsigned int nChannel);
-    void Subscribe(unsigned int nChannel, unsigned int nHops=0);
-    void CancelSubscribe(unsigned int nChannel);
     void CloseSocketDisconnect();
 
     // Denial-of-service detection/prevention
