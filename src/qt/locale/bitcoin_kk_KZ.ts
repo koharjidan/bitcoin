@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="kk_KZ" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,12 +10,11 @@
 =======
 <TS language="kk_KZ" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="kk_KZ" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Адресті немесе белгіні өзгерту үшін екі рет шертіңіз</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Жаңа адрес енгізу</translation>
@@ -97,6 +97,9 @@
         <source>Change passphrase</source>
         <translation>Құпия сөзді өзгерту</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -253,6 +256,10 @@
 <context>
     <name>EditAddressDialog</name>
     <message>
+        <source>&amp;Label</source>
+        <translation>таңба</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
         <translation>Адрес</translation>
     </message>
@@ -275,6 +282,10 @@
     </context>
 <context>
     <name>OptionsDialog</name>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>Әмиян</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -297,9 +308,17 @@
     </context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Информация</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Саны</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
@@ -424,6 +443,10 @@
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>Саны</translation>
+    </message>
     </context>
 <context>
     <name>ShutdownWindow</name>
@@ -461,9 +484,14 @@
         <translation>Күні</translation>
     </message>
     <message>
+<<<<<<< HEAD
 >>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
         <source>Address</source>
         <translation>Адрес</translation>
+=======
+        <source>Label</source>
+        <translation>таңба</translation>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </message>
     </context>
 <context>

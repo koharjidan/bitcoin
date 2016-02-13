@@ -1,9 +1,11 @@
-// Copyright (c) 2012-2014 The Bitcoin Core developers
+// Copyright (c) 2012-2015 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "wallet.h"
-#include "walletdb.h"
+#include "wallet/wallet.h"
+#include "wallet/walletdb.h"
+
+#include "test/test_bitcoin.h"
 
 #include <stdint.h>
 
@@ -12,7 +14,7 @@
 
 extern CWallet* pwalletMain;
 
-BOOST_AUTO_TEST_SUITE(accounting_tests)
+BOOST_FIXTURE_TEST_SUITE(accounting_tests, TestingSetup)
 
 static void
 GetResults(CWalletDB& walletdb, std::map<CAmount, CAccountingEntry>& results)
@@ -43,7 +45,7 @@ BOOST_AUTO_TEST_CASE(acc_orderupgrade)
     ae.nTime = 1333333333;
     ae.strOtherAccount = "b";
     ae.strComment = "";
-    walletdb.WriteAccountingEntry(ae);
+    pwalletMain->AddAccountingEntry(ae, walletdb);
 
     wtx.mapValue["comment"] = "z";
     pwalletMain->AddToWallet(wtx, false, &walletdb);
@@ -53,7 +55,7 @@ BOOST_AUTO_TEST_CASE(acc_orderupgrade)
 
     ae.nTime = 1333333336;
     ae.strOtherAccount = "c";
-    walletdb.WriteAccountingEntry(ae);
+    pwalletMain->AddAccountingEntry(ae, walletdb);
 
     GetResults(walletdb, results);
 
@@ -69,7 +71,7 @@ BOOST_AUTO_TEST_CASE(acc_orderupgrade)
     ae.nTime = 1333333330;
     ae.strOtherAccount = "d";
     ae.nOrderPos = pwalletMain->IncOrderPosNext();
-    walletdb.WriteAccountingEntry(ae);
+    pwalletMain->AddAccountingEntry(ae, walletdb);
 
     GetResults(walletdb, results);
 
@@ -119,7 +121,7 @@ BOOST_AUTO_TEST_CASE(acc_orderupgrade)
     ae.nTime = 1333333334;
     ae.strOtherAccount = "e";
     ae.nOrderPos = -1;
-    walletdb.WriteAccountingEntry(ae);
+    pwalletMain->AddAccountingEntry(ae, walletdb);
 
     GetResults(walletdb, results);
 

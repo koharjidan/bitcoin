@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="lv_LV" version="2.1">
 <<<<<<< HEAD
 =======
@@ -43,12 +44,11 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
 =======
 <TS language="lv_LV" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="lv_LV" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Adresi vai nosaukumu rediģē ar dubultklikšķi</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Izveidot jaunu adresi</translation>
@@ -110,6 +110,14 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Saņemšanas adreses</translation>
     </message>
     <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Šīs ir jūsu Bitcoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Šīs ir jūsu Bitcoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>Kopēt &amp;Nosaukumu</translation>
     </message>
@@ -129,7 +137,11 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <source>Exporting Failed</source>
         <translation>Eksportēšana Neizdevās</translation>
     </message>
-    </context>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Radās kļūda, saglabājot adrešu sarakstu %1. Lūdzu, mēģiniet vēlreiz!</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -188,10 +200,6 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Mainīt paroli</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Ierakstiet maciņa veco un jauno paroli.</translation>
-    </message>
-    <message>
         <source>Confirm wallet encryption</source>
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
@@ -204,6 +212,14 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
     </message>
     <message>
+        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Core tiks aizvērts, lai pabeigtu šifrēšansa procesu. Atcerieties, ka jūsu maka šifrēšana nevar pilnībā pasargāt jūsu monētas no to nozagašanas, inficējot datoru ar ļaunprātīgām programmām.</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>SVARĪGI: Iepriekšējie maka faila dublējumi ir jāaizvieto ar jauno, šifrēto maka failu. Drošības apsvērumu dēļ iepriekšējie nešifrētā maka dublējumi vairs nebūs derīgi, tiklīdz sāksiet izmantot jauno, šifrēto maku.</translation>
+    </message>
+    <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Brīdinājums: Caps Lock ir ieslēgts!</translation>
     </message>
@@ -212,8 +228,8 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Ievadiet veco un jauno maka paroli.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -244,6 +260,9 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Maciņa parole tika veiksmīgi nomainīta.</translation>
     </message>
 </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -333,10 +352,6 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     <message>
         <source>Send coins to a Bitcoin address</source>
         <translation>Nosūtīt bitkoinus uz Bitcoin adresi</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Mainīt Bitcoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -435,6 +450,7 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <message>
         <source>Bitcoin client</source>
@@ -445,10 +461,13 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktīvu savienojumu ar Bitcoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Bitcoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Bitcoin tīklu</numerusform></translation>
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     <message>
         <source>No block source available...</source>
         <translation>Nav pieejams neviens bloku avots...</translation>
     </message>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     <message>
@@ -468,13 +487,11 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <source>%n week(s)</source>
         <translation><numerusform>%n nedēļas</numerusform><numerusform>%n nedēļa</numerusform><numerusform>%n nedēļas</numerusform></translation>
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     <message>
         <source>%1 and %2</source>
         <translation>%1 un %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n gadi</numerusform><numerusform>%n gads</numerusform><numerusform>%n gadi</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -511,18 +528,6 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     <message>
         <source>Incoming transaction</source>
         <translation>Ienākoša transakcija</translation>
-    </message>
-    <message>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Datums: %1
-Daudzums: %2
-Tips: %3
-Adrese: %4
-</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -713,7 +718,7 @@ Adrese: %4
     </message>
     <message>
         <source>none</source>
-        <translation>neviens</translation>
+        <translation>neviena</translation>
     </message>
     <message>
 <<<<<<< HEAD
@@ -828,28 +833,16 @@ Adrese: %4
         <translation>Par Bitcoin Core</translation>
     </message>
     <message>
+        <source>Command-line options</source>
+        <translation>Komandrindas iespējas</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Lietojums:</translation>
     </message>
     <message>
         <source>command-line options</source>
         <translation>komandrindas izvēles</translation>
-    </message>
-    <message>
-        <source>UI options</source>
-        <translation>Lietotāja interfeisa izvēlnes</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Uzstādiet valodu, piemēram "de_DE" (pēc noklusēšanas: sistēmas lokāle)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Sākt minimizētu</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Uzsākot, parādīt programmas informācijas logu (pēc noklusēšanas: 1)</translation>
     </message>
     </context>
 <context>
@@ -922,14 +915,6 @@ Adrese: %4
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automātiski sākt Bitcoin pēc pieteikšanās sistēmā.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Sākt Bitcoin reizē ar sistēmu</translation>
-    </message>
-    <message>
         <source>Size of &amp;database cache</source>
         <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
     </message>
@@ -942,8 +927,16 @@ Adrese: %4
         <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
     </message>
     <message>
+        <source>Allow incoming connections</source>
+        <translation>Atļaut ienākošos savienojumus</translation>
+    </message>
+    <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>Starpniekservera IP adrese (piem. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimizēt nevis aizvērt aplikāciju, kad logs tiek aizvērts. Kad šī iespēja ir ieslēgta, aplikācija tiks aizvērta, izvēloties Aizvērt izvēlnē.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -1025,10 +1018,6 @@ Adrese: %4
         <translation>&amp;Minimizēt uz sistēmas tekni, nevis rīkjoslu</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Logu aizverot, minimizēt, nevis beigt darbu. Kad šī izvēlne iespējota, programma aizvērsies tikai pēc Beigt komandas izvēlnē.</translation>
-    </message>
-    <message>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimizēt aizverot</translation>
     </message>
@@ -1039,10 +1028,6 @@ Adrese: %4
     <message>
         <source>User Interface &amp;language:</source>
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Bitcoin pārstartēšanas.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1075,10 +1060,6 @@ Adrese: %4
     <message>
         <source>Confirm options reset</source>
         <translation>Apstiprināt iestatījumu atiestatīšanu</translation>
-    </message>
-    <message>
-        <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Klients tiks izslēgts, vai vēlaties turpināt?</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1123,11 +1104,7 @@ Adrese: %4
         <source>Your current total balance</source>
         <translation>Jūsu kopējā tekošā bilance</translation>
     </message>
-    <message>
-        <source>out of sync</source>
-        <translation>nav sinhronizēts</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1140,6 +1117,14 @@ Adrese: %4
         <translation>Nederīga maksājuma adrese %1</translation>
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Maksājuma pieprasījums noraidīts</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Maksājuma pieprasījuma tīkls neatbilst klienta tīklam.</translation>
     </message>
     <message>
         <source>Payment request error</source>
@@ -1309,10 +1294,6 @@ Adrese: %4
     <message>
         <source>Clear console</source>
         <translation>Notīrīt konsoli</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Laipni lūgti Bitcoin RPC konsolē.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1492,7 +1473,7 @@ Adrese: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt bitkoinus</translation>
+        <translation>Sūtīt Bitkoinus</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1548,6 +1529,10 @@ Adrese: %4
     <message>
         <source>Custom change address</source>
         <translation>Pielāgota atlikuma adrese</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Transakcijas maksa:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1621,16 +1606,8 @@ Adrese: %4
         <translation>Kopēt atlikumu</translation>
     </message>
     <message>
-        <source>Total Amount %1 (= %2)</source>
-        <translation>Kopējā Summa %1 (= %2)</translation>
-    </message>
-    <message>
         <source>or</source>
         <translation>vai</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Saņēmēja adrese ir nepareiza, lūdzu pārbaudi.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1643,10 +1620,6 @@ Adrese: %4
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Kopsumma pārsniedz pieejamo, ja pieskaitīta %1 transakcijas maksa.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Atrastas divas vienādas adreses, vienā nosūtīšanas reizē uz katru adresi var sūtīt tikai vienreiz.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -1725,14 +1698,6 @@ Adrese: %4
     <message>
         <source>Message:</source>
         <translation>Ziņojums:</translation>
-    </message>
-    <message>
-        <source>This is a verified payment request.</source>
-        <translation>Šis ir pārbaudīts maksājuma pieprasījums.</translation>
-    </message>
-    <message>
-        <source>This is an unverified payment request.</source>
-        <translation>Šis ir nepārbaudīts maksājuma pieprasījums.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2034,10 +1999,6 @@ Adrese: %4
         <source>, has not been successfully broadcast yet</source>
         <translation>, vēl nav veiksmīgi izziņots</translation>
     </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Atvērts vel %n blokus</numerusform><numerusform>Atvērts vel %n bloku</numerusform><numerusform>Atvērts vel %n blokus</numerusform></translation>
-    </message>
     <message>
         <source>unknown</source>
         <translation>nav zināms</translation>
@@ -2065,6 +2026,7 @@ Adrese: %4
         <translation>Tips</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Adrese</translation>
     </message>
@@ -2080,6 +2042,8 @@ Adrese: %4
         <translation><numerusform>Atvērts vel %n blokus</numerusform><numerusform>Atvērts vel %n bloku</numerusform><numerusform>Atvērts vel %n blokus</numerusform></translation>
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Open until %1</source>
         <translation>Atvērts līdz %1</translation>
     </message>
@@ -2098,6 +2062,10 @@ Adrese: %4
     <message>
         <source>Offline</source>
         <translation>Bezsaitē</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
@@ -2142,10 +2110,6 @@ Adrese: %4
     <message>
         <source>Type of transaction.</source>
         <translation>Transakcijas tips.</translation>
-    </message>
-    <message>
-        <source>Destination address of transaction.</source>
-        <translation>Transakcijas mērķa adrese.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2384,6 +2348,7 @@ Adrese: %4
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use the test network</source>
         <translation>Izmantot testa tīklu</translation>
     </message>
@@ -2405,10 +2370,13 @@ Adrese: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; var būt:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Mēģināt atgūt privātās atslēgas no bojāta wallet.dat</translation>
 <<<<<<< HEAD
@@ -2420,6 +2388,8 @@ Adrese: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Block creation options:</source>
         <translation>Bloka izveidošanas iestatījumi:</translation>
     </message>
@@ -2451,6 +2421,7 @@ Adrese: %4
         <translation>Kļūda: Zema diska vieta!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Kļūda: Maciņš ir aizslēgts, nevar izveidot transakciju!</translation>
 <<<<<<< HEAD
@@ -2478,6 +2449,8 @@ Adrese: %4
         <translation>Ja &lt;category&gt; nav norādīta, izvadīt visu atkļūdošanas informāciju.</translation>
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Importing...</source>
         <translation>Importē...</translation>
 <<<<<<< HEAD
@@ -2512,12 +2485,24 @@ Adrese: %4
         <translation>Maciņa iespējas:</translation>
     </message>
     <message>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importēt blokus no ārējās blk000??.dat datnes</translation>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Nevar atrisināt -whitebind adresi: '%s'</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informācija</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -maxtxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -2576,6 +2561,7 @@ Adrese: %4
         <translation>Brīdinājums</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Brīdinājums: Šī versija ir novecojusi, nepieciešams atjauninājums!</translation>
     </message>
@@ -2591,6 +2577,8 @@ Adrese: %4
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat ir bojāts, glābšana neizdevās</translation>
     </message>
@@ -2601,18 +2589,6 @@ Adrese: %4
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Atjaunot maciņa formātu uz jaunāko</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -2670,10 +2646,6 @@ Adrese: %4
         <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount</source>
-        <translation>Nederīgs daudzums</translation>
-    </message>
-    <message>
         <source>Insufficient funds</source>
         <translation>Nepietiek bitkoinu</translation>
     </message>
@@ -2704,10 +2676,6 @@ Adrese: %4
     <message>
         <source>Done loading</source>
         <translation>Ielāde pabeigta</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Izmantot opciju %s</translation>
     </message>
     <message>
         <source>Error</source>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="ky" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,6 +10,9 @@
 =======
 <TS language="ky" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="ky" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -33,6 +37,9 @@
 </context>
 <context>
     <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -150,6 +157,10 @@
         <translation>&amp;Тармак</translation>
     </message>
     <message>
+        <source>W&amp;allet</source>
+        <translation>Капчык</translation>
+    </message>
+    <message>
         <source>&amp;Port:</source>
         <translation>&amp;Порт:</translation>
     </message>
@@ -204,6 +215,7 @@
     </context>
 <context>
     <name>OverviewPage</name>
+<<<<<<< HEAD
     <message>
 <<<<<<< HEAD
         <source>out of sync</source>
@@ -213,6 +225,8 @@
         <translation>жок</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </context>
 <context>
 <<<<<<< HEAD
@@ -280,6 +294,10 @@
         <translation>Жалпы</translation>
     </message>
     <message>
+        <source>Network</source>
+        <translation>&amp;Тармак</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Аты</translation>
     </message>
@@ -299,6 +317,10 @@
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>Билдирүү:</translation>
+    </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
@@ -503,6 +525,7 @@
         <translation>Дата</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -518,6 +541,8 @@
         <translation>Дарек</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </context>
 <context>
     <name>TransactionView</name>

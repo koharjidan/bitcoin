@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="ar" version="2.1">
 <<<<<<< HEAD
 =======
@@ -25,11 +26,14 @@
 =======
 <TS language="ar" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="ar" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Double-click to edit address or label</source>
-        <translation>أنقر بالماوس مرتين لتعديل العنوان او الوصف</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>انقر بالزر الايمن لتعديل العنوان</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -128,7 +132,11 @@
         <source>Exporting Failed</source>
         <translation>فشل التصدير</translation>
     </message>
-    </context>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>لقد حدث خطأ أثناء  حفظ قائمة العناوين إلى %1. يرجى المحاولة مرة أخرى.</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -197,10 +205,6 @@
         <translation>تغيير كلمة المرور</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>أدخل كلمة المرور القديمة والجديدة للمحفظة.</translation>
-    </message>
-    <message>
         <source>Confirm wallet encryption</source>
         <translation>تأكيد تشفير المحفظة</translation>
 <<<<<<< HEAD
@@ -212,6 +216,10 @@
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>هل أنت متأكد من رغبتك في تشفير محفظتك ؟</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,8 +240,8 @@
         <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>أدخل كلمة المرور القديمة والجديدة للمحفظة.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -268,6 +276,9 @@
 =======
     </context>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+<context>
+    <name>BanTableModel</name>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -360,13 +371,22 @@
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>ارسل عملات الى عنوان بيتكوين</translation>
+        <source>Importing blocks from disk...</source>
+        <translation>استيراد كتل من القرص ...</translation>
     </message>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Modify configuration options for Bitcoin</source>
         <translation>تعديل إعدادات bitcoin</translation>
+=======
+        <source>Reindexing blocks on disk...</source>
+        <translation>إعادة الفهرسة الكتل على القرص ...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>ارسل عملات الى عنوان بيتكوين</translation>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </message>
     <message>
 =======
@@ -395,6 +415,10 @@
         <translation>محفظة</translation>
     </message>
     <message>
+        <source>&amp;Send</source>
+        <translation>&amp;ارسل</translation>
+    </message>
+    <message>
         <source>&amp;Receive</source>
         <translation>&amp;استقبل</translation>
 <<<<<<< HEAD
@@ -416,9 +440,13 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
+<<<<<<< HEAD
         <translation>تشفير المفتاح الخاص لمحفظتك</translation>
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+        <translation>تشفير المفتاح الخاص بمحفظتك</translation>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </message>
     <message>
         <source>&amp;File</source>
@@ -449,17 +477,9 @@
         <translation>عميل بت كوين</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ساعة</numerusform><numerusform>%n ساعة</numerusform><numerusform>%n ساعة</numerusform><numerusform>%n ساعات</numerusform><numerusform>%n ساعات</numerusform><numerusform>%n ساعات</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n يوم</numerusform><numerusform>%n يوم</numerusform><numerusform>%n يوم</numerusform><numerusform>%n أيام</numerusform><numerusform>%n أيام</numerusform><numerusform>%n ايام</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n اسبوع</numerusform><numerusform>%n اسبوع</numerusform><numerusform>%n اسبوع</numerusform><numerusform>%n اسابيع</numerusform><numerusform>%n اسابيع</numerusform><numerusform>%n اسابيع</numerusform></translation>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 و %2</translation>
     </message>
     <message>
         <source>Error</source>
@@ -509,11 +529,11 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>الكمية:</translation>
+        <translation>الكمية :</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>القيمة</translation>
+        <translation>القيمة :</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -553,7 +573,7 @@
     </message>
     <message>
         <source>Copy address</source>
-        <translation>  انسخ العنوان</translation>
+        <translation>  انسخ عنوان</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -561,15 +581,15 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>نسخ القيمة</translation>
+        <translation>نسخ الكمية</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>نسخ رقم المعاملة</translation>
+        <translation>نسخ رقم العملية</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>نسخ الكمية</translation>
+        <translation>نسخ الكمية </translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -585,7 +605,7 @@
     </message>
     <message>
         <source>Copy change</source>
-        <translation>نسخ التغييرات</translation>
+        <translation>نسخ التعديل</translation>
     </message>
     <message>
         <source>highest</source>
@@ -713,12 +733,15 @@
         <source>Usage:</source>
         <translation>المستخدم</translation>
     </message>
+<<<<<<< HEAD
     <message>
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
         <source>UI options</source>
         <translation>خيارات UI</translation>
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </context>
 <context>
     <name>Intro</name>
@@ -907,13 +930,13 @@
         <translation>اخر المعملات </translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
-    <message>
-        <source>out of sync</source>
-        <translation>خارج المزامنه</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>استجابة سيئة من الملقم %1</translation>
+    </message>
     </context>
 <context>
 <<<<<<< HEAD
@@ -926,8 +949,12 @@
         <translation>المبلغ</translation>
     </message>
     <message>
-        <source>UNKNOWN</source>
-        <translation>غير معروف</translation>
+        <source>%1 h</source>
+        <translation>%1 ساعة</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 دقيقة</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -980,6 +1007,10 @@
     <message>
         <source>&amp;Information</source>
         <translation>المعلومات</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>نافذة المعالجة</translation>
     </message>
     <message>
         <source>General</source>
@@ -1066,12 +1097,32 @@
     </message>
 <<<<<<< HEAD
     <message>
-        <source>Unknown</source>
-        <translation>غير معرف</translation>
+        <source>%1 B</source>
+        <translation>%1 بايت</translation>
     </message>
     <message>
-        <source>Fetching...</source>
-        <translation>جاري الجلب...</translation>
+        <source>%1 KB</source>
+        <translation>%1 كيلو بايت</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 ميقا بايت</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 قيقا بايت</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>نعم</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>لا</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>غير معرف</translation>
     </message>
 </context>
 =======
@@ -1085,7 +1136,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;الوصف:</translation>
+        <translation>&amp;وصف :</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1121,7 +1172,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>نسخ القيمة</translation>
+        <translation>نسخ الكمية</translation>
     </message>
 </context>
 <context>
@@ -1164,7 +1215,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>رسالة</translation>
+        <translation>رسالة </translation>
     </message>
     </context>
 <context>
@@ -1179,7 +1230,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>رسالة</translation>
+        <translation>رسالة </translation>
     </message>
     <message>
         <source>Amount</source>
@@ -1233,6 +1284,10 @@
         <translation>تعديل :</translation>
     </message>
     <message>
+        <source>Transaction Fee:</source>
+        <translation>رسوم المعاملة:</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>إرسال إلى عدة مستلمين في وقت واحد</translation>
     </message>
@@ -1265,12 +1320,16 @@
         <translation>تأكيد الإرسال Coins</translation>
     </message>
     <message>
+        <source>%1 to %2</source>
+        <translation>%1 الى %2</translation>
+    </message>
+    <message>
         <source>Copy quantity</source>
         <translation>نسخ الكمية </translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>نسخ القيمة</translation>
+        <translation>نسخ الكمية</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -1289,10 +1348,6 @@
         <translation>نسخ التعديل</translation>
     </message>
     <message>
-        <source>Total Amount %1 (= %2)</source>
-        <translation>مجموع المبلغ %1 (= %2)</translation>
-    </message>
-    <message>
         <source>or</source>
         <translation>أو</translation>
     </message>
@@ -1305,12 +1360,20 @@
         <translation>القيمة تتجاوز رصيدك</translation>
     </message>
     <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>المجموع يتجاوز رصيدك عندما يتم اضافة %1 رسوم العملية</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(لا وصف)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;القيمة</translation>
+    </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>ادفع &amp;الى :</translation>
@@ -1329,7 +1392,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>الصق العنوان من لوحة المفاتيح</translation>
+        <translation>انسخ العنوان من لوحة المفاتيح</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1338,6 +1401,10 @@
     <message>
         <source>Message:</source>
         <translation>الرسائل</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>ادفع &amp;الى :</translation>
     </message>
     </context>
 <context>
@@ -1466,8 +1533,20 @@
 <context>
     <name>TransactionDesc</name>
     <message>
+        <source>Open until %1</source>
+        <translation>مفتوح حتى %1</translation>
+    </message>
+    <message>
         <source>conflicted</source>
         <translation>يتعارض</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1 غير متواجد</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>غير مؤكدة/%1</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
@@ -1580,8 +1659,8 @@
         <translation>النوع</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>عنوان</translation>
+        <source>Open until %1</source>
+        <translation>مفتوح حتى %1</translation>
     </message>
     <message>
 <<<<<<< HEAD
@@ -1601,6 +1680,14 @@
     <message>
         <source>Offline</source>
         <translation>غير متصل</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>وصف</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>يتعارض</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -1637,10 +1724,6 @@
     <message>
         <source>Type of transaction.</source>
         <translation>نوع المعاملات</translation>
-    </message>
-    <message>
-        <source>Destination address of transaction.</source>
-        <translation>عنوان وجهة  المعاملة</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -1827,10 +1910,6 @@
         <translation>حدد مجلد المعلومات</translation>
     </message>
     <message>
-        <source>Use the test network</source>
-        <translation>استخدم التحقق من الشبكه</translation>
-    </message>
-    <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>قبول الاتصالات من خارج</translation>
     </message>
@@ -1839,6 +1918,7 @@
         <translation>تحذير: مساحة القرص منخفضة</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>تحذير: المحفظة مغلقة , لا تستطيع تنفيذ المعاملة</translation>
 <<<<<<< HEAD
@@ -1850,6 +1930,8 @@
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>فشل في الاستماع على أي منفذ. استخدام الاستماع = 0 إذا كنت تريد هذا.</translation>
     </message>
@@ -1897,6 +1979,7 @@
         <translation>تحذير</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>تحذير : هذا الاصدار قديم , يتطلب التحديث</translation>
     </message>
@@ -1918,6 +2001,8 @@
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>This help message</source>
         <translation>رسالة المساعدة هذه</translation>
     </message>
@@ -1938,10 +2023,6 @@
         <translation>عنوان البروكسي غير صحيح : '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount</source>
-        <translation>قيمة غير صحيحة</translation>
-    </message>
-    <message>
         <source>Insufficient funds</source>
         <translation>اموال غير كافية</translation>
     </message>
@@ -1960,10 +2041,6 @@
     <message>
         <source>Done loading</source>
         <translation>انتهاء التحميل</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>لاستخدام %s الخيار</translation>
     </message>
     <message>
         <source>Error</source>

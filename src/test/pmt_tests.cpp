@@ -1,7 +1,8 @@
-// Copyright (c) 2012-2013 The Bitcoin Core developers
+// Copyright (c) 2012-2015 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include "consensus/merkle.h"
 #include "merkleblock.h"
 #include "serialize.h"
 #include "streams.h"
@@ -9,6 +10,7 @@
 #include "arith_uint256.h"
 #include "version.h"
 #include "random.h"
+#include "test/test_bitcoin.h"
 
 #include <vector>
 
@@ -28,7 +30,7 @@ public:
     }
 };
 
-BOOST_AUTO_TEST_SUITE(pmt_tests)
+BOOST_FIXTURE_TEST_SUITE(pmt_tests, BasicTestingSetup)
 
 BOOST_AUTO_TEST_CASE(pmt_test1)
 {
@@ -47,7 +49,7 @@ BOOST_AUTO_TEST_CASE(pmt_test1)
         }
 
         // calculate actual merkle root and height
-        uint256 merkleRoot1 = block.BuildMerkleTree();
+        uint256 merkleRoot1 = BlockMerkleRoot(block);
         std::vector<uint256> vTxid(nTx, uint256());
         for (unsigned int j=0; j<nTx; j++)
             vTxid[j] = block.vtx[j].GetHash();

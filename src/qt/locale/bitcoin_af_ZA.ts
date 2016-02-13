@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="af_ZA" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,12 +10,11 @@
 =======
 <TS language="af_ZA" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="af_ZA" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Dubbel-klik om die adres of etiket te wysig</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Skep 'n nuwe adres</translation>
@@ -89,10 +89,6 @@
         <translation>Verander wagwoord</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Tik asseblief die ou en nuwe wagwoord vir die beursie in.</translation>
-    </message>
-    <message>
         <source>Confirm wallet encryption</source>
         <translation>Bevestig beursie enkripsie.</translation>
     </message>
@@ -124,6 +120,9 @@
         <source>Wallet decryption failed</source>
         <translation>Beursie dekripsie het misluk</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -255,6 +254,14 @@
 <context>
     <name>EditAddressDialog</name>
     <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etiket</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Adres</translation>
+    </message>
+    <message>
         <source>New receiving address</source>
         <translation>Nuwe ontvangende adres</translation>
     </message>
@@ -305,6 +312,10 @@
     <message>
         <source>Options</source>
         <translation>Opsies</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>&amp;Beursie</translation>
     </message>
     </context>
 <context>
@@ -570,6 +581,17 @@
     <name>ReceiveCoinsDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <source>&amp;Amount:</source>
+        <translation>&amp;Bedrag:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Boodskap:</translation>
+    </message>
+    <message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
@@ -704,8 +726,16 @@
         <translation>Stuur Munstukke</translation>
     </message>
     <message>
+        <source>Insufficient funds!</source>
+        <translation>Onvoldoende fondse</translation>
+    </message>
+    <message>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Transaksie fooi:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -782,6 +812,13 @@
     <name>SendCoinsEntry</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <source>A&amp;mount:</source>
+        <translation>&amp;Bedrag:</translation>
+    </message>
+    <message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Message:</source>
         <translation>Boodskap:</translation>
 =======
@@ -864,6 +901,10 @@
     <message>
         <source>Transaction ID</source>
         <translation>Transaksie ID</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaksie</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -984,8 +1025,8 @@
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adres</translation>
+        <source>Label</source>
+        <translation>Etiket</translation>
     </message>
     <message>
 <<<<<<< HEAD
@@ -1199,10 +1240,6 @@
         <translation>Opsies:</translation>
     </message>
     <message>
-        <source>Use the test network</source>
-        <translation>Gebruik die toets netwerk</translation>
-    </message>
-    <message>
         <source>Error: Disk space is low!</source>
         <translation>Fout: Hardeskyf spasie is baie laag!</translation>
     </message>
@@ -1219,10 +1256,6 @@
     <message>
         <source>Loading addresses...</source>
         <translation>Laai adresse...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Ongeldige bedrag</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

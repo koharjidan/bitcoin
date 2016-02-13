@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Bitcoin 0.9.3 BETA
 
 Copyright (c) 2009-2014 Bitcoin Core Developers
@@ -11,6 +12,9 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 =======
 Bitcoin Core 0.10.99
+=======
+Bitcoin Core 0.12.99
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 =====================
 >>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
 

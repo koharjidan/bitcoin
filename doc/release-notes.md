@@ -3,6 +3,7 @@
 release-notes at release time)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Block file backwards-compatibility warning
 ===========================================
 
@@ -202,3 +203,54 @@ As well as everyone that helped translating on [Transifex](https://www.transifex
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
 =======
 >>>>>>> 9bd8c9b13132d45db4240b2dec256ee1500ce133
+=======
+Notable changes
+===============
+
+Example item
+----------------
+
+
+0.13.0 Change log
+=================
+
+Detailed release notes follow. This overview includes changes that affect
+behavior, not code moves, refactors and string updates. For convenience in locating
+the code changes and accompanying discussion, both the pull request and
+git merge commit are mentioned.
+
+### RPC and REST
+
+Asm script outputs now contain OP_CHECKLOCKTIMEVERIFY in place of OP_NOP2
+-------------------------------------------------------------------------
+
+OP_NOP2 has been renamed to OP_CHECKLOCKTIMEVERIFY by [BIP 
+65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)
+
+The following outputs are affected by this change:
+- RPC `getrawtransaction` (in verbose mode)
+- RPC `decoderawtransaction`
+- RPC `decodescript`
+- REST `/rest/tx/` (JSON format)
+- REST `/rest/block/` (JSON format when including extended tx details)
+- `bitcoin-tx -json`
+
+### Configuration and command-line options
+
+### Block and transaction handling
+
+### P2P protocol and network code
+
+### Validation
+
+### Build system
+
+### Wallet
+
+### GUI
+
+### Tests
+
+### Miscellaneous
+
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e

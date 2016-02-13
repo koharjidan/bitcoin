@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="bs" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,6 +10,9 @@
 =======
 <TS language="bs" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="bs" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
     </context>
@@ -17,6 +21,9 @@
     </context>
 <context>
     <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="ms_MY" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,12 +10,11 @@
 =======
 <TS language="ms_MY" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="ms_MY" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Klik dua kali untuk mengubah alamat atau label</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Cipta alamat baru</translation>
@@ -78,6 +78,9 @@
     </context>
 <context>
     <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -204,6 +207,10 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Salin Alamat</translation>
+    </message>
+    <message>
         <source>Address</source>
         <translation>Alamat</translation>
     </message>
@@ -241,6 +248,7 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+<<<<<<< HEAD
     <message>
         <source>Address</source>
         <translation>Alamat</translation>
@@ -289,6 +297,8 @@
         <translation>Fail yang dipisahkan dengan koma</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
     </message>
+=======
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </context>
 <context>
     <name>TransactionView</name>

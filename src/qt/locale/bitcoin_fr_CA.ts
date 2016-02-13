@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="fr_CA" version="2.1">
 <<<<<<< HEAD
 =======
@@ -23,12 +24,11 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
 =======
 <TS language="fr_CA" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="fr_CA" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
-    <message>
-        <source>Double-click to edit address or label</source>
-        <translation>Double-cliquez afin de modifier l'adress ou l'étiquette</translation>
-    </message>
     <message>
         <source>Create a new address</source>
         <translation>Créer une nouvelle adresse</translation>
@@ -40,6 +40,10 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>envoyer adresse de reception </translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -93,6 +97,9 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>BitcoinGUI</name>
     </context>
 <context>
@@ -102,6 +109,7 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>CoinControlDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Address</source>
         <translation>Addresse</translation>
 <<<<<<< HEAD
@@ -109,12 +117,30 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <message>
 =======
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+        <source>(un)select all</source>
+        <translation>Toute sélectionner </translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>copier l'adresse </translation>
+    </message>
+    <message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>(no label)</source>
         <translation>(pas de record)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>&amp;Label</source>
+        <translation>Record</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>Addresse</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -124,6 +150,10 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Bienvenue </translation>
+    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -313,19 +343,31 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     <name>TransactionTableModel</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <source>Label</source>
         <translation>Record</translation>
 =======
         <source>Address</source>
         <translation>Addresse</translation>
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+        <source>Label</source>
+        <translation>Record</translation>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+        <source>Copy address</source>
+        <translation>copier l'adresse </translation>
+    </message>
+    <message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Comma separated file (*.csv)</source>
         <translation>Fichier séparé par une virgule (*.csv)</translation>
     </message>

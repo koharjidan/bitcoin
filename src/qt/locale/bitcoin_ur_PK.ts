@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <TS language="ur_PK" version="2.1">
 <<<<<<< HEAD
 =======
@@ -9,11 +10,14 @@
 =======
 <TS language="ur_PK" version="2.0">
 >>>>>>> 9ff0bc9beb90cf96fb0a9698de22e2bc60fed2f2
+=======
+<TS language="ur_PK" version="2.1">
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Double-click to edit address or label</source>
-        <translation>ایڈریس یا لیبل میں ترمیم کرنے پر ڈبل کلک کریں</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>پتہ تبدیل کرے کے لیے دائیاں کلک کریں</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -23,6 +27,10 @@
     <message>
         <source>&amp;New</source>
         <translation>نیا</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>سلیکٹڈ پتے کو کمپوٹر کی عارضی جگہ رکھیں</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -37,6 +45,14 @@
         <translation>کاپی پتہ</translation>
     </message>
     <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>سلیکٹڈ پتے کو مٹائیں</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
+    <message>
         <source>&amp;Export</source>
         <translation>برآمد</translation>
     </message>
@@ -45,11 +61,26 @@
         <translation>مٹا</translation>
     </message>
     <message>
+        <source>Choose the address to send coins to</source>
+        <translation>کوئین وصول کرنے والے کا پتہ</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>کوئین بھیجنے  والے کا پتہ</translation>
+    </message>
+    <message>
         <source>C&amp;hoose</source>
         <translation>چننا</translation>
     </message>
+<<<<<<< HEAD
 =======
 >>>>>>> 5b9f78d69ccf189bebe894b1921e34417103a046
+=======
+    <message>
+        <source>Sending addresses</source>
+        <translation>جس پتے پر بھیجنے ہیں</translation>
+    </message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -99,6 +130,9 @@
         <source>Change passphrase</source>
         <translation>پاس فریز تبدیل کریں</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -185,6 +219,10 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
+        <source>Amount:</source>
+        <translation>رقم:</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation>رقم</translation>
     </message>
@@ -219,6 +257,14 @@
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>&amp;Label</source>
+        <translation>چٹ</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation> پتہ</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -272,6 +318,10 @@
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>کاپی پتہ</translation>
+    </message>
     <message>
         <source>Address</source>
         <translation> پتہ</translation>
@@ -370,6 +420,17 @@
     <name>SendCoinsDialog</name>
     <message>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <source>Insufficient funds!</source>
+        <translation>ناکافی فنڈز</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>رقم:</translation>
+    </message>
+    <message>
+>>>>>>> 80d1f2e48364f05b2cdf44239b3a1faa0277e58e
         <source>Balance:</source>
         <translation>بیلنس:</translation>
     </message>
@@ -440,8 +501,8 @@
         <translation>ٹائپ</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation> پتہ</translation>
+        <source>Label</source>
+        <translation>چٹ</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -580,16 +641,16 @@
         <source>&amp;Export</source>
         <translation>برآمد</translation>
     </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>This help message</source>
         <translation>یہ مدد کا پیغام</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>غلط رقم</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
